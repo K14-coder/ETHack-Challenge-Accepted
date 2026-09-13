@@ -224,6 +224,8 @@ Thank you."
 
 STOP AT THANK YOU.""")
 
+exec(open(os.path.join(ROOT,"tools","pptx_appendix.py")).read())
+
 prs.save(OUT)
 n = len(prs.slides._sldIdLst)
 print(f"wrote {OUT}  ({os.path.getsize(OUT)/1024:.0f} KB, {n} slides)")
