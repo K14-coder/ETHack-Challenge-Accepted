@@ -169,28 +169,40 @@ text(s,0.85,2.75,11.6,1.8,
       [("Watch the ranking change.",{"size":56,"bold":True,"color":WHITE})]],space=2)
 text(s,0.85,5.0,11.6,0.8,
      [[("17,496 specifications, recomputed in the browser, in real time.",{"size":22,"color":DIM})]])
-notes(s,"""DEMO  |  68 sec  |  170 spoken words  |  DO EXACTLY THIS
+notes(s,"""DEMO  |  68 sec  |  FOUR CLICKS, NOTHING ELSE
+Every number below is verified against the live tool.
 
-1 (8s) "Eighteen companies ranked. Consensus here. This bar is how much of that
-   rank is a choice."
+0 (8s) POINT AT THE TABLE, do not click.
+   "Eighteen companies ranked. Consensus here. This bar is how much of that
+   rank is a choice, not a fact."
 
-2 (15s) DRAG THE ENVIRONMENT SLIDER.
-   "This is what every provider gives you. Pillar weights. It moves the median
-   company three places. That is the six percent."
+1 (15s) DRAG THE ENVIRONMENT SLIDER TO ~70%.
+   "This is what every provider gives you. Pillar weights. Watch the settled
+   counter. [pause] It does not move. Still two. That is the six percent, live."
+   SCREEN: specs stay 17,496, settled stays 2. NOTHING BIG HAPPENS. That is the
+   point. Do not promise a move here.
 
-3 (20s) PIN Direction to LEVEL, then Evidence bar to STRICT.
-   "Here is what nobody gives you. This is the question I am asking. And this is
-   how demanding I am about evidence."
+2 (18s) HIT RESET ALL. PIN Direction to LEVEL.
+   "Now the part nobody gives you. This is the question itself. Cleanest today,
+   or improving fastest? I pin it to today. Settled goes from two to
+   thirty-three."
+   SCREEN: 8,748 specs, settled 33, places 5.0
 
-4 (15s) POINT AT THE SETTLED COUNTER.
-   "Thirty-three of a hundred and fifty-three comparisons survive every method.
-   Raise the bar, fifty-six. A league table asserts all hundred and fifty-three."
+3 (15s) PIN Evidence bar to STRICT.
+   "And this is how demanding I am about evidence. Thirty-three to fifty-six.
+   A published league table asserts all hundred and fifty-three."
+   SCREEN: 2,916 specs, settled 56, places 3.0
 
-5 (10s) HOVER A POINT ON THE CURVE.
-   "Every point tells you which nine choices produced it. No black box."
+4 (12s) FLIP Direction to CHANGE.
+   "Same data, same strictness, other question. Fifty-six collapses to nine.
+   And look at the podium, three completely different companies. That is why we
+   score the two curves separately."
+   SCREEN: settled 9, places 6.0, top three flips BKR/EXE/SLB to CTRA/OXY/WMB
 
-IF IT BREAKS: skip to the last slide, say "numbers are in the paper, tool is in
-the repo". Never debug on stage.""")
+HAND OVER: "Which brings us to the billion dollars."
+
+IF IT BREAKS: "The tool is in the repo and every number is in the paper."
+Go straight to the bonus slide. Never debug on stage.""")
 
 # ══════════════════ 5 · BONUS · 25 to 30s ══════════════════
 s = slide()
