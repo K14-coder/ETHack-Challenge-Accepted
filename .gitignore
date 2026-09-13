@@ -16,3 +16,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# rendering intermediate; PAPER.pdf is the deliverable
+build/

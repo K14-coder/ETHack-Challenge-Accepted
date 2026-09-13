@@ -70,26 +70,26 @@ Full grid, 17,496 specifications, equal pillar weights. Consensus is the median
 rank percentile; contestation is the interquartile width, reported in **rank
 places out of 18**.
 
-| # | Ticker | BECS peer group | Consensus | Contestation (places) | Verdict | Decided by | Coverage |
+| # | Ticker | Peer group | Consensus | Contestation (places) | Verdict | Decided by | Coverage |
 |---:|---|---|---:|---:|---|---|---:|
-| 1 | BKR | Oilfield Services | 82 | 6.0 | opinion | peer set (22%) | 78% |
-| 2 | EXE | Exploration & Production | 82 | 6.0 | opinion | direction (34%) | 91% |
-| 3 | CTRA | Exploration & Production | 76 | 7.0 | opinion | window (20%) | 81% |
-| 4 | VLO | Refining & Marketing | 71 | 5.0 | opinion | missing data (11%) | 77% |
-| 5 | EOG | Exploration & Production | 71 | 10.0 | opinion | direction (60%) | 90% |
-| 6 | SLB | Oilfield Services | 65 | 7.0 | opinion | direction (26%) | 78% |
-| 7 | COP | Exploration & Production | 53 | 6.0 | opinion | direction (20%) | 93% |
-| 8 | OXY | Exploration & Production | 47 | 10.0 | opinion | direction (38%) | 92% |
-| 9 | XOM | Integrated Oils | 47 | 6.0 | opinion | direction (29%) | 99% |
-| 10 | MPC | Refining & Marketing | 41 | 9.0 | opinion | direction (49%) | 79% |
-| 11 | PSX | Refining & Marketing | 41 | 8.0 | opinion | direction (9%) | 77% |
+| 1 | BKR | Services | 82 | 6.0 | opinion | peer set (22%) | 78% |
+| 2 | EXE | E&P | 82 | 6.0 | opinion | direction (34%) | 91% |
+| 3 | CTRA | E&P | 76 | 7.0 | opinion | window (20%) | 81% |
+| 4 | VLO | Refining | 71 | 5.0 | opinion | missing data (11%) | 77% |
+| 5 | EOG | E&P | 71 | 10.0 | opinion | direction (60%) | 90% |
+| 6 | SLB | Services | 65 | 7.0 | opinion | direction (26%) | 78% |
+| 7 | COP | E&P | 53 | 6.0 | opinion | direction (20%) | 93% |
+| 8 | OXY | E&P | 47 | 10.0 | opinion | direction (38%) | 92% |
+| 9 | XOM | Integrated | 47 | 6.0 | opinion | direction (29%) | 99% |
+| 10 | MPC | Refining | 41 | 9.0 | opinion | direction (49%) | 79% |
+| 11 | PSX | Refining | 41 | 8.0 | opinion | direction (9%) | 77% |
 | 12 | TRGP | Midstream | 41 | 9.0 | opinion | peer set (26%) | 74% |
 | 13 | WMB | Midstream | 41 | 11.0 | opinion | peer set (13%) | 75% |
 | 14 | KMI | Midstream | 41 | 7.0 | opinion | peer set (11%) | 76% |
-| 15 | DVN | Exploration & Production | 35 | 6.0 | opinion | peer set (32%) | 89% |
-| 16 | CVX | Integrated Oils | 35 | 6.0 | opinion | missing data (8%) | 97% |
-| 17 | HAL | Oilfield Services | 18 | 7.0 | opinion | direction (20%) | 78% |
-| 18 | FANG | Exploration & Production | 18 | 4.0 | opinion | peer set (20%) | 91% |
+| 15 | DVN | E&P | 35 | 6.0 | opinion | peer set (32%) | 89% |
+| 16 | CVX | Integrated | 35 | 6.0 | opinion | missing data (8%) | 97% |
+| 17 | HAL | Services | 18 | 7.0 | opinion | direction (20%) | 78% |
+| 18 | FANG | E&P | 18 | 4.0 | opinion | peer set (20%) | 91% |
 
 *Verdict thresholds: robust < 1.5 places, contested < 3.0, opinion ≥ 3.0. Source:
 `ETHack/model/out/summary.csv`, `pivot.csv`.*

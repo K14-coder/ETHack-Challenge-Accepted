@@ -14,7 +14,10 @@ and which missing disclosure would settle it.
 
 ## The paper
 
-**[`PAPER.md`](PAPER.md)** — the full write-up as a sector research note:
+**[`PAPER.pdf`](PAPER.pdf)** — the typeset note, 15 pages. Source in
+**[`PAPER.md`](PAPER.md)**; rebuild with `python3 tools/paper2pdf.py`.
+
+The full write-up as a sector research note:
 executive summary, twelve exhibits, the provider decision-point map, results,
 risks, and six appendices covering the formula, the axis definitions, the field
 registry, the provider citations, reproducibility and a glossary. Every figure in
