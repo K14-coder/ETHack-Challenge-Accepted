@@ -112,7 +112,7 @@ text(s,1.15,6.05,5.0,0.35,[[("Berg, Kolbel & Rigobon, Review of Finance 2022",{"
 
 pic(s,"f1_two_questions.png",6.75,1.05,6.0)
 text(s,6.75,5.5,6.0,0.9,
-     [[("All 18 companies, both questions.",{"size":15,"bold":True})],
+     [[("All 18 companies, both specification curves.",{"size":15,"bold":True})],
       [("Blue is where they stand. Orange is where they are heading. "
         "The bars are how far the answer moves on method choice alone.",{"size":13,"color":INK3})]],space=3,ls=1.1)
 notes(s,"""DEFINITION + STUDY + COMPANIES  |  40 sec  |  103 spoken words
@@ -127,7 +127,7 @@ measurement. Thirty-eight percent is scope. Only six percent is the pillar
 weighting, which is the only part anyone lets you touch.
 
 So we attack the ninety-four percent. Nine choices where MSCI and Bloomberg
-publish different methods, every combination.
+publish different specifications, every combination.
 
 Right: all eighteen companies, both questions. Bar length is how far the answer
 moves on method alone."
