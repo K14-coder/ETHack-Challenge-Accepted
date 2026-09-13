@@ -1,0 +1,46 @@
+# ---- CONTESTED DEMO --------------------------------------------------
+# demo.mehro.ch → static specification-curve explorer served from /srv/mehro-demo
+# Read-only static files. No backend, no database, no reverse_proxy, no upload
+# path. The page loads nothing off-origin: no CDN, no fonts, no fetch.
+
+demo.mehro.ch {
+  root * /srv/mehro-demo
+  encode zstd gzip
+
+  # A static site answers GET and HEAD. Nothing else reaches the file server.
+  @notallowed not method GET HEAD
+  respond @notallowed 405
+
+  # Nothing here should ever request a dotfile. 404 rather than confirm.
+  @dotfiles path /.* /*/.*
+  respond @dotfiles 404
+
+  request_body {
+    max_size 4KB
+  }
+
+  header {
+    # 'unsafe-inline' is on style only: charts.js writes style="width:..." into
+    # the bars it renders. Scripts are strictly self, and there is no user input
+    # and no network call anywhere in the page.
+    Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    X-Content-Type-Options nosniff
+    X-Frame-Options DENY
+    Referrer-Policy no-referrer
+    Cross-Origin-Opener-Policy same-origin
+    Cross-Origin-Resource-Policy same-origin
+    Permissions-Policy "accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()"
+    -Server
+  }
+
+  # Freshness over speed: this can be republished the morning of the pitch.
+  @html path / *.html
+  header @html Cache-Control "no-cache"
+  @static path /assets/* /data/*
+  header @static Cache-Control "public, max-age=3600"
+
+  file_server {
+    index index.html
+  }
+}
