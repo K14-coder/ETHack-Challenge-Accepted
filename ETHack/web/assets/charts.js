@@ -136,10 +136,15 @@
     hit.addEventListener("pointermove", function (e) {
       if (!c || !isFinite(c.consensus)) return;
       var box = svg.getBoundingClientRect();
+      // a hidden tab or a mid-resize frame can hand back a zero-width box, which
+      // would turn the position into NaN and index off the end of the series
+      if (!(box.width > 0)) return;
       var px = ((e.clientX - box.left) / box.width) * W;
       var i = Math.round(((px - m.l) / iw) * (n - 1));
+      if (!isFinite(i)) return;
       i = Math.max(0, Math.min(n - 1, i));
       var v = c.sorted[c.sorted.length - 1 - i];
+      if (v === undefined) return;
       hover.setAttribute("visibility", "visible");
       hLine.setAttribute("x1", X(i)); hLine.setAttribute("x2", X(i));
       hDot.setAttribute("cx", X(i)); hDot.setAttribute("cy", Y(v));

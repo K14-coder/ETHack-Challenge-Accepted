@@ -29,6 +29,13 @@ The same data, a narrower question, and **56 of 153** comparisons become settled
 That is the product: not a score, but a map of which comparisons the evidence can
 actually carry.
 
+## Hosting it for the jury
+
+`DEPLOY.md` has a password-gated Vercel deployment ready to go: edge middleware
+that returns 401 before any file is served, and a `.vercelignore` that uploads
+only the explorer — never the pipeline, the notes or the data. Three commands
+from this directory.
+
 ## What is here
 
 | | |

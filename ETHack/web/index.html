@@ -92,13 +92,22 @@
       <section class="panel">
         <header class="panel-head">
           <h2>Specification curve</h2>
-          <p>Every company's scores, sorted best method to worst. Flat is a judgement that survives the method; steep is a judgement that depends on it.</p>
+          <p>Every company's scores, sorted best method to worst. Flat is a judgement that survives the method; steep is a judgement that depends on it. Hover any point to read the exact specification and weighting that produced it.</p>
         </header>
         <div class="chart">
           <svg id="curve" role="img" aria-label="Specification curves for all companies"></svg>
           <div class="tip" id="curveTip" hidden>
             <b id="curveTipRank"></b><span id="curveTipText"></span>
           </div>
+        </div>
+        <div class="inspector" id="inspector">
+          <div class="insp-head">
+            <b id="inspRank">—</b>
+            <span id="inspWhere">Hover the curve to read off the method behind any point.</span>
+            <button type="button" id="inspPin">pin this specification</button>
+          </div>
+          <dl class="insp-axes" id="inspAxes"></dl>
+          <div class="insp-weights" id="inspWeights"></div>
         </div>
       </section>
 

@@ -1,0 +1,8 @@
+# Only the explorer is deployed. The pipeline, the notes, the credit workbook,
+# the government-data pipeline and the git history never leave this machine.
+*
+!ETHack/
+ETHack/*
+!ETHack/web/
+!middleware.js
+!vercel.json

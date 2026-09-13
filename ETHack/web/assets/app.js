@@ -51,6 +51,7 @@
   };
 
   var data, M, state, els = {}, lastResult = null, heavyTimer = null;
+  var inspectedSpec = null;
   var rowPositions = {}, tbodyTop = null;
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -71,6 +72,34 @@
     return M.pillars.map(function (p) { return state.raw[p] / t; });
   }
 
+  /* The four weights are a point on a simplex, so moving one has to move the
+   * others — and the thumbs have to move with it, or the control lies about
+   * what it is doing. The remainder is redistributed in proportion to where the
+   * other three already sat, which is the least surprising rule: it preserves
+   * their relative balance and only changes the share this pillar takes. */
+  function setWeight(p, v) {
+    v = Math.max(0, Math.min(100, v));
+    var others = M.pillars.filter(function (q) { return q !== p; });
+    var rest = 100 - v;
+    var sum = 0;
+    others.forEach(function (q) { sum += state.raw[q]; });
+    if (sum <= 1e-9) {
+      others.forEach(function (q) { state.raw[q] = rest / others.length; });
+    } else {
+      others.forEach(function (q) { state.raw[q] = (state.raw[q] * rest) / sum; });
+    }
+    state.raw[p] = v;
+    syncWeightUI(p);
+  }
+
+  function syncWeightUI(skip) {
+    M.pillars.forEach(function (q) {
+      var el = document.getElementById("w-" + q);
+      if (q !== skip) el.value = state.raw[q];
+      document.getElementById("wo-" + q).textContent = Math.round(state.raw[q]) + "%";
+    });
+  }
+
   /* ------------------------------------------------------------------ build */
 
   function buildControls() {
@@ -86,7 +115,7 @@
       els.weights.appendChild(row);
       var input = row.querySelector("input");
       input.addEventListener("input", function () {
-        state.raw[p] = +input.value;
+        setWeight(p, +input.value);
         clearPresets();
         render({ light: true });
       });
@@ -101,10 +130,8 @@
       b.textContent = PRESET_COPY[k] || k;
       b.setAttribute("aria-pressed", i === 0 ? "true" : "false");
       b.addEventListener("click", function () {
-        M.pillars.forEach(function (p) {
-          state.raw[p] = (w[p] || 0) * 100;
-          document.getElementById("w-" + p).value = state.raw[p];
-        });
+        M.pillars.forEach(function (p) { state.raw[p] = (w[p] || 0) * 100; });
+        syncWeightUI();
         clearPresets();
         b.setAttribute("aria-pressed", "true");
         render();
@@ -157,9 +184,7 @@
   }
 
   function syncControls() {
-    M.pillars.forEach(function (p) {
-      document.getElementById("w-" + p).value = state.raw[p];
-    });
+    syncWeightUI();
     clearPresets();
     var first = els.presets.querySelector("button");
     if (first) first.setAttribute("aria-pressed", "true");
@@ -373,10 +398,6 @@
     els.empty.hidden = true;
 
     var w = weights();
-    M.pillars.forEach(function (p, i) {
-      document.getElementById("wo-" + p).textContent = Math.round(w[i] * 100) + "%";
-    });
-
     var res = SC.evaluate(M, specIds, w);
     lastResult = res;
 
@@ -384,6 +405,7 @@
     renderTable(res, null);
     renderDetail(res, null);
     drawCharts(res);
+    refreshInspector(res);
 
     // The decomposition and the dominance matrix walk the whole selection a
     // second time, so they settle after the thumb stops rather than competing
@@ -405,7 +427,61 @@
     return w > 120 ? Math.round(w) : fallback;
   }
 
+  /* Position i on the curve is a different specification for every company,
+   * because each company's scores are sorted independently. This maps a point
+   * back to the nine choices that produced it. */
+  function curveOrder(res, companyIdx) {
+    var pairs = [];
+    for (var k = 0; k < res.nSpec; k++) {
+      var v = res.R[k * M.nC + companyIdx];
+      if (v === v) pairs.push([v, res.specIds[k]]);
+    }
+    pairs.sort(function (a, b) { return b[0] - a[0]; });
+    return pairs;
+  }
+
+  /* The inspected specification survives a weight change, but its score does
+   * not: the whole point is that the same method gives a different answer under
+   * a different weighting. So re-read it on every render rather than leaving a
+   * stale number under the cursor. */
+  function refreshInspector(res) {
+    if (inspectedSpec === null) return;
+    var order = curveOrder(res, state.selected);
+    for (var i = 0; i < order.length; i++) {
+      if (order[i][1] === inspectedSpec) {
+        showMethod(inspectedSpec, order[i][0], i, order.length,
+                   M.names[state.selected]);
+        return;
+      }
+    }
+    // the pinned method is no longer in view, or this company has no score for it
+    els.inspector.classList.remove("is-live");
+    inspectedSpec = null;
+    els.inspWhere.textContent =
+      "That method is not in the current selection. Hover the curve to pick another.";
+  }
+
+  function showMethod(specIdx, value, rank, total, name) {
+    inspectedSpec = specIdx;
+    els.inspRank.textContent = isFinite(value) ? value.toFixed(0) : "—";
+    els.inspWhere.textContent =
+      "method " + (rank + 1).toLocaleString() + " of " + total.toLocaleString() +
+      " for " + name;
+    els.inspAxes.innerHTML = M.order.map(function (a, i) {
+      var o = M.opts[a][M.level(specIdx, i)];
+      return '<div><dt>' + (AXIS_COPY[a] || { label: a }).label + "</dt><dd>" +
+             (OPTION_COPY[o] || o) + "</dd></div>";
+    }).join("");
+    var w = weights();
+    els.inspWeights.innerHTML = M.pillars.map(function (p, i) {
+      return '<span><i class="swatch swatch-' + p + '"></i>' + PILLAR_NAME[p] +
+             " <b>" + Math.round(w[i] * 100) + "%</b></span>";
+    }).join("");
+    els.inspector.classList.add("is-live");
+  }
+
   function drawCharts(res) {
+    var order = curveOrder(res, state.selected);
     Charts.specificationCurve(els.curve, res, {
       width: panelWidth(els.curve, 620), height: 300, selected: state.selected,
       step: M.step,
@@ -415,6 +491,8 @@
         els.curveTipRank.textContent = h.value.toFixed(0);
         els.curveTipText.textContent =
           "method " + (h.rank + 1).toLocaleString() + " of " + h.total.toLocaleString();
+        var e = order[h.rank];
+        if (e) showMethod(e[1], e[0], h.rank, order.length, h.company.name);
       }
     });
     Charts.contestationMap(els.map, res, {
@@ -433,7 +511,11 @@
       if (on) tr.setAttribute("aria-current", "true");
       else tr.removeAttribute("aria-current");
     });
-    if (lastResult) { renderDetail(lastResult, lastResult.dec); drawCharts(lastResult); }
+    if (lastResult) {
+      renderDetail(lastResult, lastResult.dec);
+      drawCharts(lastResult);
+      refreshInspector(lastResult);
+    }
   }
 
   /* -------------------------------------------------------------------- boot */
@@ -447,7 +529,8 @@
      "dom", "pillars", "pillarNote", "pivot", "pivotNote", "detailName",
      "detailGroup", "bestSpec", "worstSpec", "swing", "statSpread", "statSpecs",
      "statN", "statSwing", "statSwingName", "statSettled", "statPairs",
-     "collapse", "empty", "curveTip", "curveTipRank", "curveTipText", "datasetNote"
+     "collapse", "empty", "curveTip", "curveTipRank", "curveTipText", "datasetNote",
+     "inspector", "inspRank", "inspWhere", "inspAxes", "inspWeights", "inspPin"
     ].forEach(function (id) { els[id] = document.getElementById(id); });
 
     els.datasetNote.textContent =
@@ -457,6 +540,25 @@
     document.body.classList.toggle("is-synthetic", !data.meta.real);
 
     buildControls();
+    syncWeightUI();
+
+    // clicking the inspector collapses the whole grid onto the method under the
+    // cursor, which is exactly what a published score is: one cell, no error bar
+    els.inspPin.addEventListener("click", function () {
+      if (inspectedSpec === null) return;
+      M.order.forEach(function (a, i) {
+        state.axes[a] = M.opts[a][M.level(inspectedSpec, i)];
+      });
+      els.axes.querySelectorAll(".seg").forEach(function (seg, ai) {
+        var want = state.axes[M.order[ai]];
+        seg.querySelectorAll("button").forEach(function (b, j) {
+          var o = j === 0 ? "all" : M.opts[M.order[ai]][j - 1];
+          b.setAttribute("aria-pressed", o === want ? "true" : "false");
+        });
+      });
+      render();
+    });
+
     render();
     requestAnimationFrame(function () { if (lastResult) drawCharts(lastResult); });
 
