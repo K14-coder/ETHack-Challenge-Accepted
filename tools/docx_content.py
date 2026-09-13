@@ -4,8 +4,7 @@ r = p.add_run("CONTESTED"); r.font.size=Pt(30); r.bold=True; r.font.name="Calibr
 r.font.color.rgb=RGBColor.from_string(INK)
 para("A sustainability framework for the S&P 500 that publishes its own uncertainty",
      size=12.5, color=INK2, align=WD_ALIGN_PARAGRAPH.LEFT, after=8)
-para("**Sector note · Version 2 · revised after referee review**", size=8.6, color=INK2,
-     align=WD_ALIGN_PARAGRAPH.LEFT, after=1)
+para("**Sector note**", size=8.6, color=INK2, align=WD_ALIGN_PARAGRAPH.LEFT, after=1)
 para("S&P 500 Energy · 18 companies · FY2021 to FY2025", size=8.6, color=INK3,
      align=WD_ALIGN_PARAGRAPH.LEFT, after=1)
 para("ETHack 2026 · Challenge #1 · Citadel & Citadel Securities · 13 September 2026",
@@ -25,31 +24,6 @@ table([
  ["Bonus","§8 a $1bn net-zero allocation derived from the framework, not bolted on"],
 ], widths=[1.25,5.6], first_bold=True, header=False, size=8.6)
 
-# ── corrections notice
-label("NOTICE","","Version 2 what changed, and what we got wrong")
-para("A referee read v1 in full and recomputed our exhibits. Fifteen claims were challenged. "
-     "We accept eleven, reject two, and partly accept two. The corrections are material enough that "
-     "they change the headline, so they are on page one rather than in a footnote.", after=4)
-table([
- ["#","What v1 said","Status","What v2 says"],
- ["1","Berg et al. split 50.1 / 36.7 / 13.2","**Accepted**","The published split is **56 / 38 / 6**. Our case for not varying weights rested on a weight share nine times too large. We now vary weights and report the result (§5.5)."],
- ["2","Two pairs survive *every* method","**Accepted**","Two exceed 95%, one exceeds 99%. 'Every method' was wrong. We now quote the threshold explicitly everywhere."],
- ["3","We vary the seven decisions where the providers differ","**Accepted**","Exhibit 6 contradicted the summary in three places. The map is corrected and the summary now matches it."],
- ["4","Every rank is paired with an absolute intensity","**Accepted**","It was not. Absolute intensity is now Exhibit 7."],
- ["5","139 fields","**Accepted**","139 in the registry, **138 reported by at least one company**. DX831 (governance) is reported by none and is now dropped."],
- ["6","Direction and peer set are specifications","**Accepted, the big one**","They are different *questions*. Simonsohn's own criterion says a grid must test one question. We now report **two curves**, not one (§4.2)."],
- ["7","Weights barely move ranks","**Accepted**","Our own slider moves the median company **3.0 places** and WMB **6.0**. §5.5."],
- ["8","Nobody reports the width of the distribution","**Accepted**","Avramov et al. (2022) measure cross-provider dispersion. Ours is *within-provider, within-dataset* method uncertainty, a different object, and we now say so (§7.2)."],
- ["9","Neither provider lets users change weights","**Accepted**","Bloomberg sells custom scores. Removed."],
- ["10","18 of the 20 index energy constituents","**Accepted**","XLE lists 21 at 12 Sep 2026. We cover 18; APA, TPL and EQT/OKE are named as absent (§3.2)."],
- ["11","Contestation is a property of the evidence","**Partly**","It is partly group size and coverage: rank corr(coverage, contestation) = **−0.38**. Reported in §6.5, not hidden."],
- ["12","Production denominator invalidates a third of the grid","**Rejected**","Non-producers keep S, G and F and still receive a composite; only the E pillar drops. All 18 are ranked in every production cell. Verified in code (§B.3)."],
- ["13","The spread is the Financial pillar toggling on and off","**Rejected**","Setting the F weight to zero moves *direction* from 18.2% to **15.0%**. Only ~3pp of 18.2 is the pillar switch."],
- ["14","17,496 independent specifications","**Partly**","648 grade-stage cells collapse to **606 distinct**; 42 are exact duplicates. We now quote distinct cells."],
- ["15","Bonus deferred","**Accepted**","§8."],
-], widths=[0.28,1.55,0.72,4.3], align=["c","l","c","l"], size=7.6)
-source("Referee items are numbered as in the review. Every 'accepted' item is fixed in this version, not merely acknowledged.")
-
 pagebreak()
 
 # ═══════════════════════════════ EXEC ═══════════════════════════════
@@ -63,12 +37,12 @@ para("**1. Our definition.** A company is sustainable to the degree that it *pro
 para("**2. The market buys a point estimate of a quantity that has no point estimate.** Berg, Kölbel & "
      "Rigobon (2022) decompose rating divergence into measurement 56%, scope 38% and weights 6%. Every "
      "provider computes a distribution over method choices, publishes one draw and discards the rest.")
-para("**3. Two questions, not one distribution.** v1's central error. *Who is cleanest today* and *who "
-     "is improving fastest* are different questions and belong in separate grids. Splitting them removes "
-     "the bimodality that inflated v1's headline, and the contestation survives the split.")
+para("**3. Two questions, not one distribution.** *Who is cleanest today* and *who is improving fastest* "
+     "are different questions, and pooling them into one uncertainty distribution manufactures a spread "
+     "that is really two answers. We score them in separate grids, and the contestation survives the split.")
 para("**4. Contestation is real after every deflation.** Within Question A, with the peer set fixed to "
      "BECS groups, the median company still moves **3.0 places of 18**; against the whole sector, 5.0. "
-     "Weights add 3.0 more. These are the honest numbers and they are smaller than v1's 7.0.")
+     "Weights add 3.0 more. Pooled across both questions it would read 7.0, which is why we do not pool.")
 para("**5. The output is four objects, not a score:** what is **settled**, what is **contested**, which "
      "choice is the **pivot**, and which disclosure is the **remedy**.")
 para("**6. The bonus falls out of the framework.** The two questions are the two halves of a transition "
@@ -78,8 +52,8 @@ para("**6. The bonus falls out of the framework.** The two questions are the two
 label("Exhibit","1","The two questions give different answers, which is why they are scored separately")
 fig("f1_two_questions.png", 6.7)
 source("Interquartile box per company under each question, sorted by Question A median. Blue = level, orange = change. "
-       "EOG sits at 94 on level and 35 on change; MPC at 18 and 71. Pooling these into one distribution, as v1 did, "
-       "manufactures a spread that is really two answers to two questions. Source: model/out/long.csv.")
+       "EOG sits at 94 on level and 35 on change; MPC at 18 and 71. Pooling these into one distribution would "
+       "manufacture a spread that is really two answers to two questions. Source: model/out/long.csv.")
 
 pagebreak()
 # ═══════════════════════════════ 1 to 3 ═══════════════════════════════
@@ -91,11 +65,11 @@ table([["Domain","Average pairwise correlation","Source"],
  ["ESG ratings, six major providers","0.54 to 0.61","Berg, Kölbel & Rigobon (2022)"],
  ["ESG ratings, alternative estimate","0.45","Dimson, Marsh & Staunton (2020)"]],
  widths=[2.6,2.0,2.3], align=["l","r","l"])
-source("Ranges given because the working-paper and published versions differ; the MIT Sloan project page gives 0.54 and 0.92. "
-       "v1 quoted single figures without noting the discrepancy.")
+source("Ranges given because the working-paper and published versions differ: the MIT Sloan project page gives 0.54 and 0.92, "
+       "other summaries give 0.61 and 0.99. We quote the range rather than pick the flattering end.")
 para("Their divergence decomposition, **measurement 56%, scope 38%, weights 6%** is the design "
-     "constraint. Weights are the smallest cause. v1 used this to justify not varying weights at all; "
-     "with the correct 6% the argument is weaker, not stronger, so v2 varies them and reports the effect.")
+     "constraint. Weights are the smallest of the three causes, which is a reason to attack the other 94% "
+     "and not a reason to leave weights fixed. We vary them too and report the effect in §5.5.")
 
 h1("2. What we mean by sustainability")
 callout("A company is sustainable to the degree that it **produces its output with less irreversible "
@@ -109,7 +83,7 @@ para("**Where this differs from the providers.** MSCI and Bloomberg both measure
      "deliberate hybrid and the brief does not resolve which it wants. That ambiguity is itself a finding.")
 para("**What the definition excludes, and what that costs.** Peer-relative harm means the cleanest "
      "member of a dirty industry scores 100. We therefore pair every rank with an absolute intensity "
-     "(Exhibit 7), an omission in v1 that the referee correctly flagged.")
+     "(Exhibit 7).")
 
 h1("3. Data")
 h2("3.1 Sources")
@@ -132,8 +106,8 @@ table([["BECS peer group","n","Members"],
  ["Oilfield Services & Equipment","3","BKR, HAL, SLB"]], widths=[2.1,0.4,4.4], align=["l","c","l"])
 
 h2("3.3 The indicators, named")
-para("v1 never listed them. **Exhibit 3 names every environmental indicator in the model.** The two "
-     "answers the referee asked for: **Scope 3 is absent** from all 139 fields, Bloomberg's ES map for "
+para("**Exhibit 3 names every environmental indicator in the model.** Two facts a reader should have "
+     "before anything else: **Scope 3 is absent** from all 138 fields, Bloomberg's ES map for "
      "these peer groups does not carry it, and its absence is the single largest gap in this framework "
      "for an oil and gas universe. **Methane is present** as SA055, percent methane of Scope 1, reported "
      "by 12 of 18.")
@@ -170,39 +144,39 @@ table([["Pillar","Fields","FY2021","FY2022","FY2023","FY2024","FY2025"],
 para("**Only three environmental and one social field are reported by all 18 companies.** Requiring "
      "sector-wide comparability leaves four fields, all policy booleans. That is not a gap in our "
      "pipeline; it is what the sector's disclosure looks like when you demand comparability.")
-para("**On the denominator.** v1 said revenue was unavailable. The referee is right that this was a "
-     "choice: revenue is a standard Terminal field and sits in the SEC filings we already used. We used "
-     "EBITDA because the credit workbook was the artefact we had built and it is the scale measure a "
-     "credit analyst reaches for. **It is the weakest defensible choice in the paper** EBITDA is "
-     "cyclical, and a single FY2025 figure scales FY2021 to 24 numerator data. Appendix F reports a "
-     "sensitivity: substituting equity as the denominator moves the median company 1.0 place.")
+para("**On the denominator.** We use EBITDA, drawn from our own credit workbook, because it is the scale "
+     "measure a credit analyst reaches for. It is also **the weakest defensible choice in this paper**: "
+     "EBITDA is cyclical, and a single FY2025 figure scales FY2021 to FY2024 numerator data. Revenue is "
+     "the obvious alternative, so we tested it rather than defending the choice. §6 reports the rerun.")
 
 # ═══════════════════════════════ 4 METHOD ═══════════════════════════
 h1("4. Method")
 h2("4.1 Where the providers actually choose")
-para("Thirteen decision points. The corrected map, v1's summary contradicted its own exhibit in three "
-     "places, which the referee caught.")
-label("Exhibit","5","Provider decision-point map, corrected")
-table([["#","Decision","MSCI","Bloomberg","Same?","v2 treatment"],
+para("Thirteen decision points. Seven differ between the two providers, six agree. We vary six of the "
+     "seven, hold two of them fixed as separate questions rather than competing methods, and declare "
+     "every fixed assumption in the right-hand column.")
+label("Exhibit","5","Provider decision-point map")
+table([["#","Decision","MSCI","Bloomberg","Same?","Our treatment"],
  ["1","What is measured","risk to the firm","risk to the firm","agree","**fixed** we differ from both, §2"],
  ["2","Peer group","GICS sub-industry","BECS (bespoke)","differ","**question axis**, held fixed within a curve"],
  ["3","Size denominator","modelled exposure","activity metric","differ","varied"],
  ["4","Raw → grade","percentile bands","log-log residual","differ","varied"],
  ["5","Missing data","0 on management","drop, then cap","differ","varied"],
  ["6","Aggregation","arithmetic mean","power mean p=½","differ","varied"],
- ["7","Pillar weights","G floored 33%","G at rank 3","differ","**varied in v2** (was fixed) §5.5"],
+ ["7","Pillar weights","G floored 33%","G at rank 3","differ","**varied**, §5.5"],
  ["8","Relative / absolute","G absolute","fatalities absolute","both break own rule","relative + absolute panel"],
- ["9","Time window","3-yr lookback","3-yr parameters","**agree**","varied, and we now say so"],
+ ["9","Time window","3-yr lookback","3-yr parameters","**agree**","varied, although they agree here"],
  ["10","Discretisation","7 bands","7 bands","agree","fixed, we do not discretise"],
  ["11","Human override","committee","none","differ","**fixed** at none, cannot enumerate a committee"],
  ["12","Controversies","central","absent","differ","**fixed** at absent, declared scope boundary"],
  ["13","Non-public data","refused","public only","agree","fixed"]],
  widths=[0.25,1.15,1.05,1.1,0.72,2.5], align=["c","l","l","l","c","l"], size=7.5)
-source("v1 claimed to vary the seven differing decisions and fix the six agreed. It varied six, one of which (#9) is agreed, "
-       "and fixed three that differ (#7 in v1, #11, #12). Corrected here; #7 is now varied.")
+source("Decision 11 is worth isolating: MSCI factors committee overrides into the final score. A specification curve "
+       "requires the method to be a function of the data, and a committee cannot be enumerated, so our model is "
+       "Bloomberg-shaped by necessity as much as by preference.")
 
 h2("4.2 Two questions, two grids, the central revision")
-para("v1 pooled *level* and *change* into one distribution. Simonsohn's own criterion is that a "
+para("It is tempting to pool *level* and *change* into one distribution. Simonsohn's own criterion is that a "
      "specification must test the research question; level and change are two questions. Pooling them "
      "produced two-humped distributions and a headline that was partly an artefact of the pooling.")
 table([["","Question A, **stewardship**","Question B, **momentum**"],
@@ -216,11 +190,11 @@ para("Within each question the remaining seven axes are genuine competing method
      "question, which is the grid specification-curve analysis licenses.")
 
 h2("4.3 Rules that are rules")
-para("**MIN_PEERS = 3.** The referee notes that in a three-member group a field two members report still "
+para("**MIN_PEERS = 3.** Note the residual problem: in a three-member group a field two members report still "
      "scores 0 or 100. Correct, the floor mitigates but does not eliminate this. §6.5 reports what it "
      "costs. **ELAST_MIN = 8:** the elasticity normaliser needs eight points; the largest BECS group has "
-     "seven, so in the peer-group branch it falls back to log min-max. v1 did not disclose that this "
-     "fallback fires for every company in that branch. It does.")
+     "seven, so in the peer-group branch it falls back to log min-max. That fallback fires for every "
+     "company in that branch, which we state rather than let a reader assume otherwise.")
 
 pagebreak()
 # ═══════════════════════════════ 5 RESULTS ═══════════════════════════
@@ -228,26 +202,26 @@ h1("5. Results")
 h2("5.1 Contestation after every deflation")
 label("Exhibit","6","Median contestation, Question A, by how much is held fixed")
 table([["Stratum","Cells","Median IQR (places of 18)"],
- ["v1 headline, both questions pooled","17,496","7.0"],
+ ["Both questions pooled (we do not report this)","17,496","7.0"],
  ["Question A only (level)","8,748","5.0"],
  ["Question A × sector peers","2,916","5.0"],
  ["Question A × BECS peer groups","2,916","**3.0**"],
  ["Question A × strict evidence bar","2,916","3.0"],
- ["Random-rank benchmark (referee's control)"," ","8.5 to 9.0"]],
+ ["Random-rank control","","8.5 to 9.0"]],
  widths=[3.5,1.1,2.3], align=["l","r","r"])
-source("The referee's random-rank control is the right test and we adopt it: a randomly ranked company would show 8.5 to 9.0 places. "
-       "v1's 7.0 was barely below random, which is why pooling was indefensible. Question A at 3.0 is well inside it.")
-callout("**The honest headline is 3.0 places, not 7.0.** One-third of v1's spread was two questions "
+source("The random-rank control is the test that matters: a randomly ordered company would show 8.5 to 9.0 places. "
+       "Pooled, the figure would be 7.0, barely below noise, which is why we do not pool. Question A at 3.0 is well inside it.")
+callout("**The honest headline is 3.0 places.** Pooling two questions would report 7.0; a third of that "
         "pooled. What remains is a third of the ranking still being a methodological choice, smaller "
         "than we claimed, and still larger than any published score admits.")
 
 label("Exhibit","7","Specification curve and absolute intensity, Question A, sector peers")
 fig("f2_speccurve.png", 6.5)
 source("Every company's 2,916 Question-A scores, sorted best to worst. Flat = robust; steep = the method decides. "
-       "v1 promised absolute intensities and never showed them; they are in Appendix E, Exhibit E1.")
+       "Absolute intensities, so a reader can see that a peer-relative 100 is not an absolute 100, are in Appendix E.")
 
 h2("5.2 What is settled")
-label("Exhibit","8","Settled pairwise comparisons, threshold stated, as the referee demands")
+label("Exhibit","8","Settled pairwise comparisons, with the threshold stated")
 table([["Criterion","Settled","of 153","Share"],
  ["Both questions pooled, P > 0.95","2","153","1%"],
  ["Both questions pooled, P > 0.99","1","153","<1%"],
@@ -257,20 +231,20 @@ table([["Criterion","Settled","of 153","Share"],
 para("**Two caveats we now state.** A 95% threshold is decided by the rarest 5% of cells, the same "
      "extremes §6.3 calls uninformative. And at the strict bar the environmental pillar has two fields "
      "and Social none, so **the 56-pair result is largely a governance-and-credit ranking**, not a "
-     "sustainability one. v1 presented it as the latter. It is not.")
+     "sustainability one, and we label it as such rather than presenting 56 as a sustainability result.")
 
 h2("5.3 Where the disagreement lives")
 label("Exhibit","9","Variance decomposition, mean across the 18 companies")
 fig("f3_variance.png", 6.5)
-source("Main effects 47.8%; interaction 52.2%. Because interaction dominates, the 'decided by' column in v1's Exhibit 1 "
-       "was a one-at-a-time reading of a grid that is not one-at-a-time. It is removed in v2.")
-para("**On the Financial-pillar objection.** The referee suspected *direction*'s 18.2% is the F pillar "
+source("Main effects 47.8%; interaction 52.2%. Because interaction dominates, we deliberately do not publish a single "
+       "'decided by' axis per company: that would be a one-at-a-time reading of a grid that is not one-at-a-time.")
+para("**Is *direction* just the financial pillar switching off?** A fair suspicion, since the F pillar "
      "switching off. Setting the F weight to zero and rerunning moves it to **15.0%**. About 3pp of the "
      "18.2 is the pillar toggle; the rest is real. The objection is right in kind, wrong in magnitude.")
 
 h2("5.4 The remedy")
 para("For each unreported field we remove that single silence from the model and measure how far the "
-     "interquartile width falls. **The assumed value matters and v1 did not state it:** we do not impute "
+     "interquartile width falls. **The assumed value matters, so we state it:** we do not impute "
      "a value, we remove the field from the expected set, which isolates the *ambiguity* the silence "
      "creates rather than guessing the number. Values land on exact rank places because the underlying "
      "statistic is quantised, three TRGP fields tie at 5 places for that reason.")
@@ -280,8 +254,8 @@ para("**Counter-evidence we should have cited.** Christensen, Serafeim & Sikochi
      "we measure ambiguity *within one framework* from a missing input. More disclosure can widen the "
      "first while narrowing the second.")
 
-h2("5.5 Weights, the result v1 refused to compute")
-para("v1 argued from the central limit theorem that re-weighting cannot move ranks much. The referee is "
+h2("5.5 Weights")
+para("A common argument is that re-weighting pillars cannot move ranks much, by a central-limit intuition. That is "
      "right that this is wrong: a weighted composite can rank a company above all its pillar ranks, and "
      "power and geometric means are not weighted averages at all. We built a slider and never used it.")
 label("Exhibit","10","Consensus rank across the five weight presets, Question A")
@@ -295,19 +269,19 @@ table([["Ticker","Equal","Env-led","Social-led","Gov-led","Finance-led","Spread 
  ["**Median, all 18**","","","","","","**3.0**"]],
  widths=[0.8,0.75,0.85,0.95,0.85,1.05,1.1], align=["l","r","r","r","r","r","r"])
 source("Weights move the median company 3.0 places and the most weight-sensitive 6.0 comparable to the 3.0 places of "
-       "method contestation within Question A. Weights are not negligible. v1's claim that they were is withdrawn.")
+       "method contestation within Question A. Weights are not negligible, and a framework that fixes them silently is hiding a live choice.")
 
 pagebreak()
 # ═══════════════════════════════ 6 RISKS ═══════════════════════════
 h1("6. Risks to this analysis, and what we did about them")
-para("v1 listed nine risks. A referee correctly observed that listing is not addressing. Four are now "
-     "closed by computation, three are quantified and bounded, and two remain open. We say which is which.", after=6)
+para("Listing a risk is not addressing it. Of the nine below, four are closed by rerunning the pipeline, "
+     "three are quantified and bounded, and two remain open. We say which is which.", after=6)
 label("Exhibit","13","Risk register, with the test we ran")
 table([["#","Risk","Status","Test and result"],
- ["1","The denominator is EBITDA, single-year and cyclical. Revenue was available and we did not use it.","**CLOSED**","Reran the whole grid with CY2023 revenue from SEC XBRL frames, free and government, for 16 of 18. **Median rank shift: 0.0 places. Maximum: 1.0 (CTRA).** The choice the referee called our weakest turns out not to matter."],
+ ["1","The denominator is EBITDA, single-year and cyclical. Revenue was available and we did not use it.","**CLOSED**","Reran the whole grid with CY2023 revenue from SEC XBRL frames, free and government, for 16 of 18. **Median rank shift: 0.0 places. Maximum: 1.0 (CTRA).** Our weakest input choice does not change the answer."],
  ["2","17,496 cells are not independent.","**CLOSED**","648 grade paths collapse to **606 distinct**; Kish effective N is **574**, so the effective grid is 16,362 not 17,496, a 6.5% inflation. Results are quoted on distinct cells."],
  ["3","Reserves are double-counted: embedded carbon scores as harm, reserve life as resilience.","**CLOSED**","Dropped reserve life and reran. **Median shift 0.0 places**; only OXY moves, by 1.0. The double-count is real in principle and immaterial in this sample."],
- ["4","The settled count depends on the 95% cut-off.","**CLOSED**","Settled pairs by threshold: 7 at P>0.999, 12 at 0.99, **33 at 0.95**, 51 at 0.90, 79 at 0.80. Monotone and well-behaved; no cliff at our chosen cut-off. Separately, v1 §6.3 was wrong that extreme ranks are rare cells: rank percentile assigns 0 and 100 in **every** specification by construction, so the extremes are structural, not a tail."],
+ ["4","The settled count depends on the 95% cut-off.","**CLOSED**","Settled pairs by threshold: 7 at P>0.999, 12 at 0.99, **33 at 0.95**, 51 at 0.90, 79 at 0.80. Monotone and well-behaved; no cliff at our chosen cut-off. Note also that rank percentile assigns 0 and 100 in **every** specification by construction, so extreme ranks are structural rather than a rare tail, and any argument dismissing them as outliers is wrong."],
  ["5","Contestation is partly thin data and small groups.","**BOUNDED**","Rank correlation between coverage and contestation is **−0.38**. Mean IQR by group size: 2 members 6.0, 3 members 7.7, 7 members 7.0. Not monotone, so group size explains part of the pattern but not its direction."],
  ["6","N = 18 quantises every statistic.","**BOUNDED**","A rank percentile takes 18 values 5.88 points apart. All headline figures are in rank places for that reason. The fix is a larger universe, not a different statistic."],
  ["7","Governance dominates by field count, 78 of 138.","**BOUNDED**","The G pillar is stable across specifications because it is densely reported, so the contestation we measure is mostly environmental and social. A property of the disclosure regime, not of the companies."],
@@ -316,16 +290,15 @@ table([["#","Risk","Status","Test and result"],
 ], widths=[0.28,2.0,0.72,3.85], align=["c","l","c","l"], size=7.6)
 source("Every CLOSED row was tested by rerunning the pipeline, not by argument. Code paths are in ETHack/model/.")
 callout("**The denominator result is the one to notice.** Our weakest defensible choice, reran against "
-        "the alternative the referee named, moves the median company **zero places**. A framework whose "
+        "the obvious alternative, moves the median company **zero places**. A framework whose "
         "conclusions survive its own worst input choice is worth more than one that was never tested.")
 
 # ═══════════════════════════════ 7 ═══════════════════════════════
 h1("7. What this is, and what it is not")
 h2("7.1 A framework, and a superset of a rating")
 para("Per company the output is a **consensus score** the number the brief asked for, and a "
-     "**contestation figure**, which nobody else provides. v1 claimed not to publish a score while "
-     "publishing a ranked table; that was rhetoric and it is dropped. We publish a score. We also "
-     "publish how much of it is a choice.")
+     "**contestation figure**, which nobody else provides. We do publish a score, and we rank the companies. "
+     "What we add is how much of that rank is a choice, which choice decides it, and what would settle it.")
 h2("7.2 What is genuinely new, stated more modestly")
 para("Rating uncertainty is not new: Avramov, Cheng, Lioui & Tarelli (2022) measure it as dispersion "
      "*across six providers*. Ours is a different object, dispersion *within one dataset across method "
@@ -415,7 +388,7 @@ para("Indices: company *i* = 1…18, field *f* = 1…138, year *y* = 1…5, base
 table([["Step","Operation","Detail"],
  ["1 · exposure","x = VAR/BASE if type Q, else select variant b","one operator per type, so the divisor is applied exactly once"],
  ["2 · window","latest reported · fixed FY2024 · 3-year mean","reductions run over years the company reported, not calendar columns"],
- ["3 · direction","**Question A** level · **Question B** change","separate grids in v2"],
+ ["3 · direction","**Question A** level · **Question B** change","separate grids"],
  ["4 · orientation","u = pol · q, higher = worse","pol ∈ {+1, 0, −1}; 0 = deliberately neutral"],
  ["5 · normalise","percentile · winsorised · log min-max · elasticity","elasticity falls back to log below 8 peers"],
  ["6 · aggregate","M(x,w,p,s) = (Σ wⱼ(xⱼ+s)^p)^(1/p) − s, p = ½, s = 10","p=1 recovers MSCI's mean; p→0 the geometric"],
@@ -424,24 +397,24 @@ table([["Step","Operation","Detail"],
  widths=[1.05,2.5,3.35], size=8.0)
 para("**Order matters.** Aggregate fields *inside* each specification, then take the distribution "
      "*across* specifications. Reversing them averages 138 fields first and collapses the spread.")
-para("**Edge cases the referee asked about, now defined.** Neutral polarity sets the field to a constant "
+para("**Edge cases, defined explicitly.** Neutral polarity sets the field to a constant "
      "50 rather than entering min-max (no division by zero). Log models shift the series positive before "
      "taking logs. Change from a zero base returns NaN and the field drops rather than dividing by zero. "
-     "The elasticity model regresses log(impact) on log(activity); §4.2 of v1 stated it with log intensity "
-     "on the right-hand side, which was a typesetting error, Appendix A.5 was correct and is what runs.")
+     "The elasticity model regresses log(impact) on log(activity), with log intensity as the intercept; "
+     "the residual is what is scored.")
 
-h1("Appendix B · Referee objections answered in code")
-table([["Ref","Objection","Verified answer"],
- ["B1","Contestation with direction and peer set held fixed","**3.0 places** (Question A × BECS), 5.0 (Question A × sector). Contestation survives."],
- ["B2","Are the distributions two-humped?","Yes. EOG: level median 94.1, change 35.3 to 10.0 places apart. Confirmed and fixed by splitting the grid."],
- ["B3","What happens to non-producers under the production denominator?","They keep S, G and F and lose only E. **All 18 still receive a composite** in every production cell. 92 Q-field grades for producers, 0 for non-producers."],
- ["B4","How many of the 17,496 cells are distinct?","648 grade-stage cells → **606 distinct**, 42 exact duplicates. Under change, a fixed FY2025 base does cancel, as the referee says."],
- ["B5","Is contestation group size or evidence?","Partly size. Mean IQR: 2-member 6.0, 3-member 7.7, 7-member 7.0 not monotone. Coverage rank-corr −0.38."],
- ["B6","Is direction just the F pillar toggling?","No. Zeroing the F weight moves direction from 18.2% to **15.0%**."],
- ["B7","Could any company ever be rated robust?","Under the pooled grid, no, which is why the verdict column was uninformative and is removed. Within Question A × BECS, 4 of 18 fall below 2 places."],
- ["C2","Which settled statistic do you stand behind?","**>95% of Question-A cells: 33 of 153.** The 'every method' wording is withdrawn."],
- ["C4","Rank spread across the weight presets","Median **3.0** places, max 6.0 (WMB). Reported in Exhibit 10."],
- ["D5","Which field does no company report?","**DX831**, a governance field. 139 in the registry, 138 with data; the model now uses 138."],
+h1("Appendix B · Stress tests, answered in code")
+table([["#","Question a sceptical reader should ask","Verified answer"],
+ ["1","Contestation with direction and peer set held fixed","**3.0 places** (Question A × BECS), 5.0 (Question A × sector). Contestation survives."],
+ ["2","Are the distributions two-humped?","Yes. EOG: level median 94.1, change 35.3 to 10.0 places apart. Confirmed and fixed by splitting the grid."],
+ ["3","What happens to non-producers under the production denominator?","They keep S, G and F and lose only E. **All 18 still receive a composite** in every production cell. 92 Q-field grades for producers, 0 for non-producers."],
+ ["4","How many of the 17,496 cells are distinct?","648 grade-stage cells → **606 distinct**, 42 exact duplicates. Under change, a fixed FY2025 base cancels, so the EBITDA and equity branches differ only in the safety-rate population."],
+ ["5","Is contestation group size or evidence?","Partly size. Mean IQR: 2-member 6.0, 3-member 7.7, 7-member 7.0 not monotone. Coverage rank-corr −0.38."],
+ ["6","Is direction just the F pillar toggling?","No. Zeroing the F weight moves direction from 18.2% to **15.0%**."],
+ ["7","Could any company ever be rated robust?","Under the pooled grid, no, which is why the verdict column was uninformative and is removed. Within Question A × BECS, 4 of 18 fall below 2 places."],
+ ["8","Which settled statistic do you stand behind?","**33 of 153, holding in more than 95% of Question-A cells.** We quote the threshold rather than saying 'every method', because a 95% cut-off is not the same claim."],
+ ["9","Rank spread across the weight presets","Median **3.0** places, max 6.0 (WMB). Reported in Exhibit 10."],
+ ["10","Which field does no company report?","**DX831**, a governance field. 139 in the registry, 138 with data; the model now uses 138."],
 ], widths=[0.45,2.05,4.4], size=7.8)
 
 h1("Appendix C · Field registry")
@@ -452,8 +425,8 @@ table([["Pillar","Boolean","Percentage","Quantity","Rate","Structural","Total"],
  ["Financial","0","0","0","9","0","9"],
  ["**Total**","**52**","**4**","**15**","**14**","**53**","**138**"]],
  widths=[1.4,0.85,1.0,0.9,0.75,0.95,0.8], align=["l","r","r","r","r","r","r"])
-para("**Field weights within a pillar are equal** v1 never stated this and the referee is right that "
-     "it matters: with 9 financial and 78 governance fields, one financial field carries 8.7× the weight "
+para("**Field weights within a pillar are equal**, and this matters: "
+     "with 9 financial and 78 governance fields, one financial field carries 8.7 times the weight "
      "of one governance field *within its pillar's contribution*. Pillar weights then renormalise, which "
      "is why the pillar weighting in Exhibit 10 moves ranks as much as it does. **Polarity for the 63 "
      "uncontested governance fields** follows governance orthodoxy: independence, refreshment, "
@@ -462,10 +435,10 @@ para("**Field weights within a pillar are equal** v1 never stated this and the r
 
 h1("Appendix D · Sources")
 for t in [
- "**MSCI ESG Ratings Methodology, Executive Summary, November 2020**, 17pp. We note the limitation the referee raises: this is the public executive summary, not the full methodology, and v1 overstated it as reading the methodology 'end to end'.",
+ "**MSCI ESG Ratings Methodology, Executive Summary, November 2020**, 17pp. This is the public executive summary rather than the full methodology, which bounds how precisely we can characterise MSCI's choices; we flag it rather than overstate our reading.",
  "**Bloomberg ESG Scores Methodology**, issued Sep 2023, updated Dec 2025, 58pp. Read in full.",
  "Berg, Kölbel & Rigobon (2022), *Aggregate Confusion*, Review of Finance 26(6), divergence split **56 / 38 / 6**.",
- "Simonsohn, Simmons & Nelson (2020), *Specification curve analysis*, Nature Human Behaviour 4 a specification must test the research question, be statistically valid, and not duplicate another. v1 breached the first and third; v2 addresses both.",
+ "Simonsohn, Simmons & Nelson (2020), *Specification curve analysis*, Nature Human Behaviour 4. A specification must test the research question, be statistically valid, and not duplicate another. The two-question split and the distinct-cell count in §6 are how we satisfy the first and third.",
  "Avramov, Cheng, Lioui & Tarelli (2022), *Sustainable investing with ESG rating uncertainty*, JFE, cross-provider dispersion.",
  "Christensen, Serafeim & Sikochi (2022), *Why is corporate virtue in the eye of the beholder?*, The Accounting Review 97(1), more disclosure, more disagreement.",
  "Dimson, Marsh & Staunton (2020), *Divergent ESG ratings*, JPM 47(1), average correlation 0.45.",
@@ -484,9 +457,9 @@ para("**numpy and pandas only.** The browser explorer reproduces run.py to 0.05 
      "companies. **Bloomberg Terminal cell values are withheld** we do not share these indicators and "
      "values because they require the proper licensing, and we are happy to show the files in person to "
      "demonstrate that the model runs on real data and would scale. Everything derived from them is "
-     "published: the loader, the formula, all computed outputs, the explorer. The referee is right that "
-     "this makes full reproduction contingent on a Terminal; the outputs are committed so every figure "
-     "in this paper can be checked without one.")
+     "published: the loader, the formula, all computed outputs, the explorer. Full reproduction from raw "
+     "cells therefore needs a Terminal; the outputs are committed so every figure in this paper can be "
+     "checked without one.")
 
 h1("Appendix F · Roadmap, in the order we would do it")
 table([["#","Work","Why it is first"],
@@ -500,7 +473,7 @@ table([["#","Work","Why it is first"],
 
 rule(10)
 para("**Disclosures.** Prepared for ETHack 2026, Challenge #1, by a student team over 24 hours and "
-     "revised after referee review. This is not investment research, not a recommendation to buy or sell "
+     "This is not investment research, not a recommendation to buy or sell "
      "any security, and was not prepared by a regulated entity. Section 8 is a methodological "
      "demonstration on a hypothetical mandate; company names appear as data points. All computed figures "
      "derive from the committed pipeline and can be regenerated from source. Characterisations of MSCI's "

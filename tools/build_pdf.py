@@ -10,8 +10,8 @@ import html as _html, os, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIGS = os.path.join(ROOT, "figs")
 BUILD = os.path.join(ROOT, "build"); os.makedirs(BUILD, exist_ok=True)
-HTML_OUT = os.path.join(BUILD, "CONTESTED_v2.html")
-PDF_OUT = os.path.join(ROOT, "CONTESTED_v2.pdf")
+HTML_OUT = os.path.join(BUILD, "CONTESTED.html")
+PDF_OUT = os.path.join(ROOT, "CONTESTED.pdf")
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 OUT = []
@@ -161,7 +161,7 @@ figure img{max-width:100%;height:auto}
 hr{break-inside:avoid}
 """
 doc_html=(f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
-          f'<title>CONTESTED v2</title><style>{CSS}</style></head><body>'
+          f'<title>CONTESTED</title><style>{CSS}</style></head><body>'
           + "\n".join(body) + "</body></html>")
 open(HTML_OUT,"w",encoding="utf-8").write(doc_html)
 

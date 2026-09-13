@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""build_docx.py — CONTESTED v2 as a Word research note."""
+"""build_docx.py - CONTESTED as a Word research note."""
 import os, sys
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor, Emu
@@ -11,7 +11,7 @@ from docx.oxml import OxmlElement
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIGS = os.path.join(ROOT, "figs")
-OUT  = os.path.join(ROOT, "CONTESTED_v2.docx")
+OUT  = os.path.join(ROOT, "CONTESTED.docx")
 
 INK="101010"; INK2="3D3C38"; INK3="6B6A63"; ACC="C04A12"; LINE="DEDCD6"; PANEL="F6F5F2"
 

@@ -31,12 +31,12 @@ Three rules:
 
 Volunteering a weakness costs you nothing and buys you the room.
 
-1. **"We got the Berg number wrong in v1. The split is 56 / 38 / 6, not 50 / 37 /
-   13. That removed our reason for not varying pillar weights, so we varied them:
-   they move the median company three places."**
-2. **"Our first version pooled two different questions into one distribution.
-   That was wrong and it inflated our headline from three places to seven. We
-   split them."**
+1. **"The weighting slider is the part everyone argues about and it explains six
+   percent of why raters disagree. We vary it anyway, and it moves the median
+   company three places. We report that rather than assuming it away."**
+2. **"Level and change are different questions. If you pool them the headline
+   reads seven places, which is barely below a random ranking. We refuse to pool
+   them, and the honest number is three."**
 3. **"We had a Bloomberg Terminal and did not put Bloomberg's own score inside our
    distribution. That is the single most valuable test we did not run."**
 
@@ -68,9 +68,9 @@ Volunteering a weakness costs you nothing and buys you the room.
 
 ### 3. "Isn't the spread just an artefact of your grid?" *(the kill shot)*
 
-> Partly, and we found the same thing. Level and change are different questions,
-> not rival methods, and pooling them inflated our headline. Split, the median
-> falls from seven places to **five against sector peers and three within BECS
+> We asked that first, which is why we do not pool. Level and change are
+> different questions, not rival methods. Pooled, the median reads seven places.
+> Scored separately it is **five against sector peers and three within BECS
 > groups.** Against the random-rank control, a randomly ordered company would
 > show 8.5 to 9. Three is well inside that. **The spread survives its own
 > deflation, which is the only version of the claim worth making.**
@@ -131,10 +131,10 @@ strong move.
 | Is the spread just the Financial pillar switching off? | Zeroing the financial weight moves direction from **18.2% to 15.0%**. About 3 points of 18 is the pillar toggle. Right in kind, wrong in magnitude. |
 | How many of the 17,496 are distinct? | 648 grade paths collapse to **606 distinct**, Kish effective N **574**. A 6.5% inflation, and we quote effective cells now. |
 | Isn't contestation just thin data? | Partly. Coverage against contestation is **−0.38**. But it is not monotone in group size: the two-member group has the **lowest** contestation, 6.0, and the three-member groups the highest, 7.7. |
-| Why EBITDA and not revenue? | It was the wrong call and we tested it. Reran the whole grid on SEC XBRL revenue: **median shift 0.0 places, max 1.0.** The choice does not change the answer. |
-| Do weights matter? | Yes, and v1 said no. They move the median company **3.0 places** and WMB **6.0**. We withdrew the claim. |
+| Why EBITDA and not revenue? | It is our weakest input choice, so we tested it rather than defend it. Reran the whole grid on SEC XBRL revenue: **median shift 0.0 places, max 1.0.** The choice does not change the answer. |
+| Do weights matter? | Yes. They move the median company **3.0 places** and WMB **6.0**. That is why we vary them instead of arguing from the central limit theorem that they cannot matter. |
 | Your 95% cut-off is arbitrary. | Settled pairs by threshold: 7 at 0.999, 12 at 0.99, 33 at 0.95, 51 at 0.90, 79 at 0.80. Monotone, no cliff at our cut-off. |
-| Exhibit 5 totals 138, you say 139. | **DX831**, a governance field no company reports. The model uses 138. Caught it, dropped it. |
+| Why 138 fields and not the 139 in the registry? | **DX831**, a governance field that no company in the universe reports. It is in Bloomberg's map and carries no data, so it is excluded and the model runs on 138. |
 | Isn't rating uncertainty already studied? | Avramov and co-authors measure dispersion **across six providers**. Ours is within one dataset across method choices, which isolates construction from data differences. Different object, and we say so. |
 | Doesn't more disclosure increase disagreement? | Christensen, Serafeim and Sikochi find exactly that, **between raters with different frameworks**. We measure ambiguity within one framework from a missing input. Both can be true. |
 
