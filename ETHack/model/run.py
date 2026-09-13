@@ -1,14 +1,15 @@
 """
 run.py — every specification, and the four outputs.
 
-    python3 run.py                 # the full 11,664
-    python3 run.py --quick         # orthodox polarity only, 3,888
+    python3 run.py                 # the full 17,496
+    python3 run.py --quick         # orthodox polarity only, 5,832
 
 Writes into out/ :
     summary.csv      one row per company: consensus, contestation, verdict, coverage
     long.csv         one row per company per specification. The audit trail.
     pivot.csv        variance decomposition: which axis decides each company
     dominance.csv    P(i outranks j) for every pair
+    remedy.csv       the missing disclosure that would remove the most contestation
     claims.json      the numbers that go on the slide, computed
 
 The output is not a score and not only a distribution. It is four objects:
