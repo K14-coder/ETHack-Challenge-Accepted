@@ -134,32 +134,60 @@ moves on method alone."
 
 LAND 56 / 38 / 6 CLEARLY. Paraphrase the definition, do not read it.""")
 
-# ══════════════════ 3 · WHY ENERGY + WHAT TO WATCH · bridge ══════════════════
+# ══════════════════ 3 · WHY ENERGY + DOES IT BEHAVE · bridge ══════════════════
 s = slide()
 kicker(s,"WHY THE ENERGY SECTOR")
-text(s,0.85,1.0,11.6,0.8,
-     [[("The hardest place to score, so the best place to test.",{"size":30,"bold":True})]])
-for i,(t,b) in enumerate([
-    ("Only 3 of 37","environmental fields are reported by all 18 companies"),
-    ("Scope 3 absent","from every field Bloomberg delivers for these peer groups"),
-    ("FY2025 is 36%","complete for environmental data. The lag is structural"),
-    ("18 seconds","to run all 17,496 specifications on a laptop")]):
-    x=0.85+(i%2)*5.95; y=2.15+(i//2)*1.5
-    box(s,x,y,5.55,1.25,PANEL)
-    text(s,x+0.3,y+0.18,5.0,0.45,[[(t,{"size":22,"bold":True,"color":ACC})]])
-    text(s,x+0.3,y+0.72,5.0,0.45,[[(b,{"size":14,"color":INK2})]])
-box(s,0.85,5.4,11.6,1.15,None,ACC,2.5)
-text(s,1.2,5.65,11.0,0.7,
-     [[("If the framework survives here, it survives anywhere. ",{"size":20,"bold":True}),
-       ("Now watch what happens when I change one convention.",{"size":20})]])
-notes(s,"""BRIDGE  |  12 sec  |  32 spoken words  |  fast
+text(s,0.85,0.95,11.6,0.75,
+     [[("We picked the sector where the number does the most work.",{"size":30,"bold":True})]])
+
+box(s,0.85,1.85,5.6,2.5,PANEL)
+text(s,1.15,2.05,5.0,0.35,[[("Raters disagree here more than anywhere",{"size":13,"bold":True,"color":ACC})]])
+text(s,1.15,2.5,5.0,1.7,
+     [[("0.55",{"size":40,"bold":True,"color":ACC}),
+       ("   inter-provider agreement in Energy",{"size":13,"color":INK2})],
+      [("against 0.77 in Technology. The lowest of any sector.",{"size":12,"color":INK2})],
+      [("And the thinnest disclosure: only 3 of 37 environmental fields are reported by all 18 companies. Scope 3 is absent entirely.",{"size":12,"color":INK2})]],space=5,ls=1.12)
+
+box(s,6.75,1.85,5.7,2.5,None,ACC,2)
+text(s,7.05,2.05,5.1,0.35,[[("So does the measure behave?",{"size":13,"bold":True,"color":ACC})]])
+for i,(pil,cov,pl) in enumerate([("Financial","94%","3.0"),("Governance","97%","4.0"),
+                                 ("Environment","61%","5.0"),("Social","66%","6.0")]):
+    yy=2.48+i*0.36
+    text(s,7.05,yy,1.7,0.3,[[(pil,{"size":11.5,"color":INK})]])
+    text(s,8.75,yy,1.0,0.3,[[(cov,{"size":11.5,"color":INK2})]],align=PP_ALIGN.RIGHT)
+    text(s,10.0,yy,1.5,0.3,[[(pl+" places",{"size":11.5,"bold":True,"color":ACC})]],align=PP_ALIGN.RIGHT)
+text(s,7.05,3.95,5.1,0.35,
+     [[("Contestation tracks coverage: ",{"size":12,"color":INK2}),
+       ("correlation −0.83.",{"size":12,"bold":True})]])
+
+box(s,0.85,4.6,11.6,1.9,PANEL)
+text(s,1.2,4.85,11.0,1.5,
+     [[("What we can claim, and what we cannot.",{"size":15,"bold":True})],
+      [("We do ",{"size":14,"color":INK2}),("not",{"size":14,"bold":True}),
+       (" claim this generalises to other sectors. Our indicators are sector-specific by construction, which is why the providers build a materiality map per industry.",{"size":14,"color":INK2})],
+      [("We claim the uncertainty we report ",{"size":14,"color":INK2}),
+       ("tracks the evidence underneath it",{"size":14,"bold":True}),
+       (", and sits far inside a random-rank control of 8.5 to 9.0 places. It separates what the data supports from what it does not.",{"size":14,"color":INK2})]],space=5,ls=1.15)
+notes(s,"""BRIDGE  |  14 sec  |  38 spoken words  |  then switch to the browser
 
 SAY:
-"Why energy? Hardest sector to score. Only three of thirty-seven environmental
-fields are reported by all eighteen companies. Scope Three is absent entirely,
-and we say so. Let me show you."
+"Why energy? Because raters disagree here more than in any other sector, 0.55
+against 0.77 in tech. It is also the thinnest data: three of thirty-seven
+environmental fields are reported by all eighteen companies, and Scope 3 is
+absent entirely.
 
-THEN SWITCH TO THE BROWSER IMMEDIATELY.""")
+So does our measure behave? It should report more uncertainty where the evidence
+is thinner, and it does: correlation minus 0.83 across the four pillars.
+
+We do not claim this generalises to other sectors. We claim it separates what
+the data supports from what it does not. Let me show you."
+
+CAUTION: the 0.55 figure is Lopez 2020, reached through Nasdaq's 2024 ESG
+ratings review. If challenged, say it is a secondary citation and we have not
+read Lopez directly. Do not claim to have.
+
+DO NOT say "if it survives here it survives anywhere". We never defined surviving
+and the four data facts do not show it.""")
 
 # ══════════════════ 4 · DEMO CARD ══════════════════
 s = slide(INK)

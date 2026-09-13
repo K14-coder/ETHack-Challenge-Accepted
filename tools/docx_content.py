@@ -242,6 +242,27 @@ para("**Is *direction* just the financial pillar switching off?** A fair suspici
      "switching off. Setting the F weight to zero and rerunning moves it to **15.0%**. About 3pp of the "
      "18.2 is the pillar toggle; the rest is real. The objection is right in kind, wrong in magnitude.")
 
+h2("5.4 Does the measure behave?")
+para("A contestation figure is only worth reporting if it responds to the quality of the evidence "
+     "underneath it. A measure that reported the same spread on dense and thin data would be "
+     "manufacturing noise. Scoring each pillar alone, on Curve A, gives a direct test.")
+label("Exhibit","12","Contestation against evidence density, by pillar")
+table([["Pillar","Fields","Coverage","Contestation (places of 18)"],
+ ["Financial","9","94%","3.0"],
+ ["Governance","78","97%","4.0"],
+ ["Environment","37","61%","5.0"],
+ ["Social","14","66%","6.0"],
+ ["Random-rank control","","","8.5 to 9.0"]],
+ widths=[2.0,0.8,1.1,2.6], align=["l","r","r","r"])
+source("Single-pillar composites, Curve A only. Correlation between pillar coverage and pillar contestation: -0.83.")
+para("**Correlation −0.83.** Where disclosure is dense the framework reports confidence; where it is "
+     "thin it reports doubt. All four pillars sit far inside the random-rank control. This is the "
+     "behavioural check that licenses the rest of the results: the spread we report is tracking the "
+     "evidence, not the arithmetic.")
+para("It is also the limit of what this single-sector run can establish. It does **not** show that the "
+     "framework generalises across sectors, and we do not claim that. Our indicators are sector-specific "
+     "by construction, which is the same reason both providers build a materiality map per industry.")
+
 h2("5.4 The remedy")
 para("For each unreported field we remove that single silence from the model and measure how far the "
      "interquartile width falls. **The assumed value matters, so we state it:** we do not impute "
@@ -258,7 +279,7 @@ h2("5.5 Weights")
 para("A common argument is that re-weighting pillars cannot move ranks much, by a central-limit intuition. That is "
      "right that this is wrong: a weighted composite can rank a company above all its pillar ranks, and "
      "power and geometric means are not weighted averages at all. We built a slider and never used it.")
-label("Exhibit","10","Consensus rank across the five weight presets, Curve A")
+label("Exhibit","14","Consensus rank across the five weight presets, Curve A")
 table([["Ticker","Equal","Env-led","Social-led","Gov-led","Finance-led","Spread (places)"],
  ["WMB","41","59","53","35","24","**6.0**"],
  ["KMI","41","41","47","47","24","4.0"],
@@ -276,7 +297,7 @@ pagebreak()
 h1("6. Risks to this analysis, and what we did about them")
 para("Listing a risk is not addressing it. Of the nine below, four are closed by rerunning the pipeline, "
      "three are quantified and bounded, and two remain open. We say which is which.", after=6)
-label("Exhibit","13","Risk register, with the test we ran")
+label("Exhibit","15","Risk register, with the test we ran")
 table([["#","Risk","Status","Test and result"],
  ["1","The denominator is EBITDA, single-year and cyclical. Revenue was available and we did not use it.","**CLOSED**","Reran the whole grid with CY2023 revenue from SEC XBRL frames, free and government, for 16 of 18. **Median rank shift: 0.0 places. Maximum: 1.0 (CTRA).** Our weakest input choice does not change the answer."],
  ["2","17,496 cells are not independent.","**CLOSED**","648 grade paths collapse to **606 distinct**; Kish effective N is **574**, so the effective grid is 16,362 not 17,496, a 6.5% inflation. Results are quoted on distinct cells."],

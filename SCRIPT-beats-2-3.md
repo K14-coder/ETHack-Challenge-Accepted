@@ -58,18 +58,46 @@ company graph.
 
 # BEAT 3 · Energy sector, then the demo · 80 seconds
 
-## 3a · Why energy · slide 3 · 12 seconds
+## 3a · Why energy, and does the measure behave · slide 3 · 14 seconds
 
-> "Why energy? Because it is the hardest sector to score, so it is the best one
-> to test a framework on.
+> "Why energy? Because raters disagree here more than in any other sector.
+> **Zero point five five** agreement, against 0.77 in technology. And it is the
+> thinnest data: only three of thirty-seven environmental fields are reported by
+> all eighteen companies, and Scope 3 is absent entirely.
 >
-> Only three of thirty-seven environmental fields are reported by all eighteen
-> companies. Scope 3 is absent from everything Bloomberg delivers for these peer
-> groups, and we say so rather than hide it.
+> So does our measure behave? It should report more uncertainty where the
+> evidence is thinner. *(point right)* It does. **Correlation minus zero point
+> eight three** across the four pillars.
 >
-> Let me just show you."
+> We do not claim this generalises to other sectors. We claim it separates what
+> the data supports from what it does not. Let me show you."
 
-**56 words · 12 seconds. Then switch to the browser immediately.**
+**94 words · 14 seconds. Then switch to the browser immediately.**
+
+### Why this replaced the old line
+
+The old slide said *"if the framework survives here, it survives anywhere."*
+That claim was not supported. The four facts on it were all statements about how
+poor the data is, and "survives" was never defined, so we could not have shown
+it. Two judges would have taken it apart.
+
+What we can defend instead:
+
+| Pillar | Coverage | Contestation |
+|---|---:|---:|
+| Financial | 94% | 3.0 places |
+| Governance | 97% | 4.0 places |
+| Environment | 61% | 5.0 places |
+| Social | 66% | 6.0 places |
+
+**Correlation −0.83.** Where the evidence is dense the measure reports
+confidence; where it is thin it reports doubt. That is the behaviour a working
+uncertainty measure must show, and a broken one would not. All four sit far
+inside the random-rank control of 8.5 to 9.0.
+
+**If challenged on the 0.55:** it is Lopez 2020, reached through Nasdaq's 2024
+ESG ratings review. Say it is a secondary citation and that you have not read
+Lopez directly. Do not claim to have.
 
 ## 3b · The demo · 68 seconds
 
@@ -177,3 +205,4 @@ seconds of buffer. Nobody in the room will know it was not the plan.
 | **56 / 38 / 6** | the divergence split. Six is the weighting. |
 | **2 → 33 → 56 → 9** | the settled counter through your four clicks. |
 | **3 of 37** | environmental fields reported by all 18 companies. |
+| **−0.83** | correlation between pillar coverage and pillar contestation. |
