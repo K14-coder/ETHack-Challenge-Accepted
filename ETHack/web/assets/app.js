@@ -108,7 +108,7 @@
       row.className = "wrow";
       row.innerHTML =
         '<label for="w-' + p + '"><i class="swatch swatch-' + p + '"></i>' +
-        PILLAR_NAME[p] + ' <em>' + data.meta.field_counts[p] + '</em></label>' +
+        PILLAR_NAME[p] + ' <em id="wn-' + p + '"></em></label>' +
         '<output id="wo-' + p + '"></output>' +
         '<input type="range" id="w-' + p + '" min="0" max="100" step="1" value="' +
         state.raw[p] + '" aria-label="' + PILLAR_NAME[p] + ' weight">';
@@ -174,6 +174,48 @@
       state = defaultState();
       syncControls();
       render();
+    });
+  }
+
+  /* How many fields actually stand behind a pillar under the current selection.
+   *
+   * This depends on the peer set and the evidence bar, and on the company —
+   * inclusion is decided against a company's own peers, so an E&P name and a
+   * midstream name do not carry the same field set. When either axis is still
+   * varying there is no single answer, so show the range across what is in view
+   * rather than a number that is only true for one cell of the grid.
+   */
+  function pillarFieldRange(pillarIdx) {
+    var peersets = state.axes.peerset === "all" ? M.opts.peerset : [state.axes.peerset];
+    var incls = state.axes.inclusion === "all" ? M.opts.inclusion : [state.axes.inclusion];
+    var lo = Infinity, hi = -Infinity;
+    peersets.forEach(function (p) {
+      incls.forEach(function (lv) {
+        var row = data.expected[p + "|" + lv];
+        if (!row) return;
+        var n = row[state.selected][pillarIdx];
+        if (n < lo) lo = n;
+        if (n > hi) hi = n;
+      });
+    });
+    if (!isFinite(lo)) return { text: "\u2014", lo: 0, hi: 0 };
+    return { text: lo === hi ? String(lo) : lo + "\u2013" + hi, lo: lo, hi: hi };
+  }
+
+  function updateRailCounts() {
+    var who = M.names[state.selected];
+    M.pillars.forEach(function (p, i) {
+      var el = document.getElementById("wn-" + p);
+      if (!el) return;
+      var r = pillarFieldRange(i);
+      el.textContent = r.text;
+      el.classList.toggle("is-empty", r.hi === 0);
+      el.title = r.hi === 0
+        ? PILLAR_NAME[p] + " has no fields left for " + who +
+          " under this selection, so the pillar drops out and the weights renormalise."
+        : r.text + " " + PILLAR_NAME[p].toLowerCase() +
+          " field" + (r.hi === 1 ? "" : "s") + " in the model for " + who +
+          " under the current selection, of " + data.meta.field_counts[p] + " in total.";
     });
   }
 
@@ -397,6 +439,8 @@
     if (!specIds.length) { els.empty.hidden = false; return; }
     els.empty.hidden = true;
 
+    updateRailCounts();
+
     var w = weights();
     var res = SC.evaluate(M, specIds, w);
     lastResult = res;
@@ -511,6 +555,7 @@
       if (on) tr.setAttribute("aria-current", "true");
       else tr.removeAttribute("aria-current");
     });
+    updateRailCounts();
     if (lastResult) {
       renderDetail(lastResult, lastResult.dec);
       drawCharts(lastResult);
