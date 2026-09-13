@@ -66,8 +66,9 @@ company graph.
 > all eighteen companies, and Scope 3 is absent entirely.
 >
 > So does our measure behave? It should report more uncertainty where the
-> evidence is thinner. *(point right)* It does. **Correlation minus zero point
-> eight three** across the four pillars.
+> evidence is thinner. *(point right)* It does. Across all seventy-two
+> company-pillar pairs, **Spearman minus zero point three five, p equals zero
+> point zero zero three.**
 >
 > We do not claim this generalises to other sectors. We claim it separates what
 > the data supports from what it does not. Let me show you."
@@ -90,10 +91,18 @@ What we can defend instead:
 | Environment | 61% | 5.0 places |
 | Social | 66% | 6.0 places |
 
-**Correlation −0.83.** Where the evidence is dense the measure reports
-confidence; where it is thin it reports doubt. That is the behaviour a working
-uncertainty measure must show, and a broken one would not. All four sit far
-inside the random-rank control of 8.5 to 9.0.
+The four pillars above are the **illustration**. The **evidence** is the same
+test run across all 72 company-pillar pairs: **Spearman −0.35, p = 0.003**.
+
+Where the evidence is dense the measure reports confidence; where it is thin it
+reports doubt. That is the behaviour a working uncertainty measure must show and
+a broken one would not. All four pillars sit far inside the random-rank control
+of 8.5 to 9.0.
+
+**Never quote a correlation across the four pillars.** That is n = 4, p = 0.17,
+and the two densest pillars invert: Governance has the highest coverage at 97%
+but 4.0 places, while Financial has 94% and 3.0. A Pearson coefficient on four
+points is not evidence and an academic will say so.
 
 **If challenged on the 0.55:** it is Lopez 2020, reached through Nasdaq's 2024
 ESG ratings review. Say it is a secondary citation and that you have not read
@@ -205,4 +214,4 @@ seconds of buffer. Nobody in the room will know it was not the plan.
 | **56 / 38 / 6** | the divergence split. Six is the weighting. |
 | **2 → 33 → 56 → 9** | the settled counter through your four clicks. |
 | **3 of 37** | environmental fields reported by all 18 companies. |
-| **−0.83** | correlation between pillar coverage and pillar contestation. |
+| **−0.35, p = 0.003** | Spearman, coverage against contestation, n = 72 company-pillar pairs. |

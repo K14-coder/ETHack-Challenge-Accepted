@@ -254,11 +254,16 @@ table([["Pillar","Fields","Coverage","Contestation (places of 18)"],
  ["Social","14","66%","6.0"],
  ["Random-rank control","","","8.5 to 9.0"]],
  widths=[2.0,0.8,1.1,2.6], align=["l","r","r","r"])
-source("Single-pillar composites, Curve A only. Correlation between pillar coverage and pillar contestation: -0.83.")
-para("**Correlation −0.83.** Where disclosure is dense the framework reports confidence; where it is "
-     "thin it reports doubt. All four pillars sit far inside the random-rank control. This is the "
-     "behavioural check that licenses the rest of the results: the spread we report is tracking the "
-     "evidence, not the arithmetic.")
+source("Single-pillar composites, Curve A only. The four pillars illustrate the pattern; the statistic below is computed on all 72 company-pillar pairs, because a coefficient on four points is not evidence.")
+para("Run across all **72 company-pillar pairs**, coverage against contestation gives **Spearman "
+     "−0.35, p = 0.003** (Pearson −0.28, p = 0.017). Where disclosure is dense the framework reports "
+     "confidence; where it is thin it reports doubt, and all four pillars sit far inside the "
+     "random-rank control. This is the behavioural check that licenses the rest of the results: the "
+     "spread we report is tracking the evidence, not the arithmetic.")
+para("**We quote the 72-pair statistic and not a coefficient across the four pillars**, which would be "
+     "n = 4 with p = 0.17, and where the relationship is not even monotone: Governance has the highest "
+     "coverage at 97% but 4.0 places against Financial's 94% and 3.0. The pillar table is an "
+     "illustration of the pattern, not the test of it.")
 para("It is also the limit of what this single-sector run can establish. It does **not** show that the "
      "framework generalises across sectors, and we do not claim that. Our indicators are sector-specific "
      "by construction, which is the same reason both providers build a materiality map per industry.")

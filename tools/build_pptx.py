@@ -156,9 +156,9 @@ for i,(pil,cov,pl) in enumerate([("Financial","94%","3.0"),("Governance","97%","
     text(s,7.05,yy,1.7,0.3,[[(pil,{"size":11.5,"color":INK})]])
     text(s,8.75,yy,1.0,0.3,[[(cov,{"size":11.5,"color":INK2})]],align=PP_ALIGN.RIGHT)
     text(s,10.0,yy,1.5,0.3,[[(pl+" places",{"size":11.5,"bold":True,"color":ACC})]],align=PP_ALIGN.RIGHT)
-text(s,7.05,3.95,5.1,0.35,
-     [[("Contestation tracks coverage: ",{"size":12,"color":INK2}),
-       ("correlation −0.83.",{"size":12,"bold":True})]])
+text(s,7.05,3.92,5.1,0.4,
+     [[("Across all 72 company-pillar pairs: ",{"size":11.5,"color":INK2}),
+       ("Spearman −0.35, p = 0.003.",{"size":11.5,"bold":True})]])
 
 box(s,0.85,4.6,11.6,1.9,PANEL)
 text(s,1.2,4.85,11.0,1.5,
@@ -177,12 +177,16 @@ environmental fields are reported by all eighteen companies, and Scope 3 is
 absent entirely.
 
 So does our measure behave? It should report more uncertainty where the evidence
-is thinner, and it does: correlation minus 0.83 across the four pillars.
+is thinner, and it does. Across all seventy-two company-pillar pairs, Spearman
+minus 0.35, p equals 0.003.
 
 We do not claim this generalises to other sectors. We claim it separates what
 the data supports from what it does not. Let me show you."
 
-CAUTION: the 0.55 figure is Lopez 2020, reached through Nasdaq's 2024 ESG
+CAUTION 1: do NOT quote a correlation across the four pillars. That is n=4,
+p=0.17, and the two densest pillars invert. Quote the n=72 figure only.
+
+CAUTION 2: the 0.55 figure is Lopez 2020, reached through Nasdaq's 2024 ESG
 ratings review. If challenged, say it is a secondary citation and we have not
 read Lopez directly. Do not claim to have.
 
