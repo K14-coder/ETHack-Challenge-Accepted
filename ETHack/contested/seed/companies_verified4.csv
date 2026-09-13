@@ -1,0 +1,5 @@
+ticker,company,gics_sector,cik,sec_name,naics,eeio_naics,eeio_title,revenue_usd,revenue_tag,market_cap_usd,disclosed_full,disclosed_equity,n_facilities,n_with_data,ghgrp_matched,eeio_with,eeio_without,note
+WMT,Walmart,Consumer Staples,0000104169,Walmart Inc.,452311,452311,Warehouse Clubs and Supercenters,642637000000,RevenueFromContractWithCustomerExcludingAssessedTax,,,,1,0,WAL-MART,0.164,0.164,VERIFIED no emissions figure; HQ only under supplier subparts OO/QQ
+NUE,Nucor,Materials,0000073309,NUCOR CORPORATION,331110,331110,Iron and Steel Mills and Ferroalloy Manufacturing,34714000000,RevenueFromContractWithCustomerExcludingAssessedTax,,5762209.0,5497858.1,26,26,NUCOR,0.787,0.769,VERIFIED 26 facilities
+F,Ford Motor,Consumer Discretionary,0000037996,Ford Motor Co,336111,336111,Automobile Manufacturing,176191000000,RevenueFromContractWithCustomerExcludingAssessedTax,,497625.1,497625.1,16,10,FORD MOTOR,0.24,0.19,VERIFIED 10 of 16 facilities with data
+JPM,JPMorgan Chase,Financials,0000019617,JPMorgan Chase & Co,522110,,,158104000000,Revenues,,,,0,0,JPMORGAN,,,VERIFIED zero GHGRP rows 2023

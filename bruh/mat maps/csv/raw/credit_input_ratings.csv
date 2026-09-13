@@ -1,0 +1,25 @@
+﻿,,,,,,,,,,
+Input — Ratings,,,,,,,,,,
+Stand September 2026. 'n.r.' = von dieser Agentur nicht öffentlich geratet.,,,,,,,,,,
+,,,,,,,,,,
+Ticker,Unternehmen,Sektor,Qual.,Moody's,Outlook,S&P,Outlook,Fitch,Outlook,Bemerkung
+XOM,Exxon Mobil Corp.,Integrated,V,Aa2,stable,AA-,positive,n.r.,,S&P Ausblick Juni 2026 auf positiv angehoben
+CVX,Chevron Corp.,Integrated,V,Aa2,stable,AA-,stable,n.r.,,
+COP,ConocoPhillips,E&P,V,A2,stable,A-,stable,A,stable,Ratings laut 10-Q Q3/2025 bestätigt
+EOG,EOG Resources,E&P,I,A2,stable,A,stable,n.r.,,kein öffentliches Fitch-Rating recherchierbar — zu prüfen
+OXY,Occidental Petroleum,E&P,I,Baa3,stable,BBB-,positive,BBB-,stable,
+FANG,Diamondback Energy,E&P,I,Baa3,positive,BBB,stable,BBB,stable,Moody's-Upgrade auf Baa3 im April 2025
+EXE,Expand Energy,E&P,V,Baa3,stable,BBB-,stable,BBB-,stable,
+EQT,EQT Corp.,E&P,I,Baa3,positive,BBB-,positive,BBB-,positive,
+DVN,Devon Energy,E&P,I,Baa3,stable,BBB-,stable,BBB,stable,
+CTRA,Coterra Energy,E&P,I,Baa2,stable,BBB,stable,BBB,stable,
+WMB,Williams Companies,Midstream,I,Baa2,stable,BBB,stable,BBB,stable,
+KMI,Kinder Morgan,Midstream,V,Baa1,stable,BBB+,stable,BBB+,stable,Moody's-Upgrade auf Baa1 im Q1 2026
+OKE,ONEOK,Midstream,I,Baa2,stable,BBB,stable,BBB,stable,
+TRGP,Targa Resources,Midstream,I,Baa3,positive,BBB,stable,BBB-,positive,
+MPC,Marathon Petroleum,Refining,I,Baa2,stable,BBB,stable,BBB,stable,
+PSX,Phillips 66,Refining,I,Baa1,stable,BBB+,stable,BBB+,stable,
+VLO,Valero Energy,Refining,I,Baa2,stable,BBB,stable,BBB,stable,
+SLB,SLB (Schlumberger),Services,I,A3,stable,A-,stable,n.r.,,kein öffentliches Fitch-Rating recherchierbar — zu prüfen
+BKR,Baker Hughes,Services,I,Baa1,stable,BBB+,stable,n.r.,,kein öffentliches Fitch-Rating recherchierbar — zu prüfen
+HAL,Halliburton,Services,I,Baa2,stable,BBB+,positive,n.r.,,kein öffentliches Fitch-Rating recherchierbar — zu prüfen

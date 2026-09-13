@@ -1,0 +1,122 @@
+[
+{
+  "co2e_emission": 32.184,
+  "facility_id": 1012352,
+  "gas_id": 3,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 24.5,
+  "facility_id": 1014582,
+  "gas_id": 2,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 27,
+  "facility_id": 1012352,
+  "gas_id": 2,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 25756.3,
+  "facility_id": 1013719,
+  "gas_id": 1,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 58945.4,
+  "facility_id": 1012352,
+  "gas_id": 1,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 11.5,
+  "facility_id": 1013493,
+  "gas_id": 2,
+  "sector_id": 14,
+  "subsector_id": 26,
+  "year": 2023
+},
+{
+  "co2e_emission": 13.708,
+  "facility_id": 1013493,
+  "gas_id": 3,
+  "sector_id": 14,
+  "subsector_id": 26,
+  "year": 2023
+},
+{
+  "co2e_emission": 35009.3,
+  "facility_id": 1013487,
+  "gas_id": 1,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 24230.5,
+  "facility_id": 1013493,
+  "gas_id": 1,
+  "sector_id": 14,
+  "subsector_id": 26,
+  "year": 2023
+},
+{
+  "co2e_emission": 1.25,
+  "facility_id": 1013487,
+  "gas_id": 2,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 64506.4,
+  "facility_id": 1014582,
+  "gas_id": 1,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 29.204,
+  "facility_id": 1014582,
+  "gas_id": 3,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 2,
+  "facility_id": 1013719,
+  "gas_id": 2,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 1.49,
+  "facility_id": 1013487,
+  "gas_id": 3,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+},
+{
+  "co2e_emission": 2.384,
+  "facility_id": 1013719,
+  "gas_id": 3,
+  "sector_id": 6,
+  "subsector_id": 10,
+  "year": 2023
+}
+]

@@ -1,0 +1,49 @@
+﻿,,
+,Credit Comps — US Oil & Gas (20 Emittenten),
+,Basisjahr FY2025 (31.12.2025) · Beträge USD Mio. · Quelle: SEC XBRL Companyfacts (10-K) · Stand 12.09.2026,
+,,
+,DATENHERKUNFT,
+,"Sämtliche Finanzdaten stammen aus der SEC-XBRL-Schnittstelle (data.sec.gov/api/xbrl/companyfacts), also unmittelbar aus den geprüften 10-K-Abschlüssen zum 31.12.2025 — nicht aus Sekundärquellen. Jede Position ist im Sheet 'Input_Finanzen' bzw. 'Input_Adjustments' mit dem verwendeten XBRL-Tag belegt. Zwei Ausnahmen sind dort als 'manuell' gekennzeichnet (Capex ConocoPhillips und Phillips 66, die diese Position nur segmentdimensioniert taggen) sowie Reserven und Produktion, die in XBRL ausschließlich dimensional vorliegen und daher geschätzt sind.",
+,,
+,,
+,,
+,,
+,,
+,AGENTUR-ADJUSTIERTE VERSCHULDUNG — METHODIK,
+,"Die veröffentlichten Kennzahlen von Moody's, S&P und Fitch sind proprietär. Das Sheet 'Agentur_Bruecke' repliziert stattdessen die jeweils VERÖFFENTLICHTE Adjustment-Methodik der drei Agenturen auf Basis der GAAP-Abschlüsse. Ergebnis ist eine nachvollziehbare Näherung, nicht die Agenturzahl selbst. Abweichungen entstehen vor allem durch: analystische Einzelfallurteile, vorausschauende bzw. Pro-forma-Betrachtungen, Preisdeck-Annahmen der Agenturen, JV-Quotenkonsolidierung und nicht-öffentliche Informationen. Erfahrungsgemäß liegt die Näherung innerhalb von etwa ±0,3x der publizierten Agenturkennzahl.",
+,,
+,,
+,,
+,,
+,,
+,Moody's — Financial Statement Adjustments,"Verschuldung = bilanzierte Finanzschulden + Operating-Leasing-Verbindlichkeit + Pensions-/OPEB-Nettoverbindlichkeit (nach Steuern) + Equity-Credit-Anteil der Hybride. BRUTTO-Betrachtung: Moody's rechnet Debt/EBITDA ohne Abzug liquider Mittel. AROs werden NICHT der Verschuldung zugerechnet, sondern im Geschäftsrisiko gewürdigt."
+,S&P — Corporate Methodology: Ratios And Adjustments,"Verschuldung = bilanzierte Finanzschulden + Operating-Leasing + Pensions-/OPEB-Defizit (nach Steuern) + ASSET RETIREMENT OBLIGATIONS (nach Steuern) + Equity-Credit-Anteil der Hybride − anrechenbare liquide Mittel ('surplus cash', bei Investment Grade i.d.R. voll). Die ARO-Zurechnung ist der entscheidende Unterschied zu den beiden anderen Agenturen und trifft Upstream-Emittenten am stärksten."
+,Fitch — Corporate Rating Criteria,"Leitkennzahl ist 'EBITDA Leverage' = Gesamtverschuldung mit Equity-Credit / Operating EBITDA, ebenfalls BRUTTO. Leasingverbindlichkeiten sind enthalten; AROs und Pensionsdefizite werden NICHT der Verschuldung zugerechnet. Ergänzend wird 'EBITDA Net Leverage' (nach Abzug liquider Mittel) ausgewiesen — beide Varianten stehen in der Brücke."
+,Bereinigtes EBITDA (alle drei Agenturen),EBIT + Abschreibungen + Impairments/Sonderabschreibungen − Beteiligungsergebnis (Equity-Methode) + tatsächlich zugeflossene Ausschüttungen von Beteiligungen. Damit wird von nicht zahlungswirksamen Wertberichtigungen und von nicht ausgeschütteten Beteiligungserträgen bereinigt.
+,,
+,WARUM DIE DREI WERTE AUSEINANDERLAUFEN,
+,Systematik,"S&P liegt bei Upstream-Emittenten typischerweise am höchsten (ARO-Zurechnung), Fitch am niedrigsten (keine ARO-/Pensionszurechnung), Moody's dazwischen. Bei Midstream und Services ist die Spanne gering, weil AROs und Pensionen dort kaum ins Gewicht fallen. Die Spalte 'Spanne' in der Brücke zeigt diesen Effekt je Emittent."
+,,
+,FARBLEGENDE,
+,Blaue Schrift,Hartkodierter Input aus dem Abschluss — hier editieren
+,Schwarze Schrift,Formel — nicht überschreiben
+,Grüne Schrift,Verweis auf ein anderes Sheet
+,Gelbe Füllung,In XBRL nicht als nicht-dimensionaler Wert vorhanden — ggf. manuell ergänzen
+,,
+,KENNZAHLEN-DEFINITIONEN,
+,Net Debt / EBITDA,(Finanzschulden − liquide Mittel) / EBITDA. Negativ = Netto-Cash-Position.
+,Zinsdeckung EBITDA/Zins,S&P-näherer Ansatz.
+,Zinsdeckung EBIT/Zins,Moody's-näherer Ansatz.
+,FCF,"Operativer Cashflow − Capex, vor Ausschüttungen (= FOCF)."
+,FCF / Total Debt,Agenturen rechnen überwiegend auf Bruttoverschuldung.
+,Capex / D&A,"Investitionsintensität. <1,0x deutet auf Ernte-Modus bzw. Substanzverzehr."
+,Payout / FCF,(Dividenden + Rückkäufe) / FCF. >100% = Ausschüttung aus Bilanz oder Neuverschuldung.
+,Fälligkeiten <24M,Kurzfristige Finanzschulden (inkl. Commercial Paper) + Tilgungen Jahr 2 laut Schuldenspiegel.
+,ROCE,EBIT × (1 − effektive Steuerquote) / (Finanzschulden + Eigenkapital inkl. Minderheiten).
+,Reserve Life (R/P),Nachgewiesene Reserven / Jahresproduktion. Nur Upstream.
+,,
+,VERBLEIBENDE VORBEHALTE,
+,GAAP- vs. Agentur-EBITDA,"Über Impairments hinaus bereinigen die Agenturen weitere Sonderposten (Derivate-Bewertung, Veräußerungsgewinne, Restrukturierung). Diamondback zeigt den Effekt am deutlichsten: das GAAP-Betriebsergebnis 2025 ist durch hohe Wertberichtigungen belastet."
+,JV-Quotenkonsolidierung,"Alle drei Agenturen rechnen bei Midstream teils anteilige JV-Schulden hinzu. Das ist aus dem Konzernabschluss nicht ableitbar und in der Brücke nicht abgebildet — Williams, ONEOK und Targa dürften dadurch real etwas höher liegen."
+,Pensionsdefizit,"Verwendet wird die bilanzierte Nettoverbindlichkeit. Die Agenturen greifen auf den vollen Funded Status aus dem Pensionsanhang zu, der in XBRL nur dimensional vorliegt."
+,Ratings,Mit 'I' markierte Ratings sind gegen die Agenturseite bzw. den Abschnitt 'Credit Ratings' im aktuellen 10-Q zu verifizieren.

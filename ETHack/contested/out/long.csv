@@ -1,0 +1,1441 @@
+spec_id,boundary,missing_rule,margins,denominator,peer_group,ticker,sector,intensity,rank,n_ranked_in_spec
+0,A_disclosed,exclude,with,revenue,absolute,XOM,Energy,,,17
+0,A_disclosed,exclude,with,revenue,absolute,CVX,Energy,1048.9491579091975,13,17
+0,A_disclosed,exclude,with,revenue,absolute,OKE,Energy,4772.581793064434,16,17
+0,A_disclosed,exclude,with,revenue,absolute,NUE,Materials,165.97829768969294,12,17
+0,A_disclosed,exclude,with,revenue,absolute,DOW,Materials,,,17
+0,A_disclosed,exclude,with,revenue,absolute,SHW,Materials,,,17
+0,A_disclosed,exclude,with,revenue,absolute,UNP,Industrials,,,17
+0,A_disclosed,exclude,with,revenue,absolute,CAT,Industrials,6.813327438115121,9,17
+0,A_disclosed,exclude,with,revenue,absolute,DE,Industrials,0.7359207196617199,2,17
+0,A_disclosed,exclude,with,revenue,absolute,F,Consumer Discretionary,2.8243504151744414,7,17
+0,A_disclosed,exclude,with,revenue,absolute,GM,Consumer Discretionary,3.798446967486585,8,17
+0,A_disclosed,exclude,with,revenue,absolute,AMZN,Consumer Discretionary,,,17
+0,A_disclosed,exclude,with,revenue,absolute,WMT,Consumer Staples,,,17
+0,A_disclosed,exclude,with,revenue,absolute,PG,Consumer Staples,20.635293076116383,10,17
+0,A_disclosed,exclude,with,revenue,absolute,KO,Consumer Staples,,,17
+0,A_disclosed,exclude,with,revenue,absolute,LLY,Health Care,1.3941529715156489,4,17
+0,A_disclosed,exclude,with,revenue,absolute,UNH,Health Care,,,17
+0,A_disclosed,exclude,with,revenue,absolute,JNJ,Health Care,1.9403281860989445,5,17
+0,A_disclosed,exclude,with,revenue,absolute,JPM,Financials,,,17
+0,A_disclosed,exclude,with,revenue,absolute,BAC,Financials,,,17
+0,A_disclosed,exclude,with,revenue,absolute,GS,Financials,1.127260431530246,3,17
+0,A_disclosed,exclude,with,revenue,absolute,AAPL,Information Technology,28.853854917359143,11,17
+0,A_disclosed,exclude,with,revenue,absolute,MSFT,Information Technology,,,17
+0,A_disclosed,exclude,with,revenue,absolute,NVDA,Information Technology,,,17
+0,A_disclosed,exclude,with,revenue,absolute,META,Communication Services,,,17
+0,A_disclosed,exclude,with,revenue,absolute,GOOGL,Communication Services,0.1835365687033579,1,17
+0,A_disclosed,exclude,with,revenue,absolute,DIS,Communication Services,2.4639511125109674,6,17
+0,A_disclosed,exclude,with,revenue,absolute,DUK,Utilities,3825.29972174095,15,17
+0,A_disclosed,exclude,with,revenue,absolute,NEE,Utilities,2163.438123129032,14,17
+0,A_disclosed,exclude,with,revenue,absolute,SO,Utilities,5487.540354983566,17,17
+1,A_disclosed,exclude,with,revenue,within_sector,XOM,Energy,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,CVX,Energy,1048.9491579091975,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,OKE,Energy,4772.581793064434,2,17
+1,A_disclosed,exclude,with,revenue,within_sector,NUE,Materials,165.97829768969294,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,DOW,Materials,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,SHW,Materials,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,UNP,Industrials,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,CAT,Industrials,6.813327438115121,2,17
+1,A_disclosed,exclude,with,revenue,within_sector,DE,Industrials,0.7359207196617199,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,F,Consumer Discretionary,2.8243504151744414,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,GM,Consumer Discretionary,3.798446967486585,2,17
+1,A_disclosed,exclude,with,revenue,within_sector,AMZN,Consumer Discretionary,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,WMT,Consumer Staples,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,PG,Consumer Staples,20.635293076116383,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,KO,Consumer Staples,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,LLY,Health Care,1.3941529715156489,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,UNH,Health Care,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,JNJ,Health Care,1.9403281860989445,2,17
+1,A_disclosed,exclude,with,revenue,within_sector,JPM,Financials,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,BAC,Financials,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,GS,Financials,1.127260431530246,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,AAPL,Information Technology,28.853854917359143,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,MSFT,Information Technology,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,NVDA,Information Technology,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,META,Communication Services,,,17
+1,A_disclosed,exclude,with,revenue,within_sector,GOOGL,Communication Services,0.1835365687033579,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,DIS,Communication Services,2.4639511125109674,2,17
+1,A_disclosed,exclude,with,revenue,within_sector,DUK,Utilities,3825.29972174095,2,17
+1,A_disclosed,exclude,with,revenue,within_sector,NEE,Utilities,2163.438123129032,1,17
+1,A_disclosed,exclude,with,revenue,within_sector,SO,Utilities,5487.540354983566,3,17
+2,A_disclosed,exclude,with,market_cap,absolute,XOM,Energy,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,CVX,Energy,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,OKE,Energy,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,NUE,Materials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,DOW,Materials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,SHW,Materials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,UNP,Industrials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,CAT,Industrials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,DE,Industrials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,F,Consumer Discretionary,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,GM,Consumer Discretionary,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,WMT,Consumer Staples,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,PG,Consumer Staples,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,KO,Consumer Staples,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,LLY,Health Care,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,UNH,Health Care,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,JNJ,Health Care,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,JPM,Financials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,BAC,Financials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,GS,Financials,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,AAPL,Information Technology,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,MSFT,Information Technology,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,NVDA,Information Technology,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,META,Communication Services,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,GOOGL,Communication Services,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,DIS,Communication Services,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,DUK,Utilities,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,NEE,Utilities,,,0
+2,A_disclosed,exclude,with,market_cap,absolute,SO,Utilities,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,XOM,Energy,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,CVX,Energy,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,OKE,Energy,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,NUE,Materials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,DOW,Materials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,SHW,Materials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,UNP,Industrials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,CAT,Industrials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,DE,Industrials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,F,Consumer Discretionary,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,GM,Consumer Discretionary,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,WMT,Consumer Staples,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,PG,Consumer Staples,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,KO,Consumer Staples,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,LLY,Health Care,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,UNH,Health Care,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,JNJ,Health Care,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,JPM,Financials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,BAC,Financials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,GS,Financials,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,AAPL,Information Technology,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,MSFT,Information Technology,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,NVDA,Information Technology,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,META,Communication Services,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,GOOGL,Communication Services,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,DIS,Communication Services,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,DUK,Utilities,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,NEE,Utilities,,,0
+3,A_disclosed,exclude,with,market_cap,within_sector,SO,Utilities,,,0
+4,A_disclosed,exclude,without,revenue,absolute,XOM,Energy,,,17
+4,A_disclosed,exclude,without,revenue,absolute,CVX,Energy,1048.9491579091975,13,17
+4,A_disclosed,exclude,without,revenue,absolute,OKE,Energy,4772.581793064434,16,17
+4,A_disclosed,exclude,without,revenue,absolute,NUE,Materials,165.97829768969294,12,17
+4,A_disclosed,exclude,without,revenue,absolute,DOW,Materials,,,17
+4,A_disclosed,exclude,without,revenue,absolute,SHW,Materials,,,17
+4,A_disclosed,exclude,without,revenue,absolute,UNP,Industrials,,,17
+4,A_disclosed,exclude,without,revenue,absolute,CAT,Industrials,6.813327438115121,9,17
+4,A_disclosed,exclude,without,revenue,absolute,DE,Industrials,0.7359207196617199,2,17
+4,A_disclosed,exclude,without,revenue,absolute,F,Consumer Discretionary,2.8243504151744414,7,17
+4,A_disclosed,exclude,without,revenue,absolute,GM,Consumer Discretionary,3.798446967486585,8,17
+4,A_disclosed,exclude,without,revenue,absolute,AMZN,Consumer Discretionary,,,17
+4,A_disclosed,exclude,without,revenue,absolute,WMT,Consumer Staples,,,17
+4,A_disclosed,exclude,without,revenue,absolute,PG,Consumer Staples,20.635293076116383,10,17
+4,A_disclosed,exclude,without,revenue,absolute,KO,Consumer Staples,,,17
+4,A_disclosed,exclude,without,revenue,absolute,LLY,Health Care,1.3941529715156489,4,17
+4,A_disclosed,exclude,without,revenue,absolute,UNH,Health Care,,,17
+4,A_disclosed,exclude,without,revenue,absolute,JNJ,Health Care,1.9403281860989445,5,17
+4,A_disclosed,exclude,without,revenue,absolute,JPM,Financials,,,17
+4,A_disclosed,exclude,without,revenue,absolute,BAC,Financials,,,17
+4,A_disclosed,exclude,without,revenue,absolute,GS,Financials,1.127260431530246,3,17
+4,A_disclosed,exclude,without,revenue,absolute,AAPL,Information Technology,28.853854917359143,11,17
+4,A_disclosed,exclude,without,revenue,absolute,MSFT,Information Technology,,,17
+4,A_disclosed,exclude,without,revenue,absolute,NVDA,Information Technology,,,17
+4,A_disclosed,exclude,without,revenue,absolute,META,Communication Services,,,17
+4,A_disclosed,exclude,without,revenue,absolute,GOOGL,Communication Services,0.1835365687033579,1,17
+4,A_disclosed,exclude,without,revenue,absolute,DIS,Communication Services,2.4639511125109674,6,17
+4,A_disclosed,exclude,without,revenue,absolute,DUK,Utilities,3825.29972174095,15,17
+4,A_disclosed,exclude,without,revenue,absolute,NEE,Utilities,2163.438123129032,14,17
+4,A_disclosed,exclude,without,revenue,absolute,SO,Utilities,5487.540354983566,17,17
+5,A_disclosed,exclude,without,revenue,within_sector,XOM,Energy,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,CVX,Energy,1048.9491579091975,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,OKE,Energy,4772.581793064434,2,17
+5,A_disclosed,exclude,without,revenue,within_sector,NUE,Materials,165.97829768969294,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,DOW,Materials,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,SHW,Materials,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,UNP,Industrials,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,CAT,Industrials,6.813327438115121,2,17
+5,A_disclosed,exclude,without,revenue,within_sector,DE,Industrials,0.7359207196617199,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,F,Consumer Discretionary,2.8243504151744414,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,GM,Consumer Discretionary,3.798446967486585,2,17
+5,A_disclosed,exclude,without,revenue,within_sector,AMZN,Consumer Discretionary,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,WMT,Consumer Staples,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,PG,Consumer Staples,20.635293076116383,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,KO,Consumer Staples,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,LLY,Health Care,1.3941529715156489,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,UNH,Health Care,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,JNJ,Health Care,1.9403281860989445,2,17
+5,A_disclosed,exclude,without,revenue,within_sector,JPM,Financials,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,BAC,Financials,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,GS,Financials,1.127260431530246,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,AAPL,Information Technology,28.853854917359143,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,MSFT,Information Technology,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,NVDA,Information Technology,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,META,Communication Services,,,17
+5,A_disclosed,exclude,without,revenue,within_sector,GOOGL,Communication Services,0.1835365687033579,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,DIS,Communication Services,2.4639511125109674,2,17
+5,A_disclosed,exclude,without,revenue,within_sector,DUK,Utilities,3825.29972174095,2,17
+5,A_disclosed,exclude,without,revenue,within_sector,NEE,Utilities,2163.438123129032,1,17
+5,A_disclosed,exclude,without,revenue,within_sector,SO,Utilities,5487.540354983566,3,17
+6,A_disclosed,exclude,without,market_cap,absolute,XOM,Energy,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,CVX,Energy,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,OKE,Energy,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,NUE,Materials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,DOW,Materials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,SHW,Materials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,UNP,Industrials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,CAT,Industrials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,DE,Industrials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,F,Consumer Discretionary,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,GM,Consumer Discretionary,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,WMT,Consumer Staples,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,PG,Consumer Staples,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,KO,Consumer Staples,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,LLY,Health Care,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,UNH,Health Care,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,JNJ,Health Care,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,JPM,Financials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,BAC,Financials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,GS,Financials,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,AAPL,Information Technology,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,MSFT,Information Technology,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,NVDA,Information Technology,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,META,Communication Services,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,GOOGL,Communication Services,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,DIS,Communication Services,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,DUK,Utilities,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,NEE,Utilities,,,0
+6,A_disclosed,exclude,without,market_cap,absolute,SO,Utilities,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,XOM,Energy,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,CVX,Energy,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,OKE,Energy,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,NUE,Materials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,DOW,Materials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,SHW,Materials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,UNP,Industrials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,CAT,Industrials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,DE,Industrials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,F,Consumer Discretionary,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,GM,Consumer Discretionary,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,WMT,Consumer Staples,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,PG,Consumer Staples,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,KO,Consumer Staples,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,LLY,Health Care,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,UNH,Health Care,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,JNJ,Health Care,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,JPM,Financials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,BAC,Financials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,GS,Financials,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,AAPL,Information Technology,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,MSFT,Information Technology,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,NVDA,Information Technology,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,META,Communication Services,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,GOOGL,Communication Services,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,DIS,Communication Services,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,DUK,Utilities,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,NEE,Utilities,,,0
+7,A_disclosed,exclude,without,market_cap,within_sector,SO,Utilities,,,0
+8,A_disclosed,worst_case,with,revenue,absolute,XOM,Energy,,,29
+8,A_disclosed,worst_case,with,revenue,absolute,CVX,Energy,1048.9491579091975,13,29
+8,A_disclosed,worst_case,with,revenue,absolute,OKE,Energy,4772.581793064434,16,29
+8,A_disclosed,worst_case,with,revenue,absolute,NUE,Materials,165.97829768969294,12,29
+8,A_disclosed,worst_case,with,revenue,absolute,DOW,Materials,inf,18,29
+8,A_disclosed,worst_case,with,revenue,absolute,SHW,Materials,inf,19,29
+8,A_disclosed,worst_case,with,revenue,absolute,UNP,Industrials,inf,20,29
+8,A_disclosed,worst_case,with,revenue,absolute,CAT,Industrials,6.813327438115121,9,29
+8,A_disclosed,worst_case,with,revenue,absolute,DE,Industrials,0.7359207196617199,2,29
+8,A_disclosed,worst_case,with,revenue,absolute,F,Consumer Discretionary,2.8243504151744414,7,29
+8,A_disclosed,worst_case,with,revenue,absolute,GM,Consumer Discretionary,3.798446967486585,8,29
+8,A_disclosed,worst_case,with,revenue,absolute,AMZN,Consumer Discretionary,inf,21,29
+8,A_disclosed,worst_case,with,revenue,absolute,WMT,Consumer Staples,inf,22,29
+8,A_disclosed,worst_case,with,revenue,absolute,PG,Consumer Staples,20.635293076116383,10,29
+8,A_disclosed,worst_case,with,revenue,absolute,KO,Consumer Staples,inf,23,29
+8,A_disclosed,worst_case,with,revenue,absolute,LLY,Health Care,1.3941529715156489,4,29
+8,A_disclosed,worst_case,with,revenue,absolute,UNH,Health Care,inf,24,29
+8,A_disclosed,worst_case,with,revenue,absolute,JNJ,Health Care,1.9403281860989445,5,29
+8,A_disclosed,worst_case,with,revenue,absolute,JPM,Financials,inf,25,29
+8,A_disclosed,worst_case,with,revenue,absolute,BAC,Financials,inf,26,29
+8,A_disclosed,worst_case,with,revenue,absolute,GS,Financials,1.127260431530246,3,29
+8,A_disclosed,worst_case,with,revenue,absolute,AAPL,Information Technology,28.853854917359143,11,29
+8,A_disclosed,worst_case,with,revenue,absolute,MSFT,Information Technology,inf,27,29
+8,A_disclosed,worst_case,with,revenue,absolute,NVDA,Information Technology,inf,28,29
+8,A_disclosed,worst_case,with,revenue,absolute,META,Communication Services,inf,29,29
+8,A_disclosed,worst_case,with,revenue,absolute,GOOGL,Communication Services,0.1835365687033579,1,29
+8,A_disclosed,worst_case,with,revenue,absolute,DIS,Communication Services,2.4639511125109674,6,29
+8,A_disclosed,worst_case,with,revenue,absolute,DUK,Utilities,3825.29972174095,15,29
+8,A_disclosed,worst_case,with,revenue,absolute,NEE,Utilities,2163.438123129032,14,29
+8,A_disclosed,worst_case,with,revenue,absolute,SO,Utilities,5487.540354983566,17,29
+9,A_disclosed,worst_case,with,revenue,within_sector,XOM,Energy,,,29
+9,A_disclosed,worst_case,with,revenue,within_sector,CVX,Energy,1048.9491579091975,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,OKE,Energy,4772.581793064434,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,NUE,Materials,165.97829768969294,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,DOW,Materials,inf,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,SHW,Materials,inf,3,29
+9,A_disclosed,worst_case,with,revenue,within_sector,UNP,Industrials,inf,3,29
+9,A_disclosed,worst_case,with,revenue,within_sector,CAT,Industrials,6.813327438115121,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,DE,Industrials,0.7359207196617199,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,F,Consumer Discretionary,2.8243504151744414,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,GM,Consumer Discretionary,3.798446967486585,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,AMZN,Consumer Discretionary,inf,3,29
+9,A_disclosed,worst_case,with,revenue,within_sector,WMT,Consumer Staples,inf,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,PG,Consumer Staples,20.635293076116383,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,KO,Consumer Staples,inf,3,29
+9,A_disclosed,worst_case,with,revenue,within_sector,LLY,Health Care,1.3941529715156489,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,UNH,Health Care,inf,3,29
+9,A_disclosed,worst_case,with,revenue,within_sector,JNJ,Health Care,1.9403281860989445,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,JPM,Financials,inf,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,BAC,Financials,inf,3,29
+9,A_disclosed,worst_case,with,revenue,within_sector,GS,Financials,1.127260431530246,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,AAPL,Information Technology,28.853854917359143,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,MSFT,Information Technology,inf,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,NVDA,Information Technology,inf,3,29
+9,A_disclosed,worst_case,with,revenue,within_sector,META,Communication Services,inf,3,29
+9,A_disclosed,worst_case,with,revenue,within_sector,GOOGL,Communication Services,0.1835365687033579,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,DIS,Communication Services,2.4639511125109674,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,DUK,Utilities,3825.29972174095,2,29
+9,A_disclosed,worst_case,with,revenue,within_sector,NEE,Utilities,2163.438123129032,1,29
+9,A_disclosed,worst_case,with,revenue,within_sector,SO,Utilities,5487.540354983566,3,29
+10,A_disclosed,worst_case,with,market_cap,absolute,XOM,Energy,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,CVX,Energy,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,OKE,Energy,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,NUE,Materials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,DOW,Materials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,SHW,Materials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,UNP,Industrials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,CAT,Industrials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,DE,Industrials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,F,Consumer Discretionary,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,GM,Consumer Discretionary,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,WMT,Consumer Staples,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,PG,Consumer Staples,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,KO,Consumer Staples,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,LLY,Health Care,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,UNH,Health Care,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,JNJ,Health Care,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,JPM,Financials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,BAC,Financials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,GS,Financials,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,AAPL,Information Technology,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,MSFT,Information Technology,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,NVDA,Information Technology,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,META,Communication Services,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,GOOGL,Communication Services,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,DIS,Communication Services,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,DUK,Utilities,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,NEE,Utilities,,,0
+10,A_disclosed,worst_case,with,market_cap,absolute,SO,Utilities,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,XOM,Energy,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,CVX,Energy,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,OKE,Energy,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,NUE,Materials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,DOW,Materials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,SHW,Materials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,UNP,Industrials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,CAT,Industrials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,DE,Industrials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,F,Consumer Discretionary,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,GM,Consumer Discretionary,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,WMT,Consumer Staples,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,PG,Consumer Staples,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,KO,Consumer Staples,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,LLY,Health Care,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,UNH,Health Care,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,JNJ,Health Care,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,JPM,Financials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,BAC,Financials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,GS,Financials,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,AAPL,Information Technology,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,MSFT,Information Technology,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,NVDA,Information Technology,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,META,Communication Services,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,GOOGL,Communication Services,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,DIS,Communication Services,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,DUK,Utilities,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,NEE,Utilities,,,0
+11,A_disclosed,worst_case,with,market_cap,within_sector,SO,Utilities,,,0
+12,A_disclosed,worst_case,without,revenue,absolute,XOM,Energy,,,29
+12,A_disclosed,worst_case,without,revenue,absolute,CVX,Energy,1048.9491579091975,13,29
+12,A_disclosed,worst_case,without,revenue,absolute,OKE,Energy,4772.581793064434,16,29
+12,A_disclosed,worst_case,without,revenue,absolute,NUE,Materials,165.97829768969294,12,29
+12,A_disclosed,worst_case,without,revenue,absolute,DOW,Materials,inf,18,29
+12,A_disclosed,worst_case,without,revenue,absolute,SHW,Materials,inf,19,29
+12,A_disclosed,worst_case,without,revenue,absolute,UNP,Industrials,inf,20,29
+12,A_disclosed,worst_case,without,revenue,absolute,CAT,Industrials,6.813327438115121,9,29
+12,A_disclosed,worst_case,without,revenue,absolute,DE,Industrials,0.7359207196617199,2,29
+12,A_disclosed,worst_case,without,revenue,absolute,F,Consumer Discretionary,2.8243504151744414,7,29
+12,A_disclosed,worst_case,without,revenue,absolute,GM,Consumer Discretionary,3.798446967486585,8,29
+12,A_disclosed,worst_case,without,revenue,absolute,AMZN,Consumer Discretionary,inf,21,29
+12,A_disclosed,worst_case,without,revenue,absolute,WMT,Consumer Staples,inf,22,29
+12,A_disclosed,worst_case,without,revenue,absolute,PG,Consumer Staples,20.635293076116383,10,29
+12,A_disclosed,worst_case,without,revenue,absolute,KO,Consumer Staples,inf,23,29
+12,A_disclosed,worst_case,without,revenue,absolute,LLY,Health Care,1.3941529715156489,4,29
+12,A_disclosed,worst_case,without,revenue,absolute,UNH,Health Care,inf,24,29
+12,A_disclosed,worst_case,without,revenue,absolute,JNJ,Health Care,1.9403281860989445,5,29
+12,A_disclosed,worst_case,without,revenue,absolute,JPM,Financials,inf,25,29
+12,A_disclosed,worst_case,without,revenue,absolute,BAC,Financials,inf,26,29
+12,A_disclosed,worst_case,without,revenue,absolute,GS,Financials,1.127260431530246,3,29
+12,A_disclosed,worst_case,without,revenue,absolute,AAPL,Information Technology,28.853854917359143,11,29
+12,A_disclosed,worst_case,without,revenue,absolute,MSFT,Information Technology,inf,27,29
+12,A_disclosed,worst_case,without,revenue,absolute,NVDA,Information Technology,inf,28,29
+12,A_disclosed,worst_case,without,revenue,absolute,META,Communication Services,inf,29,29
+12,A_disclosed,worst_case,without,revenue,absolute,GOOGL,Communication Services,0.1835365687033579,1,29
+12,A_disclosed,worst_case,without,revenue,absolute,DIS,Communication Services,2.4639511125109674,6,29
+12,A_disclosed,worst_case,without,revenue,absolute,DUK,Utilities,3825.29972174095,15,29
+12,A_disclosed,worst_case,without,revenue,absolute,NEE,Utilities,2163.438123129032,14,29
+12,A_disclosed,worst_case,without,revenue,absolute,SO,Utilities,5487.540354983566,17,29
+13,A_disclosed,worst_case,without,revenue,within_sector,XOM,Energy,,,29
+13,A_disclosed,worst_case,without,revenue,within_sector,CVX,Energy,1048.9491579091975,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,OKE,Energy,4772.581793064434,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,NUE,Materials,165.97829768969294,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,DOW,Materials,inf,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,SHW,Materials,inf,3,29
+13,A_disclosed,worst_case,without,revenue,within_sector,UNP,Industrials,inf,3,29
+13,A_disclosed,worst_case,without,revenue,within_sector,CAT,Industrials,6.813327438115121,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,DE,Industrials,0.7359207196617199,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,F,Consumer Discretionary,2.8243504151744414,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,GM,Consumer Discretionary,3.798446967486585,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,AMZN,Consumer Discretionary,inf,3,29
+13,A_disclosed,worst_case,without,revenue,within_sector,WMT,Consumer Staples,inf,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,PG,Consumer Staples,20.635293076116383,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,KO,Consumer Staples,inf,3,29
+13,A_disclosed,worst_case,without,revenue,within_sector,LLY,Health Care,1.3941529715156489,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,UNH,Health Care,inf,3,29
+13,A_disclosed,worst_case,without,revenue,within_sector,JNJ,Health Care,1.9403281860989445,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,JPM,Financials,inf,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,BAC,Financials,inf,3,29
+13,A_disclosed,worst_case,without,revenue,within_sector,GS,Financials,1.127260431530246,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,AAPL,Information Technology,28.853854917359143,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,MSFT,Information Technology,inf,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,NVDA,Information Technology,inf,3,29
+13,A_disclosed,worst_case,without,revenue,within_sector,META,Communication Services,inf,3,29
+13,A_disclosed,worst_case,without,revenue,within_sector,GOOGL,Communication Services,0.1835365687033579,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,DIS,Communication Services,2.4639511125109674,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,DUK,Utilities,3825.29972174095,2,29
+13,A_disclosed,worst_case,without,revenue,within_sector,NEE,Utilities,2163.438123129032,1,29
+13,A_disclosed,worst_case,without,revenue,within_sector,SO,Utilities,5487.540354983566,3,29
+14,A_disclosed,worst_case,without,market_cap,absolute,XOM,Energy,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,CVX,Energy,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,OKE,Energy,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,NUE,Materials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,DOW,Materials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,SHW,Materials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,UNP,Industrials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,CAT,Industrials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,DE,Industrials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,F,Consumer Discretionary,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,GM,Consumer Discretionary,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,WMT,Consumer Staples,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,PG,Consumer Staples,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,KO,Consumer Staples,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,LLY,Health Care,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,UNH,Health Care,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,JNJ,Health Care,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,JPM,Financials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,BAC,Financials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,GS,Financials,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,AAPL,Information Technology,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,MSFT,Information Technology,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,NVDA,Information Technology,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,META,Communication Services,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,GOOGL,Communication Services,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,DIS,Communication Services,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,DUK,Utilities,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,NEE,Utilities,,,0
+14,A_disclosed,worst_case,without,market_cap,absolute,SO,Utilities,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,XOM,Energy,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,CVX,Energy,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,OKE,Energy,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,NUE,Materials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,DOW,Materials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,SHW,Materials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,UNP,Industrials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,CAT,Industrials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,DE,Industrials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,F,Consumer Discretionary,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,GM,Consumer Discretionary,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,WMT,Consumer Staples,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,PG,Consumer Staples,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,KO,Consumer Staples,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,LLY,Health Care,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,UNH,Health Care,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,JNJ,Health Care,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,JPM,Financials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,BAC,Financials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,GS,Financials,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,AAPL,Information Technology,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,MSFT,Information Technology,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,NVDA,Information Technology,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,META,Communication Services,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,GOOGL,Communication Services,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,DIS,Communication Services,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,DUK,Utilities,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,NEE,Utilities,,,0
+15,A_disclosed,worst_case,without,market_cap,within_sector,SO,Utilities,,,0
+16,A_disclosed,modelled,with,revenue,absolute,XOM,Energy,,,27
+16,A_disclosed,modelled,with,revenue,absolute,CVX,Energy,1048.9491579091975,23,27
+16,A_disclosed,modelled,with,revenue,absolute,OKE,Energy,4772.581793064434,26,27
+16,A_disclosed,modelled,with,revenue,absolute,NUE,Materials,165.97829768969294,17,27
+16,A_disclosed,modelled,with,revenue,absolute,DOW,Materials,811.0,22,27
+16,A_disclosed,modelled,with,revenue,absolute,SHW,Materials,291.0,20,27
+16,A_disclosed,modelled,with,revenue,absolute,UNP,Industrials,466.0,21,27
+16,A_disclosed,modelled,with,revenue,absolute,CAT,Industrials,6.813327438115121,9,27
+16,A_disclosed,modelled,with,revenue,absolute,DE,Industrials,0.7359207196617199,2,27
+16,A_disclosed,modelled,with,revenue,absolute,F,Consumer Discretionary,2.8243504151744414,7,27
+16,A_disclosed,modelled,with,revenue,absolute,GM,Consumer Discretionary,3.798446967486585,8,27
+16,A_disclosed,modelled,with,revenue,absolute,AMZN,Consumer Discretionary,94.0,15,27
+16,A_disclosed,modelled,with,revenue,absolute,WMT,Consumer Staples,164.0,16,27
+16,A_disclosed,modelled,with,revenue,absolute,PG,Consumer Staples,20.635293076116383,10,27
+16,A_disclosed,modelled,with,revenue,absolute,KO,Consumer Staples,214.0,18,27
+16,A_disclosed,modelled,with,revenue,absolute,LLY,Health Care,1.3941529715156489,4,27
+16,A_disclosed,modelled,with,revenue,absolute,UNH,Health Care,33.0,12,27
+16,A_disclosed,modelled,with,revenue,absolute,JNJ,Health Care,1.9403281860989445,5,27
+16,A_disclosed,modelled,with,revenue,absolute,JPM,Financials,59.0,13,27
+16,A_disclosed,modelled,with,revenue,absolute,BAC,Financials,59.0,14,27
+16,A_disclosed,modelled,with,revenue,absolute,GS,Financials,1.127260431530246,3,27
+16,A_disclosed,modelled,with,revenue,absolute,AAPL,Information Technology,28.853854917359143,11,27
+16,A_disclosed,modelled,with,revenue,absolute,MSFT,Information Technology,,,27
+16,A_disclosed,modelled,with,revenue,absolute,NVDA,Information Technology,215.0,19,27
+16,A_disclosed,modelled,with,revenue,absolute,META,Communication Services,,,27
+16,A_disclosed,modelled,with,revenue,absolute,GOOGL,Communication Services,0.1835365687033579,1,27
+16,A_disclosed,modelled,with,revenue,absolute,DIS,Communication Services,2.4639511125109674,6,27
+16,A_disclosed,modelled,with,revenue,absolute,DUK,Utilities,3825.29972174095,25,27
+16,A_disclosed,modelled,with,revenue,absolute,NEE,Utilities,2163.438123129032,24,27
+16,A_disclosed,modelled,with,revenue,absolute,SO,Utilities,5487.540354983566,27,27
+17,A_disclosed,modelled,with,revenue,within_sector,XOM,Energy,,,27
+17,A_disclosed,modelled,with,revenue,within_sector,CVX,Energy,1048.9491579091975,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,OKE,Energy,4772.581793064434,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,NUE,Materials,165.97829768969294,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,DOW,Materials,811.0,3,27
+17,A_disclosed,modelled,with,revenue,within_sector,SHW,Materials,291.0,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,UNP,Industrials,466.0,3,27
+17,A_disclosed,modelled,with,revenue,within_sector,CAT,Industrials,6.813327438115121,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,DE,Industrials,0.7359207196617199,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,F,Consumer Discretionary,2.8243504151744414,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,GM,Consumer Discretionary,3.798446967486585,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,AMZN,Consumer Discretionary,94.0,3,27
+17,A_disclosed,modelled,with,revenue,within_sector,WMT,Consumer Staples,164.0,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,PG,Consumer Staples,20.635293076116383,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,KO,Consumer Staples,214.0,3,27
+17,A_disclosed,modelled,with,revenue,within_sector,LLY,Health Care,1.3941529715156489,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,UNH,Health Care,33.0,3,27
+17,A_disclosed,modelled,with,revenue,within_sector,JNJ,Health Care,1.9403281860989445,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,JPM,Financials,59.0,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,BAC,Financials,59.0,3,27
+17,A_disclosed,modelled,with,revenue,within_sector,GS,Financials,1.127260431530246,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,AAPL,Information Technology,28.853854917359143,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,MSFT,Information Technology,,,27
+17,A_disclosed,modelled,with,revenue,within_sector,NVDA,Information Technology,215.0,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,META,Communication Services,,,27
+17,A_disclosed,modelled,with,revenue,within_sector,GOOGL,Communication Services,0.1835365687033579,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,DIS,Communication Services,2.4639511125109674,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,DUK,Utilities,3825.29972174095,2,27
+17,A_disclosed,modelled,with,revenue,within_sector,NEE,Utilities,2163.438123129032,1,27
+17,A_disclosed,modelled,with,revenue,within_sector,SO,Utilities,5487.540354983566,3,27
+18,A_disclosed,modelled,with,market_cap,absolute,XOM,Energy,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,CVX,Energy,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,OKE,Energy,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,NUE,Materials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,DOW,Materials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,SHW,Materials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,UNP,Industrials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,CAT,Industrials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,DE,Industrials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,F,Consumer Discretionary,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,GM,Consumer Discretionary,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,WMT,Consumer Staples,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,PG,Consumer Staples,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,KO,Consumer Staples,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,LLY,Health Care,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,UNH,Health Care,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,JNJ,Health Care,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,JPM,Financials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,BAC,Financials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,GS,Financials,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,AAPL,Information Technology,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,MSFT,Information Technology,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,NVDA,Information Technology,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,META,Communication Services,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,GOOGL,Communication Services,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,DIS,Communication Services,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,DUK,Utilities,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,NEE,Utilities,,,0
+18,A_disclosed,modelled,with,market_cap,absolute,SO,Utilities,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,XOM,Energy,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,CVX,Energy,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,OKE,Energy,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,NUE,Materials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,DOW,Materials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,SHW,Materials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,UNP,Industrials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,CAT,Industrials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,DE,Industrials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,F,Consumer Discretionary,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,GM,Consumer Discretionary,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,WMT,Consumer Staples,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,PG,Consumer Staples,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,KO,Consumer Staples,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,LLY,Health Care,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,UNH,Health Care,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,JNJ,Health Care,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,JPM,Financials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,BAC,Financials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,GS,Financials,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,AAPL,Information Technology,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,MSFT,Information Technology,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,NVDA,Information Technology,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,META,Communication Services,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,GOOGL,Communication Services,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,DIS,Communication Services,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,DUK,Utilities,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,NEE,Utilities,,,0
+19,A_disclosed,modelled,with,market_cap,within_sector,SO,Utilities,,,0
+20,A_disclosed,modelled,without,revenue,absolute,XOM,Energy,,,27
+20,A_disclosed,modelled,without,revenue,absolute,CVX,Energy,1048.9491579091975,23,27
+20,A_disclosed,modelled,without,revenue,absolute,OKE,Energy,4772.581793064434,26,27
+20,A_disclosed,modelled,without,revenue,absolute,NUE,Materials,165.97829768969294,17,27
+20,A_disclosed,modelled,without,revenue,absolute,DOW,Materials,794.0,22,27
+20,A_disclosed,modelled,without,revenue,absolute,SHW,Materials,263.99999999999994,20,27
+20,A_disclosed,modelled,without,revenue,absolute,UNP,Industrials,466.0,21,27
+20,A_disclosed,modelled,without,revenue,absolute,CAT,Industrials,6.813327438115121,9,27
+20,A_disclosed,modelled,without,revenue,absolute,DE,Industrials,0.7359207196617199,2,27
+20,A_disclosed,modelled,without,revenue,absolute,F,Consumer Discretionary,2.8243504151744414,7,27
+20,A_disclosed,modelled,without,revenue,absolute,GM,Consumer Discretionary,3.798446967486585,8,27
+20,A_disclosed,modelled,without,revenue,absolute,AMZN,Consumer Discretionary,94.0,15,27
+20,A_disclosed,modelled,without,revenue,absolute,WMT,Consumer Staples,164.0,16,27
+20,A_disclosed,modelled,without,revenue,absolute,PG,Consumer Staples,20.635293076116383,10,27
+20,A_disclosed,modelled,without,revenue,absolute,KO,Consumer Staples,172.99999999999997,18,27
+20,A_disclosed,modelled,without,revenue,absolute,LLY,Health Care,1.3941529715156489,4,27
+20,A_disclosed,modelled,without,revenue,absolute,UNH,Health Care,33.0,12,27
+20,A_disclosed,modelled,without,revenue,absolute,JNJ,Health Care,1.9403281860989445,5,27
+20,A_disclosed,modelled,without,revenue,absolute,JPM,Financials,59.0,13,27
+20,A_disclosed,modelled,without,revenue,absolute,BAC,Financials,59.0,14,27
+20,A_disclosed,modelled,without,revenue,absolute,GS,Financials,1.127260431530246,3,27
+20,A_disclosed,modelled,without,revenue,absolute,AAPL,Information Technology,28.853854917359143,11,27
+20,A_disclosed,modelled,without,revenue,absolute,MSFT,Information Technology,,,27
+20,A_disclosed,modelled,without,revenue,absolute,NVDA,Information Technology,188.0,19,27
+20,A_disclosed,modelled,without,revenue,absolute,META,Communication Services,,,27
+20,A_disclosed,modelled,without,revenue,absolute,GOOGL,Communication Services,0.1835365687033579,1,27
+20,A_disclosed,modelled,without,revenue,absolute,DIS,Communication Services,2.4639511125109674,6,27
+20,A_disclosed,modelled,without,revenue,absolute,DUK,Utilities,3825.29972174095,25,27
+20,A_disclosed,modelled,without,revenue,absolute,NEE,Utilities,2163.438123129032,24,27
+20,A_disclosed,modelled,without,revenue,absolute,SO,Utilities,5487.540354983566,27,27
+21,A_disclosed,modelled,without,revenue,within_sector,XOM,Energy,,,27
+21,A_disclosed,modelled,without,revenue,within_sector,CVX,Energy,1048.9491579091975,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,OKE,Energy,4772.581793064434,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,NUE,Materials,165.97829768969294,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,DOW,Materials,794.0,3,27
+21,A_disclosed,modelled,without,revenue,within_sector,SHW,Materials,263.99999999999994,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,UNP,Industrials,466.0,3,27
+21,A_disclosed,modelled,without,revenue,within_sector,CAT,Industrials,6.813327438115121,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,DE,Industrials,0.7359207196617199,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,F,Consumer Discretionary,2.8243504151744414,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,GM,Consumer Discretionary,3.798446967486585,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,AMZN,Consumer Discretionary,94.0,3,27
+21,A_disclosed,modelled,without,revenue,within_sector,WMT,Consumer Staples,164.0,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,PG,Consumer Staples,20.635293076116383,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,KO,Consumer Staples,172.99999999999997,3,27
+21,A_disclosed,modelled,without,revenue,within_sector,LLY,Health Care,1.3941529715156489,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,UNH,Health Care,33.0,3,27
+21,A_disclosed,modelled,without,revenue,within_sector,JNJ,Health Care,1.9403281860989445,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,JPM,Financials,59.0,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,BAC,Financials,59.0,3,27
+21,A_disclosed,modelled,without,revenue,within_sector,GS,Financials,1.127260431530246,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,AAPL,Information Technology,28.853854917359143,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,MSFT,Information Technology,,,27
+21,A_disclosed,modelled,without,revenue,within_sector,NVDA,Information Technology,188.0,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,META,Communication Services,,,27
+21,A_disclosed,modelled,without,revenue,within_sector,GOOGL,Communication Services,0.1835365687033579,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,DIS,Communication Services,2.4639511125109674,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,DUK,Utilities,3825.29972174095,2,27
+21,A_disclosed,modelled,without,revenue,within_sector,NEE,Utilities,2163.438123129032,1,27
+21,A_disclosed,modelled,without,revenue,within_sector,SO,Utilities,5487.540354983566,3,27
+22,A_disclosed,modelled,without,market_cap,absolute,XOM,Energy,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,CVX,Energy,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,OKE,Energy,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,NUE,Materials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,DOW,Materials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,SHW,Materials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,UNP,Industrials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,CAT,Industrials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,DE,Industrials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,F,Consumer Discretionary,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,GM,Consumer Discretionary,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,WMT,Consumer Staples,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,PG,Consumer Staples,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,KO,Consumer Staples,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,LLY,Health Care,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,UNH,Health Care,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,JNJ,Health Care,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,JPM,Financials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,BAC,Financials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,GS,Financials,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,AAPL,Information Technology,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,MSFT,Information Technology,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,NVDA,Information Technology,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,META,Communication Services,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,GOOGL,Communication Services,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,DIS,Communication Services,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,DUK,Utilities,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,NEE,Utilities,,,0
+22,A_disclosed,modelled,without,market_cap,absolute,SO,Utilities,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,XOM,Energy,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,CVX,Energy,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,OKE,Energy,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,NUE,Materials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,DOW,Materials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,SHW,Materials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,UNP,Industrials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,CAT,Industrials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,DE,Industrials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,F,Consumer Discretionary,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,GM,Consumer Discretionary,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,WMT,Consumer Staples,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,PG,Consumer Staples,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,KO,Consumer Staples,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,LLY,Health Care,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,UNH,Health Care,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,JNJ,Health Care,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,JPM,Financials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,BAC,Financials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,GS,Financials,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,AAPL,Information Technology,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,MSFT,Information Technology,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,NVDA,Information Technology,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,META,Communication Services,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,GOOGL,Communication Services,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,DIS,Communication Services,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,DUK,Utilities,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,NEE,Utilities,,,0
+23,A_disclosed,modelled,without,market_cap,within_sector,SO,Utilities,,,0
+24,C_modelled,exclude,with,revenue,absolute,XOM,Energy,,,22
+24,C_modelled,exclude,with,revenue,absolute,CVX,Energy,270.0,17,22
+24,C_modelled,exclude,with,revenue,absolute,OKE,Energy,1619.0,22,22
+24,C_modelled,exclude,with,revenue,absolute,NUE,Materials,787.0,20,22
+24,C_modelled,exclude,with,revenue,absolute,DOW,Materials,811.0,21,22
+24,C_modelled,exclude,with,revenue,absolute,SHW,Materials,291.0,18,22
+24,C_modelled,exclude,with,revenue,absolute,UNP,Industrials,466.0,19,22
+24,C_modelled,exclude,with,revenue,absolute,CAT,Industrials,228.0,14,22
+24,C_modelled,exclude,with,revenue,absolute,DE,Industrials,220.0,13,22
+24,C_modelled,exclude,with,revenue,absolute,F,Consumer Discretionary,240.0,15,22
+24,C_modelled,exclude,with,revenue,absolute,GM,Consumer Discretionary,240.0,16,22
+24,C_modelled,exclude,with,revenue,absolute,AMZN,Consumer Discretionary,94.0,6,22
+24,C_modelled,exclude,with,revenue,absolute,WMT,Consumer Staples,164.0,10,22
+24,C_modelled,exclude,with,revenue,absolute,PG,Consumer Staples,,,22
+24,C_modelled,exclude,with,revenue,absolute,KO,Consumer Staples,214.0,11,22
+24,C_modelled,exclude,with,revenue,absolute,LLY,Health Care,99.0,7,22
+24,C_modelled,exclude,with,revenue,absolute,UNH,Health Care,33.0,1,22
+24,C_modelled,exclude,with,revenue,absolute,JNJ,Health Care,99.0,8,22
+24,C_modelled,exclude,with,revenue,absolute,JPM,Financials,59.0,4,22
+24,C_modelled,exclude,with,revenue,absolute,BAC,Financials,59.0,5,22
+24,C_modelled,exclude,with,revenue,absolute,GS,Financials,42.99999999999999,2,22
+24,C_modelled,exclude,with,revenue,absolute,AAPL,Information Technology,111.0,9,22
+24,C_modelled,exclude,with,revenue,absolute,MSFT,Information Technology,,,22
+24,C_modelled,exclude,with,revenue,absolute,NVDA,Information Technology,215.0,12,22
+24,C_modelled,exclude,with,revenue,absolute,META,Communication Services,,,22
+24,C_modelled,exclude,with,revenue,absolute,GOOGL,Communication Services,,,22
+24,C_modelled,exclude,with,revenue,absolute,DIS,Communication Services,52.0,3,22
+24,C_modelled,exclude,with,revenue,absolute,DUK,Utilities,,,22
+24,C_modelled,exclude,with,revenue,absolute,NEE,Utilities,,,22
+24,C_modelled,exclude,with,revenue,absolute,SO,Utilities,,,22
+25,C_modelled,exclude,with,revenue,within_sector,XOM,Energy,,,22
+25,C_modelled,exclude,with,revenue,within_sector,CVX,Energy,270.0,1,22
+25,C_modelled,exclude,with,revenue,within_sector,OKE,Energy,1619.0,2,22
+25,C_modelled,exclude,with,revenue,within_sector,NUE,Materials,787.0,2,22
+25,C_modelled,exclude,with,revenue,within_sector,DOW,Materials,811.0,3,22
+25,C_modelled,exclude,with,revenue,within_sector,SHW,Materials,291.0,1,22
+25,C_modelled,exclude,with,revenue,within_sector,UNP,Industrials,466.0,3,22
+25,C_modelled,exclude,with,revenue,within_sector,CAT,Industrials,228.0,2,22
+25,C_modelled,exclude,with,revenue,within_sector,DE,Industrials,220.0,1,22
+25,C_modelled,exclude,with,revenue,within_sector,F,Consumer Discretionary,240.0,2,22
+25,C_modelled,exclude,with,revenue,within_sector,GM,Consumer Discretionary,240.0,3,22
+25,C_modelled,exclude,with,revenue,within_sector,AMZN,Consumer Discretionary,94.0,1,22
+25,C_modelled,exclude,with,revenue,within_sector,WMT,Consumer Staples,164.0,1,22
+25,C_modelled,exclude,with,revenue,within_sector,PG,Consumer Staples,,,22
+25,C_modelled,exclude,with,revenue,within_sector,KO,Consumer Staples,214.0,2,22
+25,C_modelled,exclude,with,revenue,within_sector,LLY,Health Care,99.0,2,22
+25,C_modelled,exclude,with,revenue,within_sector,UNH,Health Care,33.0,1,22
+25,C_modelled,exclude,with,revenue,within_sector,JNJ,Health Care,99.0,3,22
+25,C_modelled,exclude,with,revenue,within_sector,JPM,Financials,59.0,2,22
+25,C_modelled,exclude,with,revenue,within_sector,BAC,Financials,59.0,3,22
+25,C_modelled,exclude,with,revenue,within_sector,GS,Financials,42.99999999999999,1,22
+25,C_modelled,exclude,with,revenue,within_sector,AAPL,Information Technology,111.0,1,22
+25,C_modelled,exclude,with,revenue,within_sector,MSFT,Information Technology,,,22
+25,C_modelled,exclude,with,revenue,within_sector,NVDA,Information Technology,215.0,2,22
+25,C_modelled,exclude,with,revenue,within_sector,META,Communication Services,,,22
+25,C_modelled,exclude,with,revenue,within_sector,GOOGL,Communication Services,,,22
+25,C_modelled,exclude,with,revenue,within_sector,DIS,Communication Services,52.0,1,22
+25,C_modelled,exclude,with,revenue,within_sector,DUK,Utilities,,,22
+25,C_modelled,exclude,with,revenue,within_sector,NEE,Utilities,,,22
+25,C_modelled,exclude,with,revenue,within_sector,SO,Utilities,,,22
+26,C_modelled,exclude,with,market_cap,absolute,XOM,Energy,,,0
+26,C_modelled,exclude,with,market_cap,absolute,CVX,Energy,,,0
+26,C_modelled,exclude,with,market_cap,absolute,OKE,Energy,,,0
+26,C_modelled,exclude,with,market_cap,absolute,NUE,Materials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,DOW,Materials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,SHW,Materials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,UNP,Industrials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,CAT,Industrials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,DE,Industrials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,F,Consumer Discretionary,,,0
+26,C_modelled,exclude,with,market_cap,absolute,GM,Consumer Discretionary,,,0
+26,C_modelled,exclude,with,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+26,C_modelled,exclude,with,market_cap,absolute,WMT,Consumer Staples,,,0
+26,C_modelled,exclude,with,market_cap,absolute,PG,Consumer Staples,,,0
+26,C_modelled,exclude,with,market_cap,absolute,KO,Consumer Staples,,,0
+26,C_modelled,exclude,with,market_cap,absolute,LLY,Health Care,,,0
+26,C_modelled,exclude,with,market_cap,absolute,UNH,Health Care,,,0
+26,C_modelled,exclude,with,market_cap,absolute,JNJ,Health Care,,,0
+26,C_modelled,exclude,with,market_cap,absolute,JPM,Financials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,BAC,Financials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,GS,Financials,,,0
+26,C_modelled,exclude,with,market_cap,absolute,AAPL,Information Technology,,,0
+26,C_modelled,exclude,with,market_cap,absolute,MSFT,Information Technology,,,0
+26,C_modelled,exclude,with,market_cap,absolute,NVDA,Information Technology,,,0
+26,C_modelled,exclude,with,market_cap,absolute,META,Communication Services,,,0
+26,C_modelled,exclude,with,market_cap,absolute,GOOGL,Communication Services,,,0
+26,C_modelled,exclude,with,market_cap,absolute,DIS,Communication Services,,,0
+26,C_modelled,exclude,with,market_cap,absolute,DUK,Utilities,,,0
+26,C_modelled,exclude,with,market_cap,absolute,NEE,Utilities,,,0
+26,C_modelled,exclude,with,market_cap,absolute,SO,Utilities,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,XOM,Energy,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,CVX,Energy,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,OKE,Energy,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,NUE,Materials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,DOW,Materials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,SHW,Materials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,UNP,Industrials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,CAT,Industrials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,DE,Industrials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,F,Consumer Discretionary,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,GM,Consumer Discretionary,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,WMT,Consumer Staples,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,PG,Consumer Staples,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,KO,Consumer Staples,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,LLY,Health Care,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,UNH,Health Care,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,JNJ,Health Care,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,JPM,Financials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,BAC,Financials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,GS,Financials,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,AAPL,Information Technology,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,MSFT,Information Technology,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,NVDA,Information Technology,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,META,Communication Services,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,GOOGL,Communication Services,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,DIS,Communication Services,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,DUK,Utilities,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,NEE,Utilities,,,0
+27,C_modelled,exclude,with,market_cap,within_sector,SO,Utilities,,,0
+28,C_modelled,exclude,without,revenue,absolute,XOM,Energy,,,22
+28,C_modelled,exclude,without,revenue,absolute,CVX,Energy,248.0,17,22
+28,C_modelled,exclude,without,revenue,absolute,OKE,Energy,1619.0,22,22
+28,C_modelled,exclude,without,revenue,absolute,NUE,Materials,769.0,20,22
+28,C_modelled,exclude,without,revenue,absolute,DOW,Materials,794.0,21,22
+28,C_modelled,exclude,without,revenue,absolute,SHW,Materials,263.99999999999994,18,22
+28,C_modelled,exclude,without,revenue,absolute,UNP,Industrials,466.0,19,22
+28,C_modelled,exclude,without,revenue,absolute,CAT,Industrials,201.0,16,22
+28,C_modelled,exclude,without,revenue,absolute,DE,Industrials,191.0,15,22
+28,C_modelled,exclude,without,revenue,absolute,F,Consumer Discretionary,190.0,13,22
+28,C_modelled,exclude,without,revenue,absolute,GM,Consumer Discretionary,190.0,14,22
+28,C_modelled,exclude,without,revenue,absolute,AMZN,Consumer Discretionary,94.0,9,22
+28,C_modelled,exclude,without,revenue,absolute,WMT,Consumer Staples,164.0,10,22
+28,C_modelled,exclude,without,revenue,absolute,PG,Consumer Staples,,,22
+28,C_modelled,exclude,without,revenue,absolute,KO,Consumer Staples,172.99999999999997,11,22
+28,C_modelled,exclude,without,revenue,absolute,LLY,Health Care,45.0,3,22
+28,C_modelled,exclude,without,revenue,absolute,UNH,Health Care,33.0,1,22
+28,C_modelled,exclude,without,revenue,absolute,JNJ,Health Care,45.0,4,22
+28,C_modelled,exclude,without,revenue,absolute,JPM,Financials,59.0,6,22
+28,C_modelled,exclude,without,revenue,absolute,BAC,Financials,59.0,7,22
+28,C_modelled,exclude,without,revenue,absolute,GS,Financials,42.99999999999999,2,22
+28,C_modelled,exclude,without,revenue,absolute,AAPL,Information Technology,65.0,8,22
+28,C_modelled,exclude,without,revenue,absolute,MSFT,Information Technology,,,22
+28,C_modelled,exclude,without,revenue,absolute,NVDA,Information Technology,188.0,12,22
+28,C_modelled,exclude,without,revenue,absolute,META,Communication Services,,,22
+28,C_modelled,exclude,without,revenue,absolute,GOOGL,Communication Services,,,22
+28,C_modelled,exclude,without,revenue,absolute,DIS,Communication Services,47.0,5,22
+28,C_modelled,exclude,without,revenue,absolute,DUK,Utilities,,,22
+28,C_modelled,exclude,without,revenue,absolute,NEE,Utilities,,,22
+28,C_modelled,exclude,without,revenue,absolute,SO,Utilities,,,22
+29,C_modelled,exclude,without,revenue,within_sector,XOM,Energy,,,22
+29,C_modelled,exclude,without,revenue,within_sector,CVX,Energy,248.0,1,22
+29,C_modelled,exclude,without,revenue,within_sector,OKE,Energy,1619.0,2,22
+29,C_modelled,exclude,without,revenue,within_sector,NUE,Materials,769.0,2,22
+29,C_modelled,exclude,without,revenue,within_sector,DOW,Materials,794.0,3,22
+29,C_modelled,exclude,without,revenue,within_sector,SHW,Materials,263.99999999999994,1,22
+29,C_modelled,exclude,without,revenue,within_sector,UNP,Industrials,466.0,3,22
+29,C_modelled,exclude,without,revenue,within_sector,CAT,Industrials,201.0,2,22
+29,C_modelled,exclude,without,revenue,within_sector,DE,Industrials,191.0,1,22
+29,C_modelled,exclude,without,revenue,within_sector,F,Consumer Discretionary,190.0,2,22
+29,C_modelled,exclude,without,revenue,within_sector,GM,Consumer Discretionary,190.0,3,22
+29,C_modelled,exclude,without,revenue,within_sector,AMZN,Consumer Discretionary,94.0,1,22
+29,C_modelled,exclude,without,revenue,within_sector,WMT,Consumer Staples,164.0,1,22
+29,C_modelled,exclude,without,revenue,within_sector,PG,Consumer Staples,,,22
+29,C_modelled,exclude,without,revenue,within_sector,KO,Consumer Staples,172.99999999999997,2,22
+29,C_modelled,exclude,without,revenue,within_sector,LLY,Health Care,45.0,2,22
+29,C_modelled,exclude,without,revenue,within_sector,UNH,Health Care,33.0,1,22
+29,C_modelled,exclude,without,revenue,within_sector,JNJ,Health Care,45.0,3,22
+29,C_modelled,exclude,without,revenue,within_sector,JPM,Financials,59.0,2,22
+29,C_modelled,exclude,without,revenue,within_sector,BAC,Financials,59.0,3,22
+29,C_modelled,exclude,without,revenue,within_sector,GS,Financials,42.99999999999999,1,22
+29,C_modelled,exclude,without,revenue,within_sector,AAPL,Information Technology,65.0,1,22
+29,C_modelled,exclude,without,revenue,within_sector,MSFT,Information Technology,,,22
+29,C_modelled,exclude,without,revenue,within_sector,NVDA,Information Technology,188.0,2,22
+29,C_modelled,exclude,without,revenue,within_sector,META,Communication Services,,,22
+29,C_modelled,exclude,without,revenue,within_sector,GOOGL,Communication Services,,,22
+29,C_modelled,exclude,without,revenue,within_sector,DIS,Communication Services,47.0,1,22
+29,C_modelled,exclude,without,revenue,within_sector,DUK,Utilities,,,22
+29,C_modelled,exclude,without,revenue,within_sector,NEE,Utilities,,,22
+29,C_modelled,exclude,without,revenue,within_sector,SO,Utilities,,,22
+30,C_modelled,exclude,without,market_cap,absolute,XOM,Energy,,,0
+30,C_modelled,exclude,without,market_cap,absolute,CVX,Energy,,,0
+30,C_modelled,exclude,without,market_cap,absolute,OKE,Energy,,,0
+30,C_modelled,exclude,without,market_cap,absolute,NUE,Materials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,DOW,Materials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,SHW,Materials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,UNP,Industrials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,CAT,Industrials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,DE,Industrials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,F,Consumer Discretionary,,,0
+30,C_modelled,exclude,without,market_cap,absolute,GM,Consumer Discretionary,,,0
+30,C_modelled,exclude,without,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+30,C_modelled,exclude,without,market_cap,absolute,WMT,Consumer Staples,,,0
+30,C_modelled,exclude,without,market_cap,absolute,PG,Consumer Staples,,,0
+30,C_modelled,exclude,without,market_cap,absolute,KO,Consumer Staples,,,0
+30,C_modelled,exclude,without,market_cap,absolute,LLY,Health Care,,,0
+30,C_modelled,exclude,without,market_cap,absolute,UNH,Health Care,,,0
+30,C_modelled,exclude,without,market_cap,absolute,JNJ,Health Care,,,0
+30,C_modelled,exclude,without,market_cap,absolute,JPM,Financials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,BAC,Financials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,GS,Financials,,,0
+30,C_modelled,exclude,without,market_cap,absolute,AAPL,Information Technology,,,0
+30,C_modelled,exclude,without,market_cap,absolute,MSFT,Information Technology,,,0
+30,C_modelled,exclude,without,market_cap,absolute,NVDA,Information Technology,,,0
+30,C_modelled,exclude,without,market_cap,absolute,META,Communication Services,,,0
+30,C_modelled,exclude,without,market_cap,absolute,GOOGL,Communication Services,,,0
+30,C_modelled,exclude,without,market_cap,absolute,DIS,Communication Services,,,0
+30,C_modelled,exclude,without,market_cap,absolute,DUK,Utilities,,,0
+30,C_modelled,exclude,without,market_cap,absolute,NEE,Utilities,,,0
+30,C_modelled,exclude,without,market_cap,absolute,SO,Utilities,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,XOM,Energy,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,CVX,Energy,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,OKE,Energy,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,NUE,Materials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,DOW,Materials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,SHW,Materials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,UNP,Industrials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,CAT,Industrials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,DE,Industrials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,F,Consumer Discretionary,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,GM,Consumer Discretionary,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,WMT,Consumer Staples,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,PG,Consumer Staples,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,KO,Consumer Staples,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,LLY,Health Care,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,UNH,Health Care,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,JNJ,Health Care,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,JPM,Financials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,BAC,Financials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,GS,Financials,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,AAPL,Information Technology,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,MSFT,Information Technology,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,NVDA,Information Technology,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,META,Communication Services,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,GOOGL,Communication Services,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,DIS,Communication Services,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,DUK,Utilities,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,NEE,Utilities,,,0
+31,C_modelled,exclude,without,market_cap,within_sector,SO,Utilities,,,0
+32,C_modelled,worst_case,with,revenue,absolute,XOM,Energy,,,29
+32,C_modelled,worst_case,with,revenue,absolute,CVX,Energy,270.0,17,29
+32,C_modelled,worst_case,with,revenue,absolute,OKE,Energy,1619.0,22,29
+32,C_modelled,worst_case,with,revenue,absolute,NUE,Materials,787.0,20,29
+32,C_modelled,worst_case,with,revenue,absolute,DOW,Materials,811.0,21,29
+32,C_modelled,worst_case,with,revenue,absolute,SHW,Materials,291.0,18,29
+32,C_modelled,worst_case,with,revenue,absolute,UNP,Industrials,466.0,19,29
+32,C_modelled,worst_case,with,revenue,absolute,CAT,Industrials,228.0,14,29
+32,C_modelled,worst_case,with,revenue,absolute,DE,Industrials,220.0,13,29
+32,C_modelled,worst_case,with,revenue,absolute,F,Consumer Discretionary,240.0,15,29
+32,C_modelled,worst_case,with,revenue,absolute,GM,Consumer Discretionary,240.0,16,29
+32,C_modelled,worst_case,with,revenue,absolute,AMZN,Consumer Discretionary,94.0,6,29
+32,C_modelled,worst_case,with,revenue,absolute,WMT,Consumer Staples,164.0,10,29
+32,C_modelled,worst_case,with,revenue,absolute,PG,Consumer Staples,inf,23,29
+32,C_modelled,worst_case,with,revenue,absolute,KO,Consumer Staples,214.0,11,29
+32,C_modelled,worst_case,with,revenue,absolute,LLY,Health Care,99.0,7,29
+32,C_modelled,worst_case,with,revenue,absolute,UNH,Health Care,33.0,1,29
+32,C_modelled,worst_case,with,revenue,absolute,JNJ,Health Care,99.0,8,29
+32,C_modelled,worst_case,with,revenue,absolute,JPM,Financials,59.0,4,29
+32,C_modelled,worst_case,with,revenue,absolute,BAC,Financials,59.0,5,29
+32,C_modelled,worst_case,with,revenue,absolute,GS,Financials,42.99999999999999,2,29
+32,C_modelled,worst_case,with,revenue,absolute,AAPL,Information Technology,111.0,9,29
+32,C_modelled,worst_case,with,revenue,absolute,MSFT,Information Technology,inf,24,29
+32,C_modelled,worst_case,with,revenue,absolute,NVDA,Information Technology,215.0,12,29
+32,C_modelled,worst_case,with,revenue,absolute,META,Communication Services,inf,25,29
+32,C_modelled,worst_case,with,revenue,absolute,GOOGL,Communication Services,inf,26,29
+32,C_modelled,worst_case,with,revenue,absolute,DIS,Communication Services,52.0,3,29
+32,C_modelled,worst_case,with,revenue,absolute,DUK,Utilities,inf,27,29
+32,C_modelled,worst_case,with,revenue,absolute,NEE,Utilities,inf,28,29
+32,C_modelled,worst_case,with,revenue,absolute,SO,Utilities,inf,29,29
+33,C_modelled,worst_case,with,revenue,within_sector,XOM,Energy,,,29
+33,C_modelled,worst_case,with,revenue,within_sector,CVX,Energy,270.0,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,OKE,Energy,1619.0,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,NUE,Materials,787.0,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,DOW,Materials,811.0,3,29
+33,C_modelled,worst_case,with,revenue,within_sector,SHW,Materials,291.0,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,UNP,Industrials,466.0,3,29
+33,C_modelled,worst_case,with,revenue,within_sector,CAT,Industrials,228.0,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,DE,Industrials,220.0,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,F,Consumer Discretionary,240.0,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,GM,Consumer Discretionary,240.0,3,29
+33,C_modelled,worst_case,with,revenue,within_sector,AMZN,Consumer Discretionary,94.0,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,WMT,Consumer Staples,164.0,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,PG,Consumer Staples,inf,3,29
+33,C_modelled,worst_case,with,revenue,within_sector,KO,Consumer Staples,214.0,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,LLY,Health Care,99.0,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,UNH,Health Care,33.0,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,JNJ,Health Care,99.0,3,29
+33,C_modelled,worst_case,with,revenue,within_sector,JPM,Financials,59.0,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,BAC,Financials,59.0,3,29
+33,C_modelled,worst_case,with,revenue,within_sector,GS,Financials,42.99999999999999,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,AAPL,Information Technology,111.0,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,MSFT,Information Technology,inf,3,29
+33,C_modelled,worst_case,with,revenue,within_sector,NVDA,Information Technology,215.0,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,META,Communication Services,inf,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,GOOGL,Communication Services,inf,3,29
+33,C_modelled,worst_case,with,revenue,within_sector,DIS,Communication Services,52.0,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,DUK,Utilities,inf,1,29
+33,C_modelled,worst_case,with,revenue,within_sector,NEE,Utilities,inf,2,29
+33,C_modelled,worst_case,with,revenue,within_sector,SO,Utilities,inf,3,29
+34,C_modelled,worst_case,with,market_cap,absolute,XOM,Energy,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,CVX,Energy,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,OKE,Energy,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,NUE,Materials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,DOW,Materials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,SHW,Materials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,UNP,Industrials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,CAT,Industrials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,DE,Industrials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,F,Consumer Discretionary,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,GM,Consumer Discretionary,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,WMT,Consumer Staples,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,PG,Consumer Staples,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,KO,Consumer Staples,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,LLY,Health Care,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,UNH,Health Care,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,JNJ,Health Care,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,JPM,Financials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,BAC,Financials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,GS,Financials,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,AAPL,Information Technology,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,MSFT,Information Technology,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,NVDA,Information Technology,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,META,Communication Services,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,GOOGL,Communication Services,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,DIS,Communication Services,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,DUK,Utilities,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,NEE,Utilities,,,0
+34,C_modelled,worst_case,with,market_cap,absolute,SO,Utilities,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,XOM,Energy,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,CVX,Energy,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,OKE,Energy,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,NUE,Materials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,DOW,Materials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,SHW,Materials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,UNP,Industrials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,CAT,Industrials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,DE,Industrials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,F,Consumer Discretionary,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,GM,Consumer Discretionary,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,WMT,Consumer Staples,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,PG,Consumer Staples,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,KO,Consumer Staples,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,LLY,Health Care,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,UNH,Health Care,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,JNJ,Health Care,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,JPM,Financials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,BAC,Financials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,GS,Financials,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,AAPL,Information Technology,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,MSFT,Information Technology,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,NVDA,Information Technology,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,META,Communication Services,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,GOOGL,Communication Services,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,DIS,Communication Services,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,DUK,Utilities,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,NEE,Utilities,,,0
+35,C_modelled,worst_case,with,market_cap,within_sector,SO,Utilities,,,0
+36,C_modelled,worst_case,without,revenue,absolute,XOM,Energy,,,29
+36,C_modelled,worst_case,without,revenue,absolute,CVX,Energy,248.0,17,29
+36,C_modelled,worst_case,without,revenue,absolute,OKE,Energy,1619.0,22,29
+36,C_modelled,worst_case,without,revenue,absolute,NUE,Materials,769.0,20,29
+36,C_modelled,worst_case,without,revenue,absolute,DOW,Materials,794.0,21,29
+36,C_modelled,worst_case,without,revenue,absolute,SHW,Materials,263.99999999999994,18,29
+36,C_modelled,worst_case,without,revenue,absolute,UNP,Industrials,466.0,19,29
+36,C_modelled,worst_case,without,revenue,absolute,CAT,Industrials,201.0,16,29
+36,C_modelled,worst_case,without,revenue,absolute,DE,Industrials,191.0,15,29
+36,C_modelled,worst_case,without,revenue,absolute,F,Consumer Discretionary,190.0,13,29
+36,C_modelled,worst_case,without,revenue,absolute,GM,Consumer Discretionary,190.0,14,29
+36,C_modelled,worst_case,without,revenue,absolute,AMZN,Consumer Discretionary,94.0,9,29
+36,C_modelled,worst_case,without,revenue,absolute,WMT,Consumer Staples,164.0,10,29
+36,C_modelled,worst_case,without,revenue,absolute,PG,Consumer Staples,inf,23,29
+36,C_modelled,worst_case,without,revenue,absolute,KO,Consumer Staples,172.99999999999997,11,29
+36,C_modelled,worst_case,without,revenue,absolute,LLY,Health Care,45.0,3,29
+36,C_modelled,worst_case,without,revenue,absolute,UNH,Health Care,33.0,1,29
+36,C_modelled,worst_case,without,revenue,absolute,JNJ,Health Care,45.0,4,29
+36,C_modelled,worst_case,without,revenue,absolute,JPM,Financials,59.0,6,29
+36,C_modelled,worst_case,without,revenue,absolute,BAC,Financials,59.0,7,29
+36,C_modelled,worst_case,without,revenue,absolute,GS,Financials,42.99999999999999,2,29
+36,C_modelled,worst_case,without,revenue,absolute,AAPL,Information Technology,65.0,8,29
+36,C_modelled,worst_case,without,revenue,absolute,MSFT,Information Technology,inf,24,29
+36,C_modelled,worst_case,without,revenue,absolute,NVDA,Information Technology,188.0,12,29
+36,C_modelled,worst_case,without,revenue,absolute,META,Communication Services,inf,25,29
+36,C_modelled,worst_case,without,revenue,absolute,GOOGL,Communication Services,inf,26,29
+36,C_modelled,worst_case,without,revenue,absolute,DIS,Communication Services,47.0,5,29
+36,C_modelled,worst_case,without,revenue,absolute,DUK,Utilities,inf,27,29
+36,C_modelled,worst_case,without,revenue,absolute,NEE,Utilities,inf,28,29
+36,C_modelled,worst_case,without,revenue,absolute,SO,Utilities,inf,29,29
+37,C_modelled,worst_case,without,revenue,within_sector,XOM,Energy,,,29
+37,C_modelled,worst_case,without,revenue,within_sector,CVX,Energy,248.0,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,OKE,Energy,1619.0,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,NUE,Materials,769.0,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,DOW,Materials,794.0,3,29
+37,C_modelled,worst_case,without,revenue,within_sector,SHW,Materials,263.99999999999994,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,UNP,Industrials,466.0,3,29
+37,C_modelled,worst_case,without,revenue,within_sector,CAT,Industrials,201.0,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,DE,Industrials,191.0,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,F,Consumer Discretionary,190.0,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,GM,Consumer Discretionary,190.0,3,29
+37,C_modelled,worst_case,without,revenue,within_sector,AMZN,Consumer Discretionary,94.0,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,WMT,Consumer Staples,164.0,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,PG,Consumer Staples,inf,3,29
+37,C_modelled,worst_case,without,revenue,within_sector,KO,Consumer Staples,172.99999999999997,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,LLY,Health Care,45.0,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,UNH,Health Care,33.0,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,JNJ,Health Care,45.0,3,29
+37,C_modelled,worst_case,without,revenue,within_sector,JPM,Financials,59.0,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,BAC,Financials,59.0,3,29
+37,C_modelled,worst_case,without,revenue,within_sector,GS,Financials,42.99999999999999,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,AAPL,Information Technology,65.0,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,MSFT,Information Technology,inf,3,29
+37,C_modelled,worst_case,without,revenue,within_sector,NVDA,Information Technology,188.0,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,META,Communication Services,inf,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,GOOGL,Communication Services,inf,3,29
+37,C_modelled,worst_case,without,revenue,within_sector,DIS,Communication Services,47.0,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,DUK,Utilities,inf,1,29
+37,C_modelled,worst_case,without,revenue,within_sector,NEE,Utilities,inf,2,29
+37,C_modelled,worst_case,without,revenue,within_sector,SO,Utilities,inf,3,29
+38,C_modelled,worst_case,without,market_cap,absolute,XOM,Energy,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,CVX,Energy,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,OKE,Energy,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,NUE,Materials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,DOW,Materials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,SHW,Materials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,UNP,Industrials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,CAT,Industrials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,DE,Industrials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,F,Consumer Discretionary,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,GM,Consumer Discretionary,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,WMT,Consumer Staples,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,PG,Consumer Staples,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,KO,Consumer Staples,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,LLY,Health Care,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,UNH,Health Care,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,JNJ,Health Care,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,JPM,Financials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,BAC,Financials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,GS,Financials,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,AAPL,Information Technology,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,MSFT,Information Technology,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,NVDA,Information Technology,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,META,Communication Services,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,GOOGL,Communication Services,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,DIS,Communication Services,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,DUK,Utilities,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,NEE,Utilities,,,0
+38,C_modelled,worst_case,without,market_cap,absolute,SO,Utilities,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,XOM,Energy,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,CVX,Energy,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,OKE,Energy,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,NUE,Materials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,DOW,Materials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,SHW,Materials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,UNP,Industrials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,CAT,Industrials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,DE,Industrials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,F,Consumer Discretionary,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,GM,Consumer Discretionary,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,WMT,Consumer Staples,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,PG,Consumer Staples,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,KO,Consumer Staples,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,LLY,Health Care,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,UNH,Health Care,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,JNJ,Health Care,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,JPM,Financials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,BAC,Financials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,GS,Financials,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,AAPL,Information Technology,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,MSFT,Information Technology,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,NVDA,Information Technology,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,META,Communication Services,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,GOOGL,Communication Services,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,DIS,Communication Services,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,DUK,Utilities,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,NEE,Utilities,,,0
+39,C_modelled,worst_case,without,market_cap,within_sector,SO,Utilities,,,0
+40,C_modelled,modelled,with,revenue,absolute,XOM,Energy,,,22
+40,C_modelled,modelled,with,revenue,absolute,CVX,Energy,270.0,17,22
+40,C_modelled,modelled,with,revenue,absolute,OKE,Energy,1619.0,22,22
+40,C_modelled,modelled,with,revenue,absolute,NUE,Materials,787.0,20,22
+40,C_modelled,modelled,with,revenue,absolute,DOW,Materials,811.0,21,22
+40,C_modelled,modelled,with,revenue,absolute,SHW,Materials,291.0,18,22
+40,C_modelled,modelled,with,revenue,absolute,UNP,Industrials,466.0,19,22
+40,C_modelled,modelled,with,revenue,absolute,CAT,Industrials,228.0,14,22
+40,C_modelled,modelled,with,revenue,absolute,DE,Industrials,220.0,13,22
+40,C_modelled,modelled,with,revenue,absolute,F,Consumer Discretionary,240.0,15,22
+40,C_modelled,modelled,with,revenue,absolute,GM,Consumer Discretionary,240.0,16,22
+40,C_modelled,modelled,with,revenue,absolute,AMZN,Consumer Discretionary,94.0,6,22
+40,C_modelled,modelled,with,revenue,absolute,WMT,Consumer Staples,164.0,10,22
+40,C_modelled,modelled,with,revenue,absolute,PG,Consumer Staples,,,22
+40,C_modelled,modelled,with,revenue,absolute,KO,Consumer Staples,214.0,11,22
+40,C_modelled,modelled,with,revenue,absolute,LLY,Health Care,99.0,7,22
+40,C_modelled,modelled,with,revenue,absolute,UNH,Health Care,33.0,1,22
+40,C_modelled,modelled,with,revenue,absolute,JNJ,Health Care,99.0,8,22
+40,C_modelled,modelled,with,revenue,absolute,JPM,Financials,59.0,4,22
+40,C_modelled,modelled,with,revenue,absolute,BAC,Financials,59.0,5,22
+40,C_modelled,modelled,with,revenue,absolute,GS,Financials,42.99999999999999,2,22
+40,C_modelled,modelled,with,revenue,absolute,AAPL,Information Technology,111.0,9,22
+40,C_modelled,modelled,with,revenue,absolute,MSFT,Information Technology,,,22
+40,C_modelled,modelled,with,revenue,absolute,NVDA,Information Technology,215.0,12,22
+40,C_modelled,modelled,with,revenue,absolute,META,Communication Services,,,22
+40,C_modelled,modelled,with,revenue,absolute,GOOGL,Communication Services,,,22
+40,C_modelled,modelled,with,revenue,absolute,DIS,Communication Services,52.0,3,22
+40,C_modelled,modelled,with,revenue,absolute,DUK,Utilities,,,22
+40,C_modelled,modelled,with,revenue,absolute,NEE,Utilities,,,22
+40,C_modelled,modelled,with,revenue,absolute,SO,Utilities,,,22
+41,C_modelled,modelled,with,revenue,within_sector,XOM,Energy,,,22
+41,C_modelled,modelled,with,revenue,within_sector,CVX,Energy,270.0,1,22
+41,C_modelled,modelled,with,revenue,within_sector,OKE,Energy,1619.0,2,22
+41,C_modelled,modelled,with,revenue,within_sector,NUE,Materials,787.0,2,22
+41,C_modelled,modelled,with,revenue,within_sector,DOW,Materials,811.0,3,22
+41,C_modelled,modelled,with,revenue,within_sector,SHW,Materials,291.0,1,22
+41,C_modelled,modelled,with,revenue,within_sector,UNP,Industrials,466.0,3,22
+41,C_modelled,modelled,with,revenue,within_sector,CAT,Industrials,228.0,2,22
+41,C_modelled,modelled,with,revenue,within_sector,DE,Industrials,220.0,1,22
+41,C_modelled,modelled,with,revenue,within_sector,F,Consumer Discretionary,240.0,2,22
+41,C_modelled,modelled,with,revenue,within_sector,GM,Consumer Discretionary,240.0,3,22
+41,C_modelled,modelled,with,revenue,within_sector,AMZN,Consumer Discretionary,94.0,1,22
+41,C_modelled,modelled,with,revenue,within_sector,WMT,Consumer Staples,164.0,1,22
+41,C_modelled,modelled,with,revenue,within_sector,PG,Consumer Staples,,,22
+41,C_modelled,modelled,with,revenue,within_sector,KO,Consumer Staples,214.0,2,22
+41,C_modelled,modelled,with,revenue,within_sector,LLY,Health Care,99.0,2,22
+41,C_modelled,modelled,with,revenue,within_sector,UNH,Health Care,33.0,1,22
+41,C_modelled,modelled,with,revenue,within_sector,JNJ,Health Care,99.0,3,22
+41,C_modelled,modelled,with,revenue,within_sector,JPM,Financials,59.0,2,22
+41,C_modelled,modelled,with,revenue,within_sector,BAC,Financials,59.0,3,22
+41,C_modelled,modelled,with,revenue,within_sector,GS,Financials,42.99999999999999,1,22
+41,C_modelled,modelled,with,revenue,within_sector,AAPL,Information Technology,111.0,1,22
+41,C_modelled,modelled,with,revenue,within_sector,MSFT,Information Technology,,,22
+41,C_modelled,modelled,with,revenue,within_sector,NVDA,Information Technology,215.0,2,22
+41,C_modelled,modelled,with,revenue,within_sector,META,Communication Services,,,22
+41,C_modelled,modelled,with,revenue,within_sector,GOOGL,Communication Services,,,22
+41,C_modelled,modelled,with,revenue,within_sector,DIS,Communication Services,52.0,1,22
+41,C_modelled,modelled,with,revenue,within_sector,DUK,Utilities,,,22
+41,C_modelled,modelled,with,revenue,within_sector,NEE,Utilities,,,22
+41,C_modelled,modelled,with,revenue,within_sector,SO,Utilities,,,22
+42,C_modelled,modelled,with,market_cap,absolute,XOM,Energy,,,0
+42,C_modelled,modelled,with,market_cap,absolute,CVX,Energy,,,0
+42,C_modelled,modelled,with,market_cap,absolute,OKE,Energy,,,0
+42,C_modelled,modelled,with,market_cap,absolute,NUE,Materials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,DOW,Materials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,SHW,Materials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,UNP,Industrials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,CAT,Industrials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,DE,Industrials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,F,Consumer Discretionary,,,0
+42,C_modelled,modelled,with,market_cap,absolute,GM,Consumer Discretionary,,,0
+42,C_modelled,modelled,with,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+42,C_modelled,modelled,with,market_cap,absolute,WMT,Consumer Staples,,,0
+42,C_modelled,modelled,with,market_cap,absolute,PG,Consumer Staples,,,0
+42,C_modelled,modelled,with,market_cap,absolute,KO,Consumer Staples,,,0
+42,C_modelled,modelled,with,market_cap,absolute,LLY,Health Care,,,0
+42,C_modelled,modelled,with,market_cap,absolute,UNH,Health Care,,,0
+42,C_modelled,modelled,with,market_cap,absolute,JNJ,Health Care,,,0
+42,C_modelled,modelled,with,market_cap,absolute,JPM,Financials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,BAC,Financials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,GS,Financials,,,0
+42,C_modelled,modelled,with,market_cap,absolute,AAPL,Information Technology,,,0
+42,C_modelled,modelled,with,market_cap,absolute,MSFT,Information Technology,,,0
+42,C_modelled,modelled,with,market_cap,absolute,NVDA,Information Technology,,,0
+42,C_modelled,modelled,with,market_cap,absolute,META,Communication Services,,,0
+42,C_modelled,modelled,with,market_cap,absolute,GOOGL,Communication Services,,,0
+42,C_modelled,modelled,with,market_cap,absolute,DIS,Communication Services,,,0
+42,C_modelled,modelled,with,market_cap,absolute,DUK,Utilities,,,0
+42,C_modelled,modelled,with,market_cap,absolute,NEE,Utilities,,,0
+42,C_modelled,modelled,with,market_cap,absolute,SO,Utilities,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,XOM,Energy,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,CVX,Energy,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,OKE,Energy,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,NUE,Materials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,DOW,Materials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,SHW,Materials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,UNP,Industrials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,CAT,Industrials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,DE,Industrials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,F,Consumer Discretionary,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,GM,Consumer Discretionary,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,WMT,Consumer Staples,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,PG,Consumer Staples,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,KO,Consumer Staples,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,LLY,Health Care,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,UNH,Health Care,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,JNJ,Health Care,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,JPM,Financials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,BAC,Financials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,GS,Financials,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,AAPL,Information Technology,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,MSFT,Information Technology,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,NVDA,Information Technology,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,META,Communication Services,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,GOOGL,Communication Services,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,DIS,Communication Services,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,DUK,Utilities,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,NEE,Utilities,,,0
+43,C_modelled,modelled,with,market_cap,within_sector,SO,Utilities,,,0
+44,C_modelled,modelled,without,revenue,absolute,XOM,Energy,,,22
+44,C_modelled,modelled,without,revenue,absolute,CVX,Energy,248.0,17,22
+44,C_modelled,modelled,without,revenue,absolute,OKE,Energy,1619.0,22,22
+44,C_modelled,modelled,without,revenue,absolute,NUE,Materials,769.0,20,22
+44,C_modelled,modelled,without,revenue,absolute,DOW,Materials,794.0,21,22
+44,C_modelled,modelled,without,revenue,absolute,SHW,Materials,263.99999999999994,18,22
+44,C_modelled,modelled,without,revenue,absolute,UNP,Industrials,466.0,19,22
+44,C_modelled,modelled,without,revenue,absolute,CAT,Industrials,201.0,16,22
+44,C_modelled,modelled,without,revenue,absolute,DE,Industrials,191.0,15,22
+44,C_modelled,modelled,without,revenue,absolute,F,Consumer Discretionary,190.0,13,22
+44,C_modelled,modelled,without,revenue,absolute,GM,Consumer Discretionary,190.0,14,22
+44,C_modelled,modelled,without,revenue,absolute,AMZN,Consumer Discretionary,94.0,9,22
+44,C_modelled,modelled,without,revenue,absolute,WMT,Consumer Staples,164.0,10,22
+44,C_modelled,modelled,without,revenue,absolute,PG,Consumer Staples,,,22
+44,C_modelled,modelled,without,revenue,absolute,KO,Consumer Staples,172.99999999999997,11,22
+44,C_modelled,modelled,without,revenue,absolute,LLY,Health Care,45.0,3,22
+44,C_modelled,modelled,without,revenue,absolute,UNH,Health Care,33.0,1,22
+44,C_modelled,modelled,without,revenue,absolute,JNJ,Health Care,45.0,4,22
+44,C_modelled,modelled,without,revenue,absolute,JPM,Financials,59.0,6,22
+44,C_modelled,modelled,without,revenue,absolute,BAC,Financials,59.0,7,22
+44,C_modelled,modelled,without,revenue,absolute,GS,Financials,42.99999999999999,2,22
+44,C_modelled,modelled,without,revenue,absolute,AAPL,Information Technology,65.0,8,22
+44,C_modelled,modelled,without,revenue,absolute,MSFT,Information Technology,,,22
+44,C_modelled,modelled,without,revenue,absolute,NVDA,Information Technology,188.0,12,22
+44,C_modelled,modelled,without,revenue,absolute,META,Communication Services,,,22
+44,C_modelled,modelled,without,revenue,absolute,GOOGL,Communication Services,,,22
+44,C_modelled,modelled,without,revenue,absolute,DIS,Communication Services,47.0,5,22
+44,C_modelled,modelled,without,revenue,absolute,DUK,Utilities,,,22
+44,C_modelled,modelled,without,revenue,absolute,NEE,Utilities,,,22
+44,C_modelled,modelled,without,revenue,absolute,SO,Utilities,,,22
+45,C_modelled,modelled,without,revenue,within_sector,XOM,Energy,,,22
+45,C_modelled,modelled,without,revenue,within_sector,CVX,Energy,248.0,1,22
+45,C_modelled,modelled,without,revenue,within_sector,OKE,Energy,1619.0,2,22
+45,C_modelled,modelled,without,revenue,within_sector,NUE,Materials,769.0,2,22
+45,C_modelled,modelled,without,revenue,within_sector,DOW,Materials,794.0,3,22
+45,C_modelled,modelled,without,revenue,within_sector,SHW,Materials,263.99999999999994,1,22
+45,C_modelled,modelled,without,revenue,within_sector,UNP,Industrials,466.0,3,22
+45,C_modelled,modelled,without,revenue,within_sector,CAT,Industrials,201.0,2,22
+45,C_modelled,modelled,without,revenue,within_sector,DE,Industrials,191.0,1,22
+45,C_modelled,modelled,without,revenue,within_sector,F,Consumer Discretionary,190.0,2,22
+45,C_modelled,modelled,without,revenue,within_sector,GM,Consumer Discretionary,190.0,3,22
+45,C_modelled,modelled,without,revenue,within_sector,AMZN,Consumer Discretionary,94.0,1,22
+45,C_modelled,modelled,without,revenue,within_sector,WMT,Consumer Staples,164.0,1,22
+45,C_modelled,modelled,without,revenue,within_sector,PG,Consumer Staples,,,22
+45,C_modelled,modelled,without,revenue,within_sector,KO,Consumer Staples,172.99999999999997,2,22
+45,C_modelled,modelled,without,revenue,within_sector,LLY,Health Care,45.0,2,22
+45,C_modelled,modelled,without,revenue,within_sector,UNH,Health Care,33.0,1,22
+45,C_modelled,modelled,without,revenue,within_sector,JNJ,Health Care,45.0,3,22
+45,C_modelled,modelled,without,revenue,within_sector,JPM,Financials,59.0,2,22
+45,C_modelled,modelled,without,revenue,within_sector,BAC,Financials,59.0,3,22
+45,C_modelled,modelled,without,revenue,within_sector,GS,Financials,42.99999999999999,1,22
+45,C_modelled,modelled,without,revenue,within_sector,AAPL,Information Technology,65.0,1,22
+45,C_modelled,modelled,without,revenue,within_sector,MSFT,Information Technology,,,22
+45,C_modelled,modelled,without,revenue,within_sector,NVDA,Information Technology,188.0,2,22
+45,C_modelled,modelled,without,revenue,within_sector,META,Communication Services,,,22
+45,C_modelled,modelled,without,revenue,within_sector,GOOGL,Communication Services,,,22
+45,C_modelled,modelled,without,revenue,within_sector,DIS,Communication Services,47.0,1,22
+45,C_modelled,modelled,without,revenue,within_sector,DUK,Utilities,,,22
+45,C_modelled,modelled,without,revenue,within_sector,NEE,Utilities,,,22
+45,C_modelled,modelled,without,revenue,within_sector,SO,Utilities,,,22
+46,C_modelled,modelled,without,market_cap,absolute,XOM,Energy,,,0
+46,C_modelled,modelled,without,market_cap,absolute,CVX,Energy,,,0
+46,C_modelled,modelled,without,market_cap,absolute,OKE,Energy,,,0
+46,C_modelled,modelled,without,market_cap,absolute,NUE,Materials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,DOW,Materials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,SHW,Materials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,UNP,Industrials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,CAT,Industrials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,DE,Industrials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,F,Consumer Discretionary,,,0
+46,C_modelled,modelled,without,market_cap,absolute,GM,Consumer Discretionary,,,0
+46,C_modelled,modelled,without,market_cap,absolute,AMZN,Consumer Discretionary,,,0
+46,C_modelled,modelled,without,market_cap,absolute,WMT,Consumer Staples,,,0
+46,C_modelled,modelled,without,market_cap,absolute,PG,Consumer Staples,,,0
+46,C_modelled,modelled,without,market_cap,absolute,KO,Consumer Staples,,,0
+46,C_modelled,modelled,without,market_cap,absolute,LLY,Health Care,,,0
+46,C_modelled,modelled,without,market_cap,absolute,UNH,Health Care,,,0
+46,C_modelled,modelled,without,market_cap,absolute,JNJ,Health Care,,,0
+46,C_modelled,modelled,without,market_cap,absolute,JPM,Financials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,BAC,Financials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,GS,Financials,,,0
+46,C_modelled,modelled,without,market_cap,absolute,AAPL,Information Technology,,,0
+46,C_modelled,modelled,without,market_cap,absolute,MSFT,Information Technology,,,0
+46,C_modelled,modelled,without,market_cap,absolute,NVDA,Information Technology,,,0
+46,C_modelled,modelled,without,market_cap,absolute,META,Communication Services,,,0
+46,C_modelled,modelled,without,market_cap,absolute,GOOGL,Communication Services,,,0
+46,C_modelled,modelled,without,market_cap,absolute,DIS,Communication Services,,,0
+46,C_modelled,modelled,without,market_cap,absolute,DUK,Utilities,,,0
+46,C_modelled,modelled,without,market_cap,absolute,NEE,Utilities,,,0
+46,C_modelled,modelled,without,market_cap,absolute,SO,Utilities,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,XOM,Energy,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,CVX,Energy,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,OKE,Energy,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,NUE,Materials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,DOW,Materials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,SHW,Materials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,UNP,Industrials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,CAT,Industrials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,DE,Industrials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,F,Consumer Discretionary,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,GM,Consumer Discretionary,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,AMZN,Consumer Discretionary,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,WMT,Consumer Staples,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,PG,Consumer Staples,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,KO,Consumer Staples,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,LLY,Health Care,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,UNH,Health Care,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,JNJ,Health Care,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,JPM,Financials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,BAC,Financials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,GS,Financials,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,AAPL,Information Technology,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,MSFT,Information Technology,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,NVDA,Information Technology,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,META,Communication Services,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,GOOGL,Communication Services,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,DIS,Communication Services,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,DUK,Utilities,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,NEE,Utilities,,,0
+47,C_modelled,modelled,without,market_cap,within_sector,SO,Utilities,,,0

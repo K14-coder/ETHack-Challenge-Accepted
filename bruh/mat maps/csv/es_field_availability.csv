@@ -1,0 +1,62 @@
+﻿field_id,field,issue,sub_issue,units,peer_groups_usable,Exploration & Production,Integrated Oils,Midstream,Oilfield Services & Equipment,Refining & Marketing
+SA086,Emergency Response and Preparedness Policy,Operational Risk Management,Operational Preparedness,Boolean,5,yes,yes,yes,yes,yes
+SA162,Air Pollution Reduction Policy,Air Quality,Air Emissions Policies,Boolean,5,yes,yes,yes,yes,yes
+SA558,Company Claims Science-Based Emissions Targets,GHG Emissions Management,GHG Target,Boolean,5,yes,yes,yes,yes,yes
+SA559,Company Claims Net Zero Emissions Target,GHG Emissions Management,GHG Target,Boolean,5,yes,yes,yes,yes,yes
+ES036,Emissions Reduction Initiatives,GHG Emissions Management,GHG Emissions Policies,Boolean,4,yes,yes,yes,,yes
+ES041,Environmental Quality Management  Policy,Biodiversity & Natural Capital,Biodiversity Management & Impact,Boolean,4,yes,yes,yes,yes,
+ES057,Health and Safety Policy,Occupational Health & Safety Management,Health & Safety Policies,Boolean,4,yes,yes,,yes,yes
+ES088,Biodiversity Policy,Biodiversity & Natural Capital,Biodiversity Policies,Boolean,4,yes,yes,yes,yes,
+ES121,Total Recordable Incident Rate - Employees,Occupational Health & Safety Management,Safety Incidents,Rate,4,yes,yes,,yes,yes
+ES247,Water Policy,Water Management,Water Use Policies,Boolean,4,yes,yes,,yes,yes
+F0947,Scope 1 Greenhouse Gas / Carbon Dioxide Emissions,GHG Emissions Management,GHG Emissions,Metric Tonnes,4,yes,yes,yes,,yes
+SA088,Political Involvement Policy,Ethics & Compliance,Legal & Regulatory Management,Boolean,4,yes,yes,,yes,yes
+SA119,Community Engagement Policy,Community Rights & Relations,Community Relations,Boolean,4,yes,yes,yes,yes,
+SA161,GHG Emissions Reduction Policy,GHG Emissions Management,GHG Emissions Policies,Boolean,4,yes,yes,yes,,yes
+SB057,Biodiversity Risks and Opportunities Discussed,Biodiversity & Natural Capital,Biodiversity Policies,Boolean,4,yes,yes,yes,yes,
+ES007,Nitrogen Oxide Emissions,Air Quality,Air Emissions,Metric Tonnes,3,,yes,yes,,yes
+ES009,VOC Emissions,Air Quality,Air Emissions,Metric Tonnes,3,,yes,yes,,yes
+ES105,Climate Change Opportunities Discussed,Climate Exposure,Transition Risk,Boolean,3,yes,yes,,yes,
+ES106,Risks of Climate Change Discussed,Climate Exposure,Transition Risk,Boolean,3,yes,yes,,yes,
+ES197,Anti-Bribery Ethics Policy,Ethics & Compliance,Business Ethics,Boolean,3,yes,yes,,yes,
+F0949,Sulphur Dioxide / Sulphur Oxide Emissions,Air Quality,Air Emissions,Metric Tonnes,3,,yes,yes,,yes
+F1442,Fatality Rate - Employees,Occupational Health & Safety Management,Fatalities,Rate,3,,yes,,yes,yes
+RX389,Fatality Rate - Workforce,Occupational Health & Safety Management,Fatalities,Rate,3,,yes,,yes,yes
+SA020,Freshwater Withdrawals,Water Management,Water Use,Cubic Meters (m3),3,yes,yes,,,yes
+SA055,Percent Methane of Scope 1 Emissions,GHG Emissions Management,GHG Emissions,%,3,yes,yes,yes,,
+SA077,Fracturing Fluid Use Policy,Water Management,Wastewater,Boolean,3,yes,yes,,yes,
+SA083,Climate Scenario Analysis,Climate Exposure,Transition Risk,Boolean,3,yes,yes,,yes,
+SA087,Short Service Employee Program,Occupational Health & Safety Management,Health & Safety Policies,Boolean,3,yes,yes,,yes,
+SA120,Hazardous Waste Management Policy,Waste Management,Hazardous Waste Generation,Boolean,3,,yes,,yes,yes
+SA201,Total Recordable Incident Rate - Workforce,Occupational Health & Safety Management,Safety Incidents,Rate,3,yes,yes,,,yes
+SA830,Physical Risk Identified,Climate Exposure,Physical Risk,Boolean,3,yes,yes,,yes,
+SB047,No Net Loss Biodiversity Commitment Policy,Biodiversity & Natural Capital,Biodiversity Management & Impact,Boolean,3,yes,yes,yes,,
+ES019,Hazardous Waste,Waste Management,Hazardous Waste Generation,Metric Tonnes,2,,yes,,,yes
+ES027,Gas Flaring,GHG Emissions Management,GHG Emissions,Metric Tonnes,2,yes,yes,,,
+ES059,Human Rights Policy,Community Rights & Relations,Community & Human Rights,Boolean,2,yes,yes,,,
+ES092,Lost Time Incident Rate - Employees,Occupational Health & Safety Management,Safety Incidents,Rate,2,,yes,,yes,
+ES199,Total Hours Spent by Firm - Employee Training,Labor & Employment Practices,Training,Hours,2,,,,yes,yes
+ES249,Amount of Hydrocarbon Spills,Biodiversity & Natural Capital,Environmental Incidents,Cubic Meters (m3),2,,yes,yes,,
+ES261,Total Recordable Incident Rate - Contractors,Occupational Health & Safety Management,Safety Incidents,Rate,2,,yes,,,yes
+ES497,Water Stress Exposure Percentage,Water Management,Water Use,%,2,,yes,,,yes
+F1284,Embedded Carbon in Total Reserves,Climate Exposure,Transition Risk,Metric Tonnes,2,yes,yes,,,
+SA029,Indigenous Rights Policy,Community Rights & Relations,Community & Human Rights,Boolean,2,yes,yes,,,
+SA036,Extractive Industries Transparency Init,Ethics & Compliance,Business Ethics,Boolean,2,yes,yes,,,
+SA048,Number of Hydrocarbon Spills,Biodiversity & Natural Capital,Environmental Incidents,Number,2,,yes,yes,,
+SA052,Tier 1 Process Safety Event Rate,Operational Risk Management,Operational Incidents,Rate,2,,yes,,,yes
+SA084,Internal Carbon Pricing,Climate Exposure,Transition Risk,Boolean,2,yes,yes,,,
+SA085,Arctic Drilling Oil and Gas,Biodiversity & Natural Capital,Biodiversity Management & Impact,Boolean,2,yes,yes,,,
+ES014,Total Energy Consumption,Energy Management,Energy Consumption,Megawatt Hours,1,,yes,,,
+ES018,Emissions to Water,Water Management,Wastewater,Metric Tonnes,1,,yes,,,
+ES077,GHG Scope 2 Location-Based,Energy Management,Energy Consumption,Metric Tonnes,1,,yes,,,
+ES255,GHG Scope 2 Market-Based,Energy Management,Energy Consumption,Metric Tonnes,1,,yes,,,
+ES260,Lost Time Incident Rate - Contractors,Occupational Health & Safety Management,Safety Incidents,Rate,1,,yes,,,
+ES496,Biomass Fuel Use Percentage,Energy Management,Renewable Energy,%,1,,,,yes,
+SA012,Total Fuel Consumed,Energy Management,Energy Consumption,Megawatt Hours,1,,,,yes,
+SA023,Percentage of Hazardous Waste Recycled,Waste Management,Hazardous Waste Recycling,%,1,,yes,,,
+SA050,Amount Spills Environmentally Sensitive Areas,Biodiversity & Natural Capital,Environmental Incidents,Cubic Meters (m3),1,,,yes,,
+SA053,Tier 2 Process Safety Event Rate,Operational Risk Management,Operational Incidents,Rate,1,,,,,yes
+SA054,Total Process Safety Event Rate,Operational Risk Management,Operational Incidents,Rate,1,,,,,yes
+SA075,Number of Pipeline Incidents,Biodiversity & Natural Capital,Environmental Incidents,Number,1,,,yes,,
+SA076,Percentage of Natural Gas Pipelines Inspected,Biodiversity & Natural Capital,Biodiversity Management & Impact,%,1,,,yes,,
+SA202,Lost Time Incident Rate - Workforce,Occupational Health & Safety Management,Safety Incidents,Rate,1,,yes,,,

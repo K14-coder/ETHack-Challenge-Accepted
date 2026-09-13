@@ -1,0 +1,114 @@
+[
+{
+  "co2e_emission": 435080.9,
+  "facility_id": 1002150,
+  "gas_id": 1,
+  "sector_id": 17,
+  "subsector_id": 72,
+  "year": 2023
+},
+{
+  "co2e_emission": 478.886,
+  "facility_id": 1002150,
+  "gas_id": 3,
+  "sector_id": 15,
+  "subsector_id": 54,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1002672,
+  "gas_id": null,
+  "sector_id": 15,
+  "subsector_id": 75,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1002155,
+  "gas_id": null,
+  "sector_id": 15,
+  "subsector_id": 75,
+  "year": 2023
+},
+{
+  "co2e_emission": 11.622,
+  "facility_id": 1002447,
+  "gas_id": 3,
+  "sector_id": 15,
+  "subsector_id": 54,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1002150,
+  "gas_id": null,
+  "sector_id": 13,
+  "subsector_id": 73,
+  "year": 2023
+},
+{
+  "co2e_emission": 15274.75,
+  "facility_id": 1002150,
+  "gas_id": 2,
+  "sector_id": 15,
+  "subsector_id": 54,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1002384,
+  "gas_id": null,
+  "sector_id": 15,
+  "subsector_id": 54,
+  "year": 2023
+},
+{
+  "co2e_emission": 261.5,
+  "facility_id": 1002447,
+  "gas_id": 2,
+  "sector_id": 15,
+  "subsector_id": 54,
+  "year": 2023
+},
+{
+  "co2e_emission": 3139791.3,
+  "facility_id": 1002150,
+  "gas_id": 1,
+  "sector_id": 15,
+  "subsector_id": 54,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1002508,
+  "gas_id": null,
+  "sector_id": 15,
+  "subsector_id": 75,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1002384,
+  "gas_id": null,
+  "sector_id": 11,
+  "subsector_id": 51,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1002507,
+  "gas_id": null,
+  "sector_id": 15,
+  "subsector_id": 52,
+  "year": 2023
+},
+{
+  "co2e_emission": 21588.9,
+  "facility_id": 1002447,
+  "gas_id": 1,
+  "sector_id": 15,
+  "subsector_id": 54,
+  "year": 2023
+}
+]

@@ -1,0 +1,149 @@
+# CONTESTED
+
+**ETHack 2026 · Challenge #1 · Citadel — a data-driven framework to quantify and
+compare the sustainability of companies in the S&P 500.**
+
+> There is no ESG score. There is a distribution of defensible scores, and the
+> width of that distribution is the most useful number nobody reports.
+
+We do publish the ranking the challenge asked for. We publish three more things
+with it: how much of that ranking is a choice, which single choice decides it,
+and which missing disclosure would settle it.
+
+---
+
+## Five minutes, no licence, no install
+
+```bash
+python3 -m http.server 4173 --directory ETHack/web
+```
+
+Open <http://localhost:4173>. Everything is precomputed and committed; the page
+needs no server-side anything and no Bloomberg licence. Move the four pillar
+sliders, pin any of the nine method axes, and the ranking of 18 S&P 500 energy
+companies reorders live across 17,496 specifications.
+
+**The one thing to try.** Leave every axis on *vary* — 2 of 153 pairwise
+comparisons survive. Now pin **Direction → level** and **Evidence bar → strict**.
+The same data, a narrower question, and **56 of 153** comparisons become settled.
+That is the product: not a score, but a map of which comparisons the evidence can
+actually carry.
+
+## What is here
+
+| | |
+|---|---|
+| **`ETHack/model/`** | **The framework.** 18 companies, 139 fields, 9 axes, 17,496 specifications. Start with its `README.md`. |
+| **`ETHack/web/`** | The explorer. No build step, no dependencies, no network. |
+| **`ETHack/provider-decision-points.md`** | Where MSCI and Bloomberg actually choose, read out of their own methodologies, with the branch we take at each and the page citation. **This is the justification for every axis.** |
+| **`ETHack/methodology-next.md`** | The four outputs — settled, contested, pivot, remedy — and what we would build next. |
+| `ETHack/contested/` | An earlier, independent pipeline on free US government data (SEC XBRL + EPA GHGRP + EPA EEIO), 30 companies across 10 sectors. `DEFENCE.md` answers ten likely attacks. |
+| `ETHack/speccurve/` | The formula on synthetic data, kept as a reference implementation. |
+| `bruh/mat maps/` | The Bloomberg export and our credit workbook. **See `WITHHELD.md`.** |
+| `ETHack/*.md` | The working notes, timestamped across the 24 hours. Kept deliberately: the reasoning is part of the submission. |
+
+## The method in one paragraph
+
+Specification curve analysis — Simonsohn, Simmons & Nelson, *Nature Human
+Behaviour* 4 (2020) — imported into ESG. We read MSCI's and Bloomberg's published
+methodologies and found thirteen points where a rater must make a discretionary
+call. **They differ at seven of them and agree at six.** We vary the seven where
+they differ, fix the six where they agree and declare each fixed assumption, and
+report the whole distribution instead of one point from it. Motivated by Berg,
+Kölbel & Rigobon, *Review of Finance* (2022), which measured an average
+inter-rater correlation of 0.61 against 0.99 for credit ratings.
+
+## The nine axes
+
+Each is a fork where the two largest providers published different choices, or
+one this data forced.
+
+| Axis | Options | Where it comes from |
+|---|---|---|
+| Exposure base | EBITDA · equity · production | Bloomberg's activity metrics |
+| Window | latest · fiscal year · 3-year mean | Bloomberg ships Latest and Fiscal Year as separate products |
+| Direction | level · change | Bloomberg's Rate-Anchored model scores year-on-year change |
+| Polarity | orthodox · neutral · stability | 15 fields where the two governance conventions disagree |
+| Normaliser | percentile · winsorised · log min–max · elasticity | MSCI normalises on percentile benchmarks; Bloomberg rejects percentiles **in print** and fits a log-log residual instead |
+| Peer set | BECS group · producers/downstream · all 18 | MSCI uses GICS sub-industry; Bloomberg built its own classification because GICS did not fit |
+| Evidence bar | permissive · majority · strict | Forced by this data — see below |
+| Missing data | excluded · worst case · capped | Bloomberg's sub-issue rule, and its Issue Score cap `UT = 30 + √DF × 70` |
+| Aggregation | arithmetic · power p=½ · geometric | MSCI's weighted mean against Bloomberg's shifted power mean |
+
+Pillar weights are **not** an axis. They explain 13.2% of inter-provider
+divergence (Berg et al.); scope and measurement explain the other 86.8%. Weights
+are handed to the user as a slider instead — which, notably, neither MSCI nor
+Bloomberg does.
+
+## What we found
+
+- **The median company moves 7 places out of 18** across its interquartile range.
+  Strip out every extreme branch and it is still **4 places**. The spread is not
+  an artefact of one silly option.
+- **Only 2 of 153 pairwise comparisons survive every method.** A published league
+  table asserts all 153.
+- The disagreement lives in `direction` (18.2% of rank variance) and `peer set`
+  (13.1%) — *what question you ask* and *who you ask it against*. Both are scope
+  choices. Neither is a weight.
+- **Two deliberate negative results.** The aggregation function — MSCI's
+  arithmetic mean against Bloomberg's power mean — explains **0.3%**. The
+  governance-polarity debate explains **0.5%**. We implemented both specifically
+  so we could report that they do not matter here.
+- **An 18-company comparison of environmental performance does not exist in this
+  data.** Requiring every company to have answered the same question leaves four
+  fields, all yes/no policy flags. Narrow to one peer group and the same strict
+  setting leaves thirteen environmental fields. Comparing fewer companies lets you
+  compare them on more, and that trade is a slider in the tool rather than an
+  argument in a footnote.
+
+## Honest limitations, stated before anyone asks
+
+- Contestation is reported in **rank places, not percentile points**. With N = 18
+  a rank percentile takes only 18 values, 5.88 apart; an IQR quoted in points is a
+  quantised quantity wearing a decimal.
+- The 17,496 specifications are an **enumerated set of conventions, not a random
+  sample of methods**. The spread is a range, and we never call it a confidence
+  interval.
+- **No revenue and no headcount** exist anywhere in the export, so EBITDA is the
+  economic denominator — one rung below the fallback Bloomberg's own methodology
+  already calls a fallback.
+- The credit workbook is **one fiscal year**, so under *change* the financial
+  pillar has no trajectory and drops out rather than reporting a fabricated zero.
+- **FY2025 is 36% complete** for environmental fields against 60% for FY2024.
+  That reporting lag is why the window axis has three options and not two.
+- **EQT and ONEOK** have no Bloomberg export. Eighteen companies, not twenty.
+- We rank the **energy sector against itself**. If every company in it is bad, the
+  best relative performer still scores well. Bloomberg names this failure mode in
+  its own methodology and does not treat it either; we pair every rank with an
+  absolute figure for the same reason.
+
+## Data
+
+| Source | Gives | Licensed? |
+|---|---|---|
+| Bloomberg materiality maps, 18 companies, 2021–2025 | 135 planned fields plus 57 more, across five BECS peer groups | **Yes — withheld, see `bruh/mat maps/WITHHELD.md`** |
+| Our FY2025 credit workbook | leverage, coverage, FCF, payout, maturities, ROCE, reserve life, three agencies' adjusted leverage | No — SEC XBRL and published ratings |
+| SEC XBRL frames, EPA GHGRP, EPA EEIO v1.3 | the `contested/` pipeline: revenue, facility emissions, supply-chain factors | No — free, government, no API key |
+
+**On the withheld data.** We do not share the Bloomberg indicators and values,
+because they require the proper licensing. We are happy to show you the files in
+person, to prove that the model is built on real data and that the approach is
+scalable and feasible. Everything derived from them is committed: the loader, the
+formula, every computed output, and the working explorer. The only step a reader
+cannot re-run without a Terminal is `model/load.py`, which is the single function
+that touches raw cells.
+
+## Reproducing
+
+```bash
+cd ETHack/model
+python3 registry.py     # the field registry, printed for eyeball checking
+python3 load.py         # needs the Bloomberg export; fails with a clear message without it
+python3 run.py          # all 17,496 specifications -> out/
+python3 export_web.py   # the pillar cube -> ../web/data/
+```
+
+`numpy` and `pandas` only. The browser explorer reproduces `run.py` to 0.05 rank
+points on all 18 companies, and the specification-index decode is verified against
+Python cell by cell — so nothing in the page is precomputed toward a particular
+answer.

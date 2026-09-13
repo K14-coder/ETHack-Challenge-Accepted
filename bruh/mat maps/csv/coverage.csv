@@ -1,0 +1,37 @@
+﻿ticker,peer_group,sheet,fields,fields_with_3plus_years,coverage_pct,cells_filled,cells_total
+BKR,Oilfield Services & Equipment,ES,44,29,64.5,142,220
+BKR,Oilfield Services & Equipment,G,115,107,92.7,533,575
+CTRA,Exploration & Production,ES,78,60,63.3,247,390
+CTRA,Exploration & Production,G,98,91,86.9,426,490
+CVX,Integrated Oils,ES,99,54,45.7,226,495
+CVX,Integrated Oils,G,115,107,92.9,534,575
+COP,Exploration & Production,ES,78,61,73.8,288,390
+COP,Exploration & Production,G,115,107,92.7,533,575
+DVN,Exploration & Production,ES,78,42,48.2,188,390
+DVN,Exploration & Production,G,115,107,92.3,531,575
+EOG,Exploration & Production,ES,78,47,50.5,197,390
+EOG,Exploration & Production,G,115,106,91.8,528,575
+EXE,Exploration & Production,ES,78,56,72.3,282,390
+EXE,Exploration & Production,G,115,108,93.0,535,575
+XOM,Integrated Oils,ES,99,56,56.4,279,495
+XOM,Integrated Oils,G,115,106,89.7,516,575
+FANG,Exploration & Production,ES,78,50,54.4,212,390
+FANG,Exploration & Production,G,115,108,93.2,536,575
+HAL,Oilfield Services & Equipment,ES,44,34,75.0,165,220
+HAL,Oilfield Services & Equipment,G,115,107,92.7,533,575
+KMI,Midstream,ES,37,28,74.1,137,185
+KMI,Midstream,G,115,108,93.6,538,575
+MPC,Refining & Marketing,ES,50,39,78.0,195,250
+MPC,Refining & Marketing,G,115,108,92.3,531,575
+OXY,Exploration & Production,ES,78,50,56.7,221,390
+OXY,Exploration & Production,G,115,108,93.2,536,575
+PSX,Refining & Marketing,ES,50,32,63.6,159,250
+PSX,Refining & Marketing,G,115,107,92.7,533,575
+SLB,Oilfield Services & Equipment,ES,44,30,65.5,144,220
+SLB,Oilfield Services & Equipment,G,115,107,92.7,533,575
+TRGP,Midstream,ES,37,23,50.3,93,185
+TRGP,Midstream,G,115,107,92.7,533,575
+VLO,Refining & Marketing,ES,50,30,57.6,144,250
+VLO,Refining & Marketing,G,115,108,93.6,538,575
+WMB,Midstream,ES,37,28,74.1,137,185
+WMB,Midstream,G,115,105,91.0,523,575

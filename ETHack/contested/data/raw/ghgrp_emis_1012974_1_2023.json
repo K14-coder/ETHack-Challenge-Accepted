@@ -1,0 +1,26 @@
+[
+{
+  "co2e_emission": null,
+  "facility_id": 1012974,
+  "gas_id": null,
+  "sector_id": 12,
+  "subsector_id": 46,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1012974,
+  "gas_id": null,
+  "sector_id": 16,
+  "subsector_id": 69,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1012974,
+  "gas_id": null,
+  "sector_id": 16,
+  "subsector_id": 70,
+  "year": 2023
+}
+]

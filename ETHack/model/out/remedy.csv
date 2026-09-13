@@ -1,0 +1,53 @@
+ticker,field_id,field,contestation_removed
+BKR,SB047,No Net Loss Biodiversity Commitment Policy,16.2
+BKR,SA161,GHG Emissions Reduction Policy,16.2
+BKR,SA085,Arctic Drilling Oil and Gas,16.2
+COP,SA120,Hazardous Waste Management Policy,5.9
+COP,SA023,Percentage of Hazardous Waste Recycled,5.9
+COP,SA016,Percentage of Hazardous Waste,5.9
+CTRA,ST763,Management Nominees - Dir Less Than 90% Supprt Cnt,11.8
+CTRA,ST762,Management Nominees - Directors Voted Count,11.8
+CTRA,ST761,Management Nominees - Minimum Director Support,11.8
+CVX,SA016,Percentage of Hazardous Waste,10.3
+CVX,RX312,Training Spending per Employee,10.3
+CVX,ES033,Amount of Environmental Fines,10.3
+DVN,SA120,Hazardous Waste Management Policy,17.6
+DVN,SA052,Tier 1 Process Safety Event Rate,17.6
+DVN,SA048,Number of Hydrocarbon Spills,17.6
+EOG,SA120,Hazardous Waste Management Policy,-23.5
+EOG,SA052,Tier 1 Process Safety Event Rate,-23.5
+EOG,SA023,Percentage of Hazardous Waste Recycled,-23.5
+EXE,SA120,Hazardous Waste Management Policy,5.9
+EXE,SA052,Tier 1 Process Safety Event Rate,5.9
+EXE,SA023,Percentage of Hazardous Waste Recycled,5.9
+FANG,SA120,Hazardous Waste Management Policy,5.9
+FANG,SA052,Tier 1 Process Safety Event Rate,5.9
+FANG,SA023,Percentage of Hazardous Waste Recycled,5.9
+HAL,SB047,No Net Loss Biodiversity Commitment Policy,-13.2
+HAL,SA161,GHG Emissions Reduction Policy,-13.2
+HAL,SA085,Arctic Drilling Oil and Gas,-13.2
+KMI,TRIR,Total Recordable Incident Rate,-0.0
+KMI,SA830,Physical Risk Identified,-0.0
+KMI,SA120,Hazardous Waste Management Policy,-0.0
+MPC,SB057,Biodiversity Risks and Opportunities Discussed,-17.6
+MPC,SB047,No Net Loss Biodiversity Commitment Policy,-17.6
+MPC,SA830,Physical Risk Identified,-17.6
+OXY,SA120,Hazardous Waste Management Policy,11.8
+OXY,SA023,Percentage of Hazardous Waste Recycled,11.8
+OXY,SA016,Percentage of Hazardous Waste,11.8
+PSX,SB057,Biodiversity Risks and Opportunities Discussed,0.0
+PSX,SB047,No Net Loss Biodiversity Commitment Policy,0.0
+PSX,SA830,Physical Risk Identified,0.0
+SLB,SA016,Percentage of Hazardous Waste,23.5
+SLB,ES019,Hazardous Waste,23.5
+SLB,SB047,No Net Loss Biodiversity Commitment Policy,17.6
+TRGP,TRIR,Total Recordable Incident Rate,29.4
+TRGP,SA830,Physical Risk Identified,29.4
+TRGP,SA120,Hazardous Waste Management Policy,29.4
+VLO,LTIR,Lost Time Incident Rate,5.9
+VLO,SB057,Biodiversity Risks and Opportunities Discussed,0.0
+VLO,SB047,No Net Loss Biodiversity Commitment Policy,0.0
+WMB,TRIR,Total Recordable Incident Rate,17.6
+WMB,SA830,Physical Risk Identified,17.6
+WMB,SA120,Hazardous Waste Management Policy,17.6
+XOM,DX831,Auditor Opinion,2.9

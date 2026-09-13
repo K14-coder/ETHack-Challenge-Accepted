@@ -1,0 +1,36 @@
+{
+  "n_companies": 30,
+  "n_specifications": 48,
+  "no_disclosed_number": [
+    "DOW",
+    "SHW",
+    "UNP",
+    "AMZN",
+    "WMT",
+    "KO",
+    "UNH",
+    "JPM",
+    "BAC",
+    "MSFT",
+    "NVDA",
+    "META"
+  ],
+  "median_modelled_over_disclosed": 35.80470139785086,
+  "worst_by_disclosed_intensity": [
+    "SO",
+    "OKE",
+    "DUK",
+    "NEE",
+    "CVX"
+  ],
+  "worst_by_modelled_total": [
+    "WMT",
+    "AMZN",
+    "CVX",
+    "AAPL",
+    "F"
+  ],
+  "inversion_exists": true,
+  "min_spearman_between_specs": -0.1481985569235779,
+  "berg_kolbel_rigobon_interrater_benchmark": 0.61
+}

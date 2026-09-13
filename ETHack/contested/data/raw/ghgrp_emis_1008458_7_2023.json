@@ -1,0 +1,122 @@
+[
+{
+  "co2e_emission": 11.324,
+  "facility_id": 1009338,
+  "gas_id": 3,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": 26719.7304,
+  "facility_id": 1009585,
+  "gas_id": 6,
+  "sector_id": 14,
+  "subsector_id": 62,
+  "year": 2023
+},
+{
+  "co2e_emission": 2355.5,
+  "facility_id": 1009338,
+  "gas_id": 2,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1009206,
+  "gas_id": null,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": 20376.1,
+  "facility_id": 1009338,
+  "gas_id": 1,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": 5.066,
+  "facility_id": 1008458,
+  "gas_id": 3,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": null,
+  "facility_id": 1009471,
+  "gas_id": null,
+  "sector_id": 15,
+  "subsector_id": 57,
+  "year": 2023
+},
+{
+  "co2e_emission": 2285.5,
+  "facility_id": 1008652,
+  "gas_id": 2,
+  "sector_id": 15,
+  "subsector_id": 57,
+  "year": 2023
+},
+{
+  "co2e_emission": 13254.7,
+  "facility_id": 1009337,
+  "gas_id": 1,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": 8818.7,
+  "facility_id": 1008458,
+  "gas_id": 1,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": 16005.8,
+  "facility_id": 1008652,
+  "gas_id": 1,
+  "sector_id": 15,
+  "subsector_id": 57,
+  "year": 2023
+},
+{
+  "co2e_emission": 4620.25,
+  "facility_id": 1009337,
+  "gas_id": 2,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": 3397,
+  "facility_id": 1008458,
+  "gas_id": 2,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+},
+{
+  "co2e_emission": 8.94,
+  "facility_id": 1008652,
+  "gas_id": 3,
+  "sector_id": 15,
+  "subsector_id": 57,
+  "year": 2023
+},
+{
+  "co2e_emission": 7.45,
+  "facility_id": 1009337,
+  "gas_id": 3,
+  "sector_id": 15,
+  "subsector_id": 55,
+  "year": 2023
+}
+]

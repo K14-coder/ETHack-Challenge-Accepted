@@ -1,0 +1,4 @@
+# 01_fetch.py and 02_score.py need nothing beyond the standard library.
+matplotlib>=3.7     # 03_plots.py
+scipy>=1.10         # 02_score.py, for the Spearman statistic (optional, degrades gracefully)
+yfinance>=0.2       # 01_fetch.py, market cap for the second denominator (optional: without it, ranks come only from the revenue denominator)

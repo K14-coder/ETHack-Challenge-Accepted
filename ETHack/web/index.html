@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CONTESTED — the score is a distribution</title>
+<meta name="description" content="A sustainability framework that publishes its own uncertainty. Move the weights, pin the method, watch the ranking move.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="brand">
+    <h1>CONTESTED</h1>
+    <p>There is no ESG score. There is a distribution of defensible scores, and the width of that distribution is the most useful number nobody reports. Eighteen S&amp;P 500 energy companies, Bloomberg materiality maps, every specification MSCI and Bloomberg disagree about.</p>
+  </div>
+  <div class="dataset">
+    <span class="badge" id="datasetBadge">S&amp;P 500 energy</span>
+    <span id="datasetNote"></span>
+  </div>
+</header>
+
+<div class="shell">
+
+  <!-- ─────────────────────────────────────────────── controls ───────── -->
+  <aside class="rail" aria-label="Method controls">
+
+    <section class="ctl">
+      <div class="ctl-head">
+        <h2>Pillar weighting</h2>
+        <button type="button" class="link" id="reset">reset all</button>
+      </div>
+      <div class="chips" id="presets"></div>
+      <div class="weights" id="weights"></div>
+      <p class="ctl-note">The number beside each pillar is how many fields stand behind it. Neither MSCI nor Bloomberg lets a user move these; both hand you one vector per industry.</p>
+    </section>
+
+    <section class="ctl">
+      <div class="ctl-head">
+        <h2>Specification</h2>
+        <span class="count"><b id="specCount">0</b> in view</span>
+      </div>
+      <p class="ctl-note">Leave an axis on <b>vary</b> and every option enters the distribution. Pin it and you are choosing — which is exactly what a published score does silently. Nine axes, every one a fork where the two largest providers made different published choices.</p>
+      <div id="axes"></div>
+    </section>
+
+  </aside>
+
+  <!-- ─────────────────────────────────────────────────── canvas ───────── -->
+  <main class="canvas">
+
+    <p class="readout">
+      Across <b id="statSpecs">0</b> defensible specifications, the median company moves
+      <b id="statSpread">0</b> places of <b id="statN">18</b> across its interquartile range;
+      <b id="statSwingName">—</b> moves <b id="statSwing">0</b>. Of the pairwise comparisons a
+      published league table asserts, <b id="statSettled">0</b> of <b id="statPairs">0</b> survive
+      every method in view.
+    </p>
+
+    <p class="collapse" id="collapse" hidden>
+      You have pinned every axis. One specification, one number, no error bar — the thing this argues against.
+    </p>
+
+    <p class="empty" id="empty" hidden>No specification matches that combination.</p>
+
+    <!-- ranking -->
+    <section class="panel panel-table">
+      <header class="panel-head">
+        <h2>The ranking, and how much of it is a choice</h2>
+        <p>Median across every method in view, with the interquartile box and the full min–max whisker. Contestation is in <b>rank places out of 18</b>, not percentile points, because with 18 companies a percentile can only take 18 values 5.9 apart.</p>
+      </header>
+      <div class="table-wrap">
+        <table class="rank">
+          <thead>
+            <tr>
+              <th scope="col" class="c-pos">#</th>
+              <th scope="col">Company</th>
+              <th scope="col" class="c-num">Consensus</th>
+              <th scope="col" class="c-bar">Distribution over methods <span>worst 0 — 100 best</span></th>
+              <th scope="col" class="c-num">Places</th>
+              <th scope="col">Verdict</th>
+              <th scope="col">Decided by</th>
+              <th scope="col" class="c-num">Coverage</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="pair">
+      <section class="panel">
+        <header class="panel-head">
+          <h2>Specification curve</h2>
+          <p>Every company's scores, sorted best method to worst. Flat is a judgement that survives the method; steep is a judgement that depends on it.</p>
+        </header>
+        <div class="chart">
+          <svg id="curve" role="img" aria-label="Specification curves for all companies"></svg>
+          <div class="tip" id="curveTip" hidden>
+            <b id="curveTipRank"></b><span id="curveTipText"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <header class="panel-head">
+          <h2>Contestation map</h2>
+          <p>Consensus against how far it moves. Click a point to follow that company through every other panel.</p>
+        </header>
+        <div class="chart">
+          <svg id="map" role="img" aria-label="Consensus rank against contestation"></svg>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <header class="panel-head">
+        <h2>What is actually settled</h2>
+        <p>Row outranks column, shaded by how often. Dark is a comparison that holds under
+          essentially every method in view; pale is a pair the data cannot separate. A league
+          table asserts all of them.</p>
+      </header>
+      <div class="chart chart-dom">
+        <svg id="dom" role="img" aria-label="Pairwise dominance matrix"></svg>
+      </div>
+    </section>
+
+    <!-- detail -->
+    <section class="panel panel-detail">
+      <header class="panel-head">
+        <h2><span id="detailName">—</span></h2>
+        <p id="detailGroup"></p>
+      </header>
+
+      <div class="detail-grid">
+        <div class="detail-block">
+          <h3>Pillars</h3>
+          <div class="pillars" id="pillars"></div>
+          <p class="note" id="pillarNote"></p>
+        </div>
+
+        <div class="detail-block">
+          <h3>The same company, two defensible methods</h3>
+          <div class="spec-cards">
+            <div class="spec-card" id="bestSpec"></div>
+            <div class="spec-card" id="worstSpec"></div>
+          </div>
+          <p class="note">Both are legitimate. Neither is the correct one. The gap between them is
+            <b id="swing">—</b> places of 18.</p>
+        </div>
+
+        <div class="detail-block">
+          <h3>Which choice decides it</h3>
+          <div class="sources" id="pivot"></div>
+          <p class="note" id="pivotNote"></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p><b>Method.</b> Specification curve analysis — Simonsohn, Simmons &amp; Nelson,
+        <i>Nature Human Behaviour</i> 4 (2020) — applied to corporate sustainability scoring.
+        The nine axes are the forks where MSCI's and Bloomberg's published methodologies make
+        different choices; see <code>provider-decision-points.md</code> for the citation behind
+        each. Steps 1–5 run in <code>model/spec.py</code> and ship as a pillar cube; the last
+        steps run in this page, so nothing here is precomputed for a particular answer.</p>
+      <p><b>Data.</b> Bloomberg materiality maps for 18 S&amp;P 500 energy companies across five
+        BECS peer groups, 2021–2025, plus a FY2025 credit workbook built from SEC filings and
+        agency adjustments. Nothing is imputed: a cell empty in the export is missing here.
+        EQT and ONEOK have no export and are absent. There is no revenue and no headcount in the
+        data, so EBITDA is the economic denominator — one rung below the fallback Bloomberg's own
+        methodology already calls a fallback. The credit workbook is one fiscal year, so under
+        <i>change</i> the financial pillar has no trajectory and drops out.</p>
+    </footer>
+
+  </main>
+</div>
+
+<script src="data/model.js"></script>
+<script src="assets/compute.js"></script>
+<script src="assets/charts.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿,,,,,,,,,,,,
+Input — Adjustment-Positionen FY2025 (USD Mio.),,,,,,,,,,,,
+"GAAP-Bilanz- und GuV-Posten, aus denen die Agentur-Adjustments abgeleitet werden.",,,,,,,,,,,,
+,,,,,,,,,,,,
+Ticker,Unternehmen,Sektor,Operating-Leasing Verbindlichkeit,Finanzierungs- leasing (Memo),Pensionen & OPEB (Nettoverbindlichkeit),Asset Retirement Obligations,Hybride / Vorzugsaktien,Beteiligungs- ergebnis,Ausschüttungen v. Beteiligungen,Impairments / Sonder-AfA,Bereinigtes EBITDA,
+XOM,Exxon Mobil Corp.,Integrated,6834,2659,8847,12518,0,0,3006,0,70870,FL: FinanceLeaseLiability | Pref: keine Hybride/Vorzugsaktien | EqInc: netto ueber Ausschuettungen erfasst | DistAff: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions: Ausschuettungen uebersteigen Beteiligungsergebnis um 3.006 | Impair: keine wesentlichen Wertberichtigungen 2025
+CVX,Chevron Corp.,Integrated,5985,1445,4111,14988,0,3000,5282,133,43507,Pref: keine Hybride/Vorzugsaktien
+COP,ConocoPhillips,E&P,950,904,969,8364,0,1335,1531,26,25554,FL: FinanceLeaseLiabilityPaymentsDue (undiskontiert) | Pref: keine Hybride/Vorzugsaktien
+EOG,EOG Resources,E&P,1199,117,0,1570,0,0,0,843,11689,Pens: keine leistungsorientierten Plaene | Pref: keine Hybride/Vorzugsaktien | EqInc: keine wesentlichen Equity-Beteiligungen | DistAff: keine wesentlichen Equity-Beteiligungen
+OXY,Occidental Petroleum,E&P,955,999,985,4553,8287,76,705,109,12478,Pens: PensionAndOtherPostretirementAndPostemploymentBenefitPlansLiabilitiesNoncurrent | Impair: ExplorationAbandonmentAndImpairmentExpense
+FANG,Diamondback Energy,E&P,0,0,0,542,0,0,0,3652,9956,FL: kein wesentliches Finanzierungsleasing | Pens: keine leistungsorientierten Plaene | Pref: keine Hybride/Vorzugsaktien | EqInc: keine wesentlichen Equity-Beteiligungen | DistAff: keine wesentlichen Equity-Beteiligungen
+EXE,Expand Energy,E&P,99,0,0,724,0,0,0,37,5488,FL: kein wesentliches Finanzierungsleasing | Pens: keine leistungsorientierten Plaene | Pref: keine Hybride/Vorzugsaktien | EqInc: keine wesentlichen Equity-Beteiligungen | DistAff: keine wesentlichen Equity-Beteiligungen
+EQT,EQT Corp.,E&P,78.4,37.1,0,1019.5,0,0,257.2,51.2,6158.4,Pens: keine leistungsorientierten Plaene | Pref: keine Hybride/Vorzugsaktien | EqInc: Ausschuettungen separat erfasst
+DVN,Devon Energy,E&P,276,23,169,906,0,0,0,254,7812,Pens: PBO 613 abzueglich Planvermoegen 444 | Pref: keine Hybride/Vorzugsaktien | EqInc: keine wesentlichen Equity-Beteiligungen | DistAff: keine wesentlichen Equity-Beteiligungen
+CTRA,Coterra Energy,E&P,188,0,10,343,8,0,0,0,4822,FL: kein wesentliches Finanzierungsleasing | EqInc: keine wesentlichen Equity-Beteiligungen | DistAff: keine wesentlichen Equity-Beteiligungen | Impair: keine wesentlichen Wertberichtigungen 2025
+WMB,Williams Companies,Midstream,183,0,0,2587,35,760,800,212,6795,"FL: im Schuldenausweis enthalten, nicht separat getaggt | Pens: keine wesentliche Nettoverbindlichkeit | Impair: OtherAssetImpairmentCharges"
+KMI,Kinder Morgan,Midstream,216,0,0,255,0,896,805,6,7092,FL: kein wesentliches Finanzierungsleasing | Pens: keine wesentliche Nettoverbindlichkeit | Pref: keine Hybride/Vorzugsaktien | Impair: GainLossOnSalesOfAssetsAndAssetImpairmentCharges
+OKE,ONEOK,Midstream,237,0,0,0,0,386,397,0,7266,FL: kein wesentliches Finanzierungsleasing | Pens: Plan weitgehend ausfinanziert (Planvermoegen 586) | ARO: keine wesentliche Position | Impair: keine wesentlichen Wertberichtigungen 2025
+TRGP,Targa Resources,Midstream,113.8,353.5,0,185.4,0,11.8,20.7,0,4855.4,Pens: keine leistungsorientierten Plaene | Pref: keine Hybride/Vorzugsaktien | Impair: keine wesentlichen Wertberichtigungen 2025
+MPC,Marathon Petroleum,Refining,1482,695,1173,262,0,1622,1255,0,11175,Pref: keine Hybride/Vorzugsaktien
+PSX,Phillips 66,Refining,1870,338,573,721,0,762,90,1060,10056,Pref: keine Hybride/Vorzugsaktien | DistAff: ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital
+VLO,Valero Energy,Refining,1084,2358,423,382,0,0,0,1131,7470,Pref: keine Hybride/Vorzugsaktien | EqInc: keine wesentlichen Equity-Beteiligungen | DistAff: keine wesentlichen Equity-Beteiligungen | Impair: ImpairmentOfLongLivedAssetsHeldForUse
+SLB,SLB (Schlumberger),Services,905,0,479,0,0,59,0,331,7764,FL: kein wesentliches Finanzierungsleasing | ARO: keine wesentliche Position | Pref: keine Hybride/Vorzugsaktien | EqInc: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions (netto) | DistAff: netto im Beteiligungsergebnis erfasst
+BKR,Baker Hughes,Services,615,0,1066,0,0,0,0,22,4309,"FL: im Schuldenausweis enthalten, nicht separat getaggt | ARO: keine wesentliche Position | Pref: keine Hybride/Vorzugsaktien | EqInc: keine wesentlichen Equity-Beteiligungen | DistAff: keine wesentlichen Equity-Beteiligungen | Impair: InventoryWriteDown"
+HAL,Halliburton,Services,975,183,0,0,0,-50,0,0,3446,Pens: keine wesentliche Nettoverbindlichkeit | ARO: keine wesentliche Position | Pref: keine Hybride/Vorzugsaktien | DistAff: keine wesentlichen Equity-Beteiligungen
+,,,,,,,,,,,,
+Hinweise:,"Finanzierungsleasing (E) ist nachrichtlich — es ist nach ASC 842 bereits in den bilanzierten Finanzschulden enthalten und wird deshalb in der Brücke NICHT erneut addiert. Leere Felder bei ARO, Pensionen und Hybriden bedeuten in aller Regel, dass die Position beim jeweiligen Emittenten nicht besteht oder unwesentlich ist (z. B. keine nennenswerten AROs bei Ölfeldservices). Bereinigtes EBITDA (L) = EBITDA + Impairments − Beteiligungsergebnis + Ausschüttungen.",,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

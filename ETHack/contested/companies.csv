@@ -1,0 +1,31 @@
+ticker,company,gics_sector,naics,ghgrp_search,ghgrp_alt,note
+XOM,Exxon Mobil,Energy,324110,EXXON,EXXON MOBIL,huge disclosed Scope 1; expect robustly dirty
+CVX,Chevron,Energy,324110,CHEVRON,,refining + upstream
+OKE,ONEOK,Energy,486210,ONEOK,,midstream pipelines
+NUE,Nucor,Materials,331110,NUCOR,,VERIFIED 26 facilities 5762209 t 2023
+DOW,Dow,Materials,325110,DOW CHEMICAL,DOW INC,petrochemicals
+SHW,Sherwin-Williams,Materials,325510,SHERWIN,,coatings; lighter industry
+UNP,Union Pacific,Industrials,482111,UNION PACIFIC,,diesel fleet; Scope 1 heavy
+CAT,Caterpillar,Industrials,333120,CATERPILLAR,,use-phase Scope 3 dominant
+DE,Deere,Industrials,333111,DEERE,JOHN DEERE,use-phase Scope 3 dominant
+F,Ford Motor,Consumer Discretionary,336111,FORD MOTOR,,VERIFIED 16 facilities 497625 t 2023
+GM,General Motors,Consumer Discretionary,336111,GENERAL MOTORS,,peer to Ford
+AMZN,Amazon,Consumer Discretionary,454110,AMAZON,,logistics + data centres
+WMT,Walmart,Consumer Staples,452311,WAL-MART,WALMART INC,VERIFIED no emissions figure; supplier subparts only
+PG,Procter & Gamble,Consumer Staples,325610,PROCTER,,consumer goods supply chain
+KO,Coca-Cola,Consumer Staples,312111,COCA-COLA,COCA COLA,bottling is franchised; boundary games
+LLY,Eli Lilly,Health Care,325412,LILLY,ELI LILLY,pharma manufacturing
+UNH,UnitedHealth,Health Care,524114,UNITEDHEALTH,,insurer; almost no Scope 1
+JNJ,Johnson & Johnson,Health Care,325412,JOHNSON,JOHNSON JOHNSON,pharma + devices
+JPM,JPMorgan Chase,Financials,522110,JPMORGAN,JP MORGAN,VERIFIED zero GHGRP rows 2023
+BAC,Bank of America,Financials,522110,BANK OF AMERICA,,peer to JPM
+GS,Goldman Sachs,Financials,523110,GOLDMAN,,investment bank
+AAPL,Apple,Information Technology,334220,APPLE,,supply chain is the footprint
+MSFT,Microsoft,Information Technology,513210,MICROSOFT,,data centres
+NVDA,NVIDIA,Information Technology,334413,NVIDIA,,fabless; almost nothing owned
+META,Meta Platforms,Communication Services,516210,META PLATFORMS,FACEBOOK,data centres; name changed 2021
+GOOGL,Alphabet,Communication Services,516210,ALPHABET,GOOGLE,data centres
+DIS,Walt Disney,Communication Services,512110,DISNEY,WALT DISNEY,parks + media
+DUK,Duke Energy,Utilities,221112,DUKE ENERGY,,expect very large disclosed Scope 1
+NEE,NextEra Energy,Utilities,221112,NEXTERA,FLORIDA POWER,subsidiary files as Florida Power and Light
+SO,Southern Company,Utilities,221112,SOUTHERN,ALABAMA POWER,subsidiaries file separately

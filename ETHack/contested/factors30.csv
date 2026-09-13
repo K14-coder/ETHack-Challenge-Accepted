@@ -1,0 +1,31 @@
+slider,n,issue,factor,field_id,type,unit,source,polarity,applies_to,note
+E,1,GHG Emissions,Scope 1 GHG emissions,F0947,Q,tonnes,bloomberg_materiality,lower_better,ALL,XOM -8.2% over 5y
+E,2,Climate Exposure,Embedded carbon in total reserves,F1284,Q,tonnes,bloomberg_materiality,lower_better,"INT,EP",XOM +4.8% while Scope 1 fell; base 83x larger; oil and gas only
+E,3,Energy,Scope 2 location-based,ES077,Q,tonnes,bloomberg_materiality,lower_better,ALL,XOM +28.6%; market-based ES255 is the alternative spec
+E,4,GHG Emissions,Gas flaring,ES027,Q,tonnes,bloomberg_materiality,lower_better,"INT,EP",XOM -54.7%
+E,5,GHG Emissions,Methane share of Scope 1,SA055,P,percent,bloomberg_materiality,lower_better,"INT,EP",already a ratio; no denominator applied
+E,6,Environmental Incidents,Volume of hydrocarbon spills,ES249,Q,barrels,bloomberg_materiality,lower_better,"INT,EP,MID",XOM -72.2% while spill count SA048 +154.4%
+E,7,Water,Emissions to water (wastewater),ES018,Q,tonnes,bloomberg_materiality,lower_better,ALL,the wastewater axis the critique asked for
+E,8,Water,Freshwater withdrawals,SA020,Q,m3,bloomberg_materiality,lower_better,ALL,
+E,9,Waste,Hazardous waste generated,ES019,Q,tonnes,bloomberg_materiality,lower_better,ALL,
+E,10,GHG Target,Claims a net zero target,SA559,B,boolean,bloomberg_materiality,signed_tally,ALL,pair with F1284: claims net zero while reserves carbon rises
+S,1,Safety,TRIR employees,ES121,R,per 200k hrs,bloomberg_materiality,lower_better,ALL,XOM 0.10
+S,2,Safety,TRIR contractors,ES261,R,per 200k hrs,bloomberg_materiality,lower_better,ALL,XOM 0.21 = 2.1x employees
+S,3,Safety,LTIR employees,ES092,R,per 200k hrs,bloomberg_materiality,lower_better,ALL,
+S,4,Safety,LTIR contractors,ES260,R,per 200k hrs,bloomberg_materiality,lower_better,ALL,
+S,5,Fatalities,Fatality rate employees,F1442,R,per 100m hrs,bloomberg_materiality,lower_better,ALL,XOM 0.017
+S,6,Fatalities,Fatality rate workforce,RX389,R,per 100m hrs,bloomberg_materiality,lower_better,ALL,XOM 0.034 = 2x employees; contractor field F1443 NOT REPORTED
+S,7,Operational Risk,Tier 1 process safety event rate,SA052,R,per 200k hrs,bloomberg_materiality,lower_better,ALL,XOM +59.4%
+S,8,Labor,Training spend per employee,RX312,R,USD,bloomberg_materiality,higher_better,ALL,only non-safety quantity in S
+S,9,Human Rights,Human rights policy,ES059,B,boolean,bloomberg_materiality,signed_tally,ALL,
+S,10,Community,Indigenous rights policy,SA029,B,boolean,bloomberg_materiality,signed_tally,ALL,material for Arctic and oil sands operators
+F,1,Leverage,Net debt / EBITDA,FIN01,R,x,bloomberg_fundamentals,lower_better,ALL,
+F,2,Coverage,EBIT / interest expense,FIN02,R,x,bloomberg_fundamentals,higher_better,ALL,
+F,3,Cash generation,Free cash flow / total debt,FIN03,R,percent,bloomberg_fundamentals,higher_better,ALL,
+F,4,Reinvestment,Capex / depreciation,FIN04,R,x,bloomberg_fundamentals,higher_better,ALL,below 1.0 means shrinking the asset base
+F,5,Distribution,(Dividends + buybacks) / free cash flow,FIN05,R,percent,bloomberg_fundamentals,lower_better,ALL,above 100% means paying out of the balance sheet
+F,6,Refinancing,Debt maturing within 24 months / total debt,FIN06,P,percent,bloomberg_fundamentals,lower_better,ALL,
+F,7,Credit opinion,Moody's issuer rating and outlook,MDY01,S,ordinal,moodys,higher_better,ALL,reference only in v1; never an input to E or S
+F,8,Credit opinion,Moody's adjusted debt / adjusted EBITDA,MDY02,R,x,moodys,lower_better,ALL,Moody's own adjustments differ from Bloomberg: a measurement spec
+F,9,Returns,Return on capital employed,FIN07,R,percent,bloomberg_fundamentals,higher_better,ALL,
+F,10,Stranded assets,Reserve life (reserves / annual production),FIN08,R,years,bloomberg_fundamentals,contested,"INT,EP",belongs to E and F at once; pillar assignment is itself a specification

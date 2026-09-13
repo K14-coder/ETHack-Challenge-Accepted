@@ -1,0 +1,68 @@
+{
+  "n_companies": 18,
+  "n_fields": 139,
+  "n_specifications": 17496,
+  "axes": {
+    "base": [
+      "ebitda",
+      "equity",
+      "production"
+    ],
+    "window": [
+      "latest",
+      "fy_common",
+      "mean3"
+    ],
+    "direction": [
+      "level",
+      "change"
+    ],
+    "normalizer": [
+      "percentile",
+      "winsor",
+      "log",
+      "elasticity"
+    ],
+    "peerset": [
+      "subgroup",
+      "chain",
+      "sector"
+    ],
+    "polarity": [
+      "orthodox",
+      "neutral",
+      "stability"
+    ],
+    "inclusion": [
+      "permissive",
+      "majority",
+      "strict"
+    ],
+    "missing": [
+      "exclude",
+      "worst",
+      "cap"
+    ],
+    "aggregator": [
+      "arithmetic",
+      "pmean05",
+      "geometric"
+    ]
+  },
+  "median_contestation": 41.2,
+  "median_contestation_positions": 7.0,
+  "widest": {
+    "ticker": "BKR",
+    "range": 100.0
+  },
+  "settled_pairs": 2,
+  "total_pairs": 153,
+  "settled_share": 0.013,
+  "pivot_counts": {
+    "direction": 9,
+    "peerset": 6,
+    "missing": 2,
+    "window": 1
+  },
+  "rank_resolution": 5.88
+}

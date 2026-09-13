@@ -1,0 +1,47 @@
+==============================================================================
+CONTESTED  ·  4 companies  ·  real data  ·  12 Sep 2026
+==============================================================================
+
+company     revenue $bn   disclosed Sc1 t      modelled t    ratio
+------------------------------------------------------------------------------
+Walmart           642.6              none     105,392,468       --
+Nucor              34.7         5,762,209      27,319,918     4.7x
+Ford              176.2           497,625      42,285,840    85.0x
+JPMorgan          158.1                 0             n/a       --
+
+==============================================================================
+THE RANKING INVERTS. Same data, same year, different defensible measure.
+==============================================================================
+
+  worst -> best by disclosed Scope 1 intensity (t/$M)
+    1. Nucor                166.0
+    2. Walmart              164.0
+    3. Ford                   2.8
+
+  worst -> best by modelled intensity (t/$M)
+    1. Nucor                787.0
+    2. Ford                 240.0
+    3. Walmart              164.0
+
+  worst -> best by modelled TOTAL tonnes
+    1. Walmart      105,392,468.0
+    2. Ford          42,285,840.0
+    3. Nucor         27,319,918.0
+
+==============================================================================
+THE MISSING-DATA RULE, applied to boundary A. One choice, three worlds.
+==============================================================================
+
+company            exclude      worst_case        modelled
+----------------------------------------------------------
+Walmart            dropped           WORST           164.0
+Nucor                166.0           166.0           166.0
+Ford                   2.8             2.8             2.8
+JPMorgan           dropped           WORST         dropped
+
+Read the Walmart row. Under 'exclude' it leaves the ranking entirely. Under
+'worst_case' it is the dirtiest company in the sample. Under 'modelled' it sits
+at 164 t/$M, mid-pack. Three defensible conventions, one company, three worlds.
+Nobody publishing an ESG score tells you which one they used.
+
+wrote results.csv

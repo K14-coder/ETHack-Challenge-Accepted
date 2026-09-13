@@ -1,0 +1,55 @@
+{
+  "company": {
+    "name": "NUCOR CORPORATION",
+    "ticker": "NUE",
+    "cik": "0000073309",
+    "gics_sector": "Materials",
+    "primary_naics": "331110"
+  },
+  "fiscal_year": 2023,
+  "layer_1_index_membership": {
+    "source": "S&P 500 constituent list",
+    "ticker": "NUE",
+    "sector": "Materials"
+  },
+  "layer_2_join_key": {
+    "source": "SEC",
+    "cik": "0000073309",
+    "entityName_returned": "NUCOR CORPORATION"
+  },
+  "layer_3_revenue": {
+    "source": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000073309/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json",
+    "tag_used": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "tag_that_failed": "Revenues (only FY2018 present as 10-K/FY)",
+    "form": "10-K",
+    "fp": "FY",
+    "frame": "CY2023",
+    "period": "2023-01-01..2023-12-31",
+    "value_usd": 34713501000,
+    "audited": true
+  },
+  "layer_4_disclosed_scope1": {
+    "source": "https://data.epa.gov/dmapservice/ghg.pub_facts_sector_ghg_emission",
+    "facility_count": 26,
+    "total_tco2e_100pct_consolidation": 5762209.048,
+    "total_tco2e_equity_share": 5497858.131,
+    "consolidation_delta_tco2e": 264350.917,
+    "consolidation_delta_pct": 4.59,
+    "note": "US facilities above the GHGRP reporting threshold only. A lower bound on global Scope 1."
+  },
+  "layer_5_modelled_footprint": {
+    "source": "EPA Supply Chain GHG Emission Factors v1.3, NAICS-6",
+    "naics": "331110",
+    "naics_title": "Iron and Steel Mills and Ferroalloy Manufacturing",
+    "factor_with_margins_kgco2e_per_2022usd": 0.787,
+    "factor_without_margins_kgco2e_per_2022usd": 0.769,
+    "modelled_tco2e_with_margins": 27319525.0,
+    "modelled_tco2e_without_margins": 26694682.0,
+    "caveat": "Factor is per 2022 USD; revenue is 2023 USD. Not deflated here."
+  },
+  "derived": {
+    "boundary_A_intensity_t_per_musd": 166.0,
+    "boundary_C_intensity_t_per_musd": 787.0,
+    "modelled_over_disclosed_ratio": 4.74
+  }
+}

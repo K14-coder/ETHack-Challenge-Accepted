@@ -1,0 +1,23 @@
+rank_guess,ticker,company,gics_sub_industry,sub_group,upstream_reserves,note,in_final_20
+1,XOM,ExxonMobil,Integrated Oil & Gas,INT,yes,Bloomberg peer group Integrated Oils; the verified export,yes
+2,CVX,Chevron,Integrated Oil & Gas,INT,yes,second and last S&P 500 integrated oil,yes
+3,COP,ConocoPhillips,Oil & Gas Exploration & Production,EP,yes,,yes
+4,WMB,Williams Companies,Oil & Gas Storage & Transportation,MID,no,,yes
+5,EOG,EOG Resources,Oil & Gas Exploration & Production,EP,yes,,yes
+6,KMI,Kinder Morgan,Oil & Gas Storage & Transportation,MID,no,,yes
+7,OKE,ONEOK,Oil & Gas Storage & Transportation,MID,no,,yes
+8,SLB,Schlumberger,Oil & Gas Equipment & Services,SVC,no,,yes
+9,MPC,Marathon Petroleum,Oil & Gas Refining & Marketing,REF,no,,yes
+10,PSX,Phillips 66,Oil & Gas Refining & Marketing,REF,no,,yes
+11,TRGP,Targa Resources,Oil & Gas Storage & Transportation,MID,no,,yes
+12,VLO,Valero Energy,Oil & Gas Refining & Marketing,REF,no,,yes
+13,OXY,Occidental Petroleum,Oil & Gas Exploration & Production,EP,yes,,yes
+14,FANG,Diamondback Energy,Oil & Gas Exploration & Production,EP,yes,,yes
+15,BKR,Baker Hughes,Oil & Gas Equipment & Services,SVC,no,,yes
+16,EXE,Expand Energy,Oil & Gas Exploration & Production,EP,yes,former Chesapeake + Southwestern,yes
+17,HAL,Halliburton,Oil & Gas Equipment & Services,SVC,no,,yes
+18,EQT,EQT Corporation,Oil & Gas Exploration & Production,EP,yes,,yes
+19,DVN,Devon Energy,Oil & Gas Exploration & Production,EP,yes,,yes
+20,CTRA,Coterra Energy,Oil & Gas Exploration & Production,EP,yes,VERIFY still in index,yes
+21,APA,APA Corporation,Oil & Gas Exploration & Production,EP,yes,drop if we want exactly 20,no
+22,TPL,Texas Pacific Land,Oil & Gas Exploration & Production,EP,royalty,royalty company not an operator; drop first,no

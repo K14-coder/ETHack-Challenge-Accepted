@@ -1,0 +1,18 @@
+# ─── Bloomberg Terminal exports: licensed cell values, not redistributed ───
+# See bruh/mat maps/WITHHELD.md. Everything derived from them is committed.
+bruh/mat maps/*.xlsx
+!bruh/mat maps/Credit_Comps_Oil_Gas_FY2025.xlsx
+bruh/mat maps/csv/materiality_long.csv
+bruh/mat maps/csv/materiality_wide.csv
+bruh/mat maps/csv/raw/*_ES.csv
+bruh/mat maps/csv/raw/*_G.csv
+
+# Excel lock files
+~$*
+
+# ─── noise ───
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/

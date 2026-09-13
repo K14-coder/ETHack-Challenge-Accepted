@@ -1,0 +1,29 @@
+﻿,,,,,,,,,,,,,,,,,,,,,,,
+Input — Finanzdaten FY2025 (USD Mio.),,,,,,,,,,,,,,,,,,,,,,,
+"Quelle: SEC XBRL Companyfacts, 10-K zum 31.12.2025. Graue Spalten sind Formeln.",,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+Ticker,Unternehmen,Sektor,Qual.,Langfr. Finanzschulden,Kurzfr. Finanzschulden,Gesamt- verschuldung,Liquide Mittel,Netto- verschuldung,EBIT,D&A,EBITDA,Zins- aufwand,Operativer Cashflow,Capex,Free Cash Flow,Dividenden,Aktien- rückkäufe,Eigenkapital inkl. NCI,Fällig <24M,Eff. Steuer- quote,Reserven (MMboe),Produktion (MMboe/a),Quelle / Hinweis zu ergänzten Werten
+XOM,Exxon Mobil Corp.,Integrated,V,34241,9296,43537,10681,32856,41871,25993,67864,603,51970,28358,23612,17231,20273,266626,11796,0.278763206358438,16500,1716,"Res: Schaetzung; SEC-Reservetabelle nur dimensional | Prod: Schaetzung: ~4,7 MMboe/d x 365"
+CVX,Chevron Corp.,Integrated,V,39781,10918,50699,7285,43414,20960,20132,41092,1217,33939,17347,16592,12751,12079,192176,16641,0.367623967988654,10600,1278,"Res: 10-K FY2025: 10,6 Mrd. BOE zum 31.12.2025 | Prod: Schaetzung: ~3,5 MMboe/d x 365 (Hess ab Juli 2025)"
+COP,ConocoPhillips,E&P,V*,22424,1020,23444,6497,16947,13832,11500,25332,1176,19796,12300,7496,3995,5018,64487,1806,0.368836915297092,8000,861,"Res: Schaetzung; YE2024 laut 8-K 7,8 Mrd. BOE | Prod: Guidance FY2025 2,36 MMboed x 365"
+EOG,EOG Resources,E&P,V,7909,27,7936,3396,4540,6385,4461,10846,235,10044,6115,3929,2161,2564,29833,27,0.217227287016661,5514,420,"Res: 5.514 MMboe nach Encino-Akquisition | Prod: Schaetzung: ~1,15 MMboe/d x 365"
+OXY,Occidental Petroleum,E&P,V,20623,1773,22396,1968,20428,4207,7533,11740,1079,10532,6427,4105,1594,0,36598,1773,0.326406649616368,4600,511,"STD: LongTermDebtAndCapitalLeaseObligationsCurrent | Mat24: nur kurzfristiger Anteil; Jahr-2-Faelligkeiten nicht getaggt | Res: 10-K FY2025: 4,6 Mrd. BOE | Prod: 1,4 MMboe/d x 365"
+FANG,Diamondback Energy,E&P,V,13726,763,14489,104,14385,1266,5038,6304,244,8758,3523,5235,1156,2000,42967,2663,0.174493062966916,3618,336,"Res: ProvedDevelopedAndUndevelopedReserveNetEnergy (XBRL) | Prod: Schaetzung: ~0,92 MMboe/d x 365"
+EXE,Expand Energy,E&P,V,5009,0,5009,616,4393,2471,2980,5451,235,4575,2736,1839,765,100,18578,0,0.202892199824715,4313,438,"Mat24: Schuldenspiegel: keine Faelligkeiten in Jahr 1 und 2, erste in Jahr 3 | Res: 25.880 Bcfe (XBRL) / 6 | Prod: Schaetzung: ~7,2 Bcfe/d / 6 x 365"
+EQT,EQT Corp.,E&P,V,7293.2,507.1,7800.3,110.8,7689.5,3249.6,2600.4,5850,438.7,5126,2288.4,2837.6,389.6,0,27360.1,507.1,0.218933603623391,4674,395,"Res: 28.046 Bcfe (XBRL) / 6 | Prod: Schaetzung: ~6,5 Bcfe/d / 6 x 365"
+DVN,Devon Energy,E&P,V,7391,998,8389,1384,7005,3963,3595,7558,497,6711,3592,3119,619,1050,15528,1461,0.226485862665897,2400,307,"Res: 10-K FY2025: 2,4 Mrd. BOE | Prod: ~840 kboe/d x 365"
+CTRA,Coterra Energy,E&P,V,3568,250,3818,114,3704,2452,2370,4822,205,4021,2288,1733,682,141,14838,1000,0.241272646928856,3000,281,"Res: Schaetzung; YE2024 rund 2,9 Mrd. BOE | Prod: Schaetzung: ~0,77 MMboe/d x 365"
+WMB,Williams Companies,Midstream,V,27316,1345,28661,63,28598,4196,2347,6543,1442,5898,4893,1005,2442,0,14995,3339,0.236413793103448,n/a,n/a,STD: LongTermDebtAndCapitalLeaseObligationsCurrent | Mat24: Faelligkeit Jahr 1 1.345 + Jahr 2 1.994
+KMI,Kinder Morgan,Midstream,V,30777,1226,32003,63,31940,4724,2453,7177,1801,5917,3026,2891,2604,0,32449,2168,0.208416833667335,n/a,n/a,
+OKE,ONEOK,Midstream,V,30755,1241,31996,78,31918,5741,1514,7255,1783,5599,3152,2447,2583,75,22569,1241,0.228953229398664,n/a,n/a,
+TRGP,Targa Resources,Midstream,V,16662.4,770,17432.4,166.1,17266.300000000003,3331.2,1515.3,4846.5,852.8,3917.4,3333.3,584.0999999999999,815.1,641.8,3198.2,1520,0.213038931788932,n/a,n/a,STD: abgeleitet: LongTermDebt 17.432 abzueglich langfristigem Anteil 16.662 | Mat24: kurzfristiger Anteil 770 + Faelligkeit Jahr 2 750
+MPC,Marathon Petroleum,Refining,V,30505,2371,32876,3672,29204,8291,3251,11542,1489,8253,3486,4767,1140,3488,24086,4385,0.16208125445474,n/a,n/a,
+PSX,Phillips 66,Refining,V*,18678,1038,19716,1116,18600,6417,3251,9668,997,4962,2200,2762,1922,1207,30241,2320,0.164575645756458,n/a,n/a,
+VLO,Valero Energy,Refining,V,9670,949,10619,4688,5931,3181,3158,6339,556,5826,1885,3941,1405,2598,26605,1513,0.252579034941764,n/a,n/a,
+SLB,SLB (Schlumberger),Services,V,9742,1200,10942,3036,7906,4849,2643,7492,558,6489,1694,4795,1602,2414,27291,2800,0.195758564437194,n/a,n/a,STD: Schaetzung; kurzfristige Finanzschulden nicht separat getaggt | Mat24: geschaetzter kurzfristiger Anteil 1.200 + Faelligkeit Jahr 2 1.600
+BKR,Baker Hughes,Services,V,5398,689,6087,3715,2372,3099,1188,4287,222,3810,1273,2537,910,384,19010,2076,0.0879388251651025,n/a,n/a,
+HAL,Halliburton,Services,V,7158,0,7158,2206,4952,2260,1136,3396,352,2926,1254,1672,579,1007,10505,90,0.27046866177301,n/a,n/a,
+,,,,,,,,,,,,,,,,,,,,,,,
+Hinweise:,"'V*' = Capex manuell aus dem Earnings Release ergänzt, weil ConocoPhillips und Phillips 66 diese Position in XBRL nur segmentdimensioniert taggen. Reserven und Produktion (V/W) sind Schätzungen — die SEC-Reservetabellen liegen in XBRL ebenfalls nur dimensional vor. Gelbe Zellen: kein nicht-dimensionaler XBRL-Wert vorhanden, bitte bei Bedarf aus dem 10-K ergänzen.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
